@@ -1,0 +1,18 @@
+config_version=5
+
+[application]
+config/name="MAD Cover Studio"
+run/main_scene="res://cover_refined.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+
+[rendering]
+renderer/rendering_method="forward_plus"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.98, 0.965, 0.933, 1)

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3676" height="760" viewBox="0 0 1838 380">
+  <!-- Hand-redrawn geometric centre lines: 夜もすがら君恋ふ. -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter">
+    <g id="yo" stroke="#c85c7a" stroke-width="3.8">
+      <path d="M4 58H36 M54 58H312 M330 58H366 M184 5V58"/>
+      <path d="M130 80L35 175 M97 135V305 M232 80L150 164"/>
+      <path d="M198 120H302L159 305 M187 173L306 305"/>
+      <path d="M196 204C196 232 212 249 232 249C245 249 257 240 263 229"/>
+      <ellipse cx="225" cy="162" rx="10" ry="3"/>
+    </g>
+    <g id="mo"><path d="M400 122V317H476V262 M375 161H425 M375 218H425"/></g>
+    <g id="su">
+      <path d="M510 153H612 M561 122V317"/>
+      <ellipse cx="560" cy="223" rx="43" ry="44"/>
+      <ellipse cx="560" cy="223" rx="34" ry="35"/>
+    </g>
+    <g id="ga">
+      <path d="M640 174H713V311L681 285 M669 135V317 M729 175L753 200 M746 133V167 M760 133V167"/>
+      <path d="M729 175H753V200Z"/>
+    </g>
+    <g id="ra">
+      <path d="M829 120L861 153H829Z M799 126V240"/>
+      <path d="M800 235C815 196 894 198 894 264C894 300 866 317 844 317"/>
+      <path d="M800 248C813 217 879 216 879 264C879 285 861 303 845 303"/>
+    </g>
+    <g id="kimi">
+      <path d="M1015 6H1184V86H1015 M919 48H1236 M1015 193H1184V317H1015Z"/>
+      <path d="M1160 86L944 258" stroke-dasharray="4 5"/>
+      <path d="M1248 48H1270"/>
+    </g>
+    <g id="koi" stroke="#c85c7a" stroke-width="5.2">
+      <path d="M1286 54H1650 M1668 54H1693 M1270 54H1280 M1486 5V54"/>
+      <path d="M1328 82H1402L1328 154Z M1593 82H1646V154Z M1465 54L1418 163 M1510 54L1552 163"/>
+      <path d="M1327 221L1305 259 M1370 221V300Q1370 310 1380 310H1558Q1580 310 1594 282 M1460 222L1488 245 M1580 216L1625 252"/>
+    </g>
+    <g id="fu"><path d="M1714 123H1740L1714 150Z M1732 180H1755V310H1797V265 M1690 254V310 M1830 254V310"/></g>
+  </g>
+  <g fill="#cfb940">
+    <path d="M198 166L224 192L198 218L172 192Z M1105 218L1129 242L1105 266L1081 242Z M1495 238L1519 262L1495 286L1471 262Z"/>
+    <g id="four-diamonds"><path d="M335 339L340 346L335 353L330 346Z M322 352L327 357L322 362L317 357Z M348 352L353 357L348 362L343 357Z M335 363L340 370L335 377L330 370Z"/></g>
+    <use href="#four-diamonds" transform="translate(327 -284)"/>
+    <use href="#four-diamonds" transform="translate(1428 -338)"/>
+  </g>
+</svg>
