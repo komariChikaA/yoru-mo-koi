@@ -1,9 +1,7 @@
 extends Control
 
-@export_range(0.0, 1.0, 0.01) var title_underlay_strength := 0.74
-
 func _ready() -> void:
-    var title_texture: Texture2D = load("res://assets/title.png")
+    var title_texture: Texture2D = load("res://assets/title-redrawn.svg")
     var title_size := Vector2(1730, 1730.0 * title_texture.get_height() / title_texture.get_width())
     var title_position := Vector2(95, 405)
     var art := TextureRect.new()
@@ -15,17 +13,17 @@ func _ready() -> void:
     var wash := ShaderMaterial.new()
     wash.shader = load("res://cover_wash.gdshader")
     wash.set_shader_parameter("portrait_mask", load("res://assets/cgc16_ren_cutout.png"))
-    wash.set_shader_parameter("title_texture", title_texture)
-    wash.set_shader_parameter("title_rect_px", Vector4(title_position.x, title_position.y, title_size.x, title_size.y))
-    wash.set_shader_parameter("underlay_strength", title_underlay_strength)
     art.material = wash
     add_child(art)
 
-    # Keep the author's exact original lettering, colours, texture and shadows.
-    # The previous per-character crops cut neighbouring letters at their edges;
-    # a single source texture preserves the actual original spacing and strokes.
+    var frame := Node2D.new()
+    frame.name = "FineFrame"
+    frame.set_script(load("res://cover_frame.gd"))
+    add_child(frame)
+
+    # Centre-line vector redraw of the original lettering, with open counters.
     var title := TextureRect.new()
-    title.name = "OriginalTitle"
+    title.name = "RedrawnLineTitle"
     title.texture = title_texture
     title.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
     title.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
