@@ -1,6 +1,8 @@
 # Local runtimes and generated files
 **/bin/
 **/obj/
+!godot/kobe-map/assets/buildings/quaternius-simple/OBJ/
+!godot/kobe-map/assets/buildings/quaternius-simple/OBJ/**
 **/.godot/
 **/__pycache__/
 *.pyc
