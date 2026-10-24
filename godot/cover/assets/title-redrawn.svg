@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="3676" height="760" viewBox="0 0 1838 380">
   <!-- Hand-redrawn geometric centre lines: 夜もすがら君恋ふ. -->
   <g fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter">
-    <g id="yo">
+    <g id="yo" stroke="#c85c7a" stroke-width="3.8">
       <path d="M4 58H36 M54 58H312 M330 58H366 M184 5V58"/>
       <path d="M130 80L35 175 M97 135V305 M232 80L150 164"/>
       <path d="M198 120H302L159 305 M187 173L306 305"/>
@@ -28,7 +28,7 @@
       <path d="M1160 86L944 258" stroke-dasharray="4 5"/>
       <path d="M1248 48H1270"/>
     </g>
-    <g id="koi">
+    <g id="koi" stroke="#c85c7a" stroke-width="3.8">
       <path d="M1286 54H1650 M1668 54H1693 M1270 54H1280 M1486 5V54"/>
       <path d="M1328 82H1402L1328 154Z M1593 82H1646V154Z M1465 54L1418 163 M1510 54L1552 163"/>
       <path d="M1327 221L1305 259 M1370 221V300Q1370 310 1380 310H1558Q1580 310 1594 282 M1460 222L1488 245 M1580 216L1625 252"/>

@@ -9,6 +9,8 @@ the original geometric lettering and the author's thin-line reference. Regular
 straight strokes, circular arcs and angular counters replace the blurred raster
 and its thick shadows. Small yellow diamonds and four-diamond accents remain.
 The SVG imports at 2x display resolution and remains editable vector source.
+夜 and 恋 use slightly wider rose-coloured strokes as the two visual anchors;
+the other characters retain the lighter neutral linework.
 
 `original_title_ink.gdshader` gives the thin lines dark plum ink on pale paper /
 white clothing and light ink over dark fabric. It reads the rendered background
@@ -39,6 +41,6 @@ godot --path godot/cover --script res://export_cover.gd -- --scene=res://cover_r
 
 Validation: Godot 4.7.2 import and 1920 × 1080 rendered PNG export succeeded on
 RTX 2060 using the project's default Vulkan Forward+ renderer. Visual acceptance
-remains with the author. Latest preview: `40_几何细线重绘_装饰断框.png` in the
+remains with the author. Latest preview: `41_夜恋玫红强调_细线断框.png` in the
 local `mad/封面/` output folder. Previews 37 and 38 show earlier raster approaches;
 39 was the intermediate contour trace and is superseded by the manual redraw.
