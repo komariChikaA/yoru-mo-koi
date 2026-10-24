@@ -37,6 +37,10 @@ dotnet renderer/bin/Debug/net8.0-windows/full-export.dll --fps 24 --bitrate 50M 
 
 默认视频为 1920×1080、24fps、全片约 111.625 秒，H.264 + AAC。渲染器读取 `.sbrew` 可见性与图层顺序，应用原生 Storybrew 运动；Godot 镜头使用谱面中已安装的序列帧。`--export-only` 只输出 OSB 和素材引用；`--start`、`--end` 使用毫秒，可用于短段渲染。更多参数见 [渲染器说明](renderer/README.md)。
 
-## OSZ 发布状态
+## OSZ 下载与实测
 
-**暂不发布 Release。** 当前 OSZ 仍导致显存（RTX-2060-6GB）占满游戏崩溃或者导致了画面错位等问题。
+压缩版 Storyboard 已发布至 [Release v1.0.0](https://github.com/komariChikaA/yoru-mo-koi/releases/tag/v1.0.0)，OSZ 内已加入当前封面。
+
+在 osu!lazer 下实测，RTX 2060 运行压缩版 Storyboard 播放流畅，没有明显卡顿。
+
+压缩工作包括大纹理缩小、逐轴缩放补偿以及 OSB 指令精简；具体参数与压缩结果见 Release 说明。
