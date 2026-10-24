@@ -15,5 +15,24 @@ void fragment() {
                         smoothstep(0.46, 0.54, brightness));
     line_ink = mix(line_ink, rose_ink, rose);
     float accent = step(original.b, 0.55) * step(0.55, original.g);
-    COLOR = vec4(mix(line_ink, vec3(0.77, 0.69, 0.22), accent), original.a);
+    vec3 ink = mix(line_ink, vec3(0.77, 0.69, 0.22), accent);
+    float koi_region = step(1270.0 / 1838.0, UV.x) * (1.0 - step(1694.0 / 1838.0, UV.x));
+    if (koi_region > 0.5) {
+        // A stable berry colour keeps the character continuous across the hair.
+        ink = mix(ink, vec3(0.66, 0.09, 0.29), rose);
+        float keyline = 0.0;
+        for (int y = -1; y <= 1; y++) {
+            for (int x = -1; x <= 1; x++) {
+                vec4 neighbour = texture(TEXTURE, UV + vec2(float(x), float(y)) * TEXTURE_PIXEL_SIZE * 2.0);
+                float rose_stroke = step(0.18, neighbour.r - neighbour.g) * step(0.08, neighbour.b - neighbour.g);
+                keyline = max(keyline, neighbour.a * rose_stroke);
+            }
+        }
+        // About one display pixel of ivory separation, restricted to 恋.
+        float border = keyline * 0.92 * (1.0 - original.a);
+        float coverage = original.a + border;
+        COLOR = vec4((ink * original.a + vec3(0.99, 0.98, 0.96) * border) / max(coverage, 0.001), coverage);
+    } else {
+        COLOR = vec4(ink, original.a);
+    }
 }

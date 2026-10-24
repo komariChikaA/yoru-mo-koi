@@ -11,10 +11,14 @@ and its thick shadows. Small yellow diamonds and four-diamond accents remain.
 The SVG imports at 2x display resolution and remains editable vector source.
 夜 and 恋 use slightly wider rose-coloured strokes as the two visual anchors;
 the other characters retain the lighter neutral linework.
+恋 is strengthened further (5.2 SVG units versus 夜's 3.8): its berry colour is
+fixed across the hair, with about one display pixel of ivory separation so the
+character stays continuous over both pale hair and the dark red background.
 
 `original_title_ink.gdshader` gives the thin lines dark plum ink on pale paper /
 white clothing and light ink over dark fabric. It reads the rendered background
-to change only the line colour; no white halo or local background patch remains.
+to change only the line colour; 恋 has the narrow keyline described above.
+There is no broad halo or local background patch.
 
 `cover_wash.gdshader` blends the original CG into warm paper using
 `assets/portrait-contour-smooth.svg`. This editable Bezier mask follows the
@@ -49,6 +53,6 @@ Validation: Godot 4.7.2 import and 1920 × 1080 rendered PNG export succeeded on
 RTX 2060 using the project's default Vulkan Forward+ renderer. Visual acceptance
 remains with the author. Latest previews in the local `mad/封面/` output folder:
 `42_沿手绘路线_平滑轮廓对照.png` (contour) and
-`43_平滑角色轮廓_封面应用.png` (cover). Typography and frame remain as in preview 41.
+`44_恋字加强对比.png` (cover, clearer 恋). Frame and portrait contour remain as in 43.
 Previews 37 and 38 show earlier raster approaches;
 39 was the intermediate contour trace and is superseded by the manual redraw.

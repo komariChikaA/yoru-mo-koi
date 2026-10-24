@@ -28,7 +28,7 @@
       <path d="M1160 86L944 258" stroke-dasharray="4 5"/>
       <path d="M1248 48H1270"/>
     </g>
-    <g id="koi" stroke="#c85c7a" stroke-width="3.8">
+    <g id="koi" stroke="#c85c7a" stroke-width="5.2">
       <path d="M1286 54H1650 M1668 54H1693 M1270 54H1280 M1486 5V54"/>
       <path d="M1328 82H1402L1328 154Z M1593 82H1646V154Z M1465 54L1418 163 M1510 54L1552 163"/>
       <path d="M1327 221L1305 259 M1370 221V300Q1370 310 1380 310H1558Q1580 310 1594 282 M1460 222L1488 245 M1580 216L1625 252"/>
