@@ -12,7 +12,8 @@ func _ready() -> void:
     art.size = Vector2(1920, 1080)
     var wash := ShaderMaterial.new()
     wash.shader = load("res://cover_wash.gdshader")
-    wash.set_shader_parameter("portrait_mask", load("res://assets/cgc16_ren_cutout.png"))
+    var portrait_mask: Texture2D = load("res://assets/portrait-contour-smooth.svg")
+    wash.set_shader_parameter("portrait_mask", portrait_mask)
     art.material = wash
     add_child(art)
 
@@ -34,3 +35,17 @@ func _ready() -> void:
     title_ink.shader = load("res://original_title_ink.gdshader")
     title.material = title_ink
     add_child(title)
+
+    if OS.get_cmdline_user_args().has("--contour-guide"):
+        art.material = null
+        frame.visible = false
+        title.visible = false
+        var guide := TextureRect.new()
+        guide.texture = portrait_mask
+        guide.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+        guide.stretch_mode = TextureRect.STRETCH_SCALE
+        guide.size = Vector2(1920, 1080)
+        var guide_ink := ShaderMaterial.new()
+        guide_ink.shader = load("res://portrait_contour_guide.gdshader")
+        guide.material = guide_ink
+        add_child(guide)
