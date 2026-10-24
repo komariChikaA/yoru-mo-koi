@@ -29,7 +29,8 @@ var width = int.Parse(Arg("--width", "1920"));
 var height = int.Parse(Arg("--height", "1080"));
 var crf = Arg("--crf", "10");
 var bitrate = Arg("--bitrate", null);
-if (fps <= 0 || end <= start || width <= 0 || height <= 0) throw new ArgumentException("Invalid video range or size");
+var encoderThreads = int.Parse(Arg("--threads", "1"));
+if (fps <= 0 || end <= start || width <= 0 || height <= 0 || encoderThreads <= 0) throw new ArgumentException("Invalid video range, size, or encoder thread count");
 Directory.CreateDirectory(output);
 var user = File.ReadAllText(Path.Combine(project, ".sbrew/user.yaml"));
 var mapset = Regex.Match(user, "(?m)^MapsetPath: \"([^\"]+)\"").Groups[1].Value;
@@ -84,7 +85,7 @@ foreach (var line in File.ReadLines(osb)) {
 foreach (var path in references) if (!File.Exists(Path.Combine(mapset, path))) throw new FileNotFoundException("Missing texture", path);
 File.WriteAllText(Path.Combine(output, "export.json"), JsonSerializer.Serialize(new {
     project, mapset, beatmap = beatmapPath, audio, audioDuration, osb, fps, width, height, start, end,
-    bitrate = bitrate ?? $"CRF {crf}",
+    bitrate = bitrate ?? $"CRF {crf}", encoderThreads,
     sprites = sprites.Count, textures = references.Count,
     layers = layers.Select(l => new { l.Identifier, l.ConfigId, layer = l.ExportLayer.ToString(), sprites = l.Sprites.Count }),
     references = references.OrderBy(p => p).ToArray(), warnings = context.Warnings
@@ -117,7 +118,7 @@ var ffmpegArgs = new List<string> {
     "-hide_banner", "-loglevel", "warning", "-y", "-f", "rawvideo", "-pixel_format", "bgra",
     "-video_size", $"{width}x{height}", "-framerate", fps.ToString(), "-i", "pipe:0",
     "-ss", (start / 1000).ToString("R"), "-i", audio, "-map", "0:v:0", "-map", "1:a:0",
-    "-vf", "vflip", "-c:v", "libx264", "-preset", "medium"
+    "-vf", "vflip", "-c:v", "libx264", "-preset", "medium", "-threads", encoderThreads.ToString()
 };
 if (!string.IsNullOrEmpty(bitrate)) {
     ffmpegArgs.AddRange(new[] { "-b:v", bitrate, "-maxrate", bitrate, "-bufsize", "40M" });
@@ -182,7 +183,7 @@ try {
         encoder.StandardInput.BaseStream.Write(pixels);
         if (n % fps == 0) Console.WriteLine($"frame={n}/{frameCount} song={time/1000:F3}s elapsed={timer.Elapsed.TotalSeconds:F1}s");
         // Avoid keeping cinematic sequences and fine-angle portrait masks in VRAM.
-        while (textures.Count > 128) {
+        while (textures.Count > 24) {
             var oldest = textures.First(); GL.DeleteTexture(oldest.Value.Id); textures.Remove(oldest.Key);
         }
     }

@@ -27,15 +27,29 @@ def helper(name):
 
 
 def entry_assets():
-    """Use the actual installed preceding frame and the game's evening sky."""
+    """Continue the original CGC06 camera; never transform its flattened border."""
     ASSETS.mkdir(parents=True, exist_ok=True)
-    rows = (MAPSET / 'sb/chorus-cgc06/frames.tsv').read_text().splitlines()
-    previous = MAPSET / 'sb/chorus-cgc06' / rows[-1].split('\t')[0]
-    Image.open(previous).convert('RGB').resize((1920, 1080), Image.Resampling.LANCZOS).save(ASSETS / 'entry-previous.png')
+    config = timeline()
+    previous = ROOT / '工作文件夹/output/CGC06_scene3/scene3.avi'
+    continuation = ASSETS / 'entry-continuation'
+    continuation.mkdir(parents=True, exist_ok=True)
+    first = round((config['song_start'] - 66.0) * 60)
+    count = round((config['entry_sky'][1] - config['song_start']) * 60)
+    subprocess.run([FFMPEG, '-v', 'error', '-y', '-i', str(previous), '-vf',
+        f'trim=start_frame={first}:end_frame={first+count},setpts=PTS-STARTPTS',
+        '-fps_mode', 'vfr', '-frames:v', str(count), '-start_number', '0',
+        '-q:v', '2', '-pix_fmt', 'yuvj444p', str(continuation / 'frame-%03d.jpg')], check=True)
+    for n in range(count):
+        with Image.open(continuation / f'frame-{n:03d}.jpg') as image:
+            assert image.size == (1920, 1080)
+    config.pop('previous_source_time', None)
+    config['previous_continuation'] = dict(source='chorus-cgc06/scene3.avi', song_start=config['song_start'], fps=60, frames=count)
+    config['hold_source'] = 'assets/entry-continuation/frame-000.jpg'
+    (PROJECT / 'timeline.json').write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     Image.open(SOURCE / '场景/空_夕.png').convert('RGB').resize((1920, 1080), Image.Resampling.LANCZOS).save(ASSETS / 'entry-sunset.png')
     shutil.copy2(ROOT / 'godot/chorus-cgc06/assets/frames/white-rectangle.png', ASSETS / 'white-frame.png')
-    source_record = dict(previous_installed=str(previous), middle_scene=str(SOURCE / '场景/空_夕.png'),
-        hold_source='assets/entry-previous.png', cgc15_input=str(OUT / 'inputs/CGC15_c-user-20261018.png'),
+    source_record = dict(previous_continuous_render=str(previous), previous_continuation=config['previous_continuation'], middle_scene=str(SOURCE / '场景/空_夕.png'),
+        hold_source=config['hold_source'], cgc15_input=str(OUT / 'inputs/CGC15_c-user-20261018.png'),
         cgc15_input_size=[1672, 941], cgc15_canvas=[1920, 1080],
         hair_stages={
             '14': str(OUT / '头发逐层重拆/CGC14/stage-cliff-wind-v2'),
@@ -75,6 +89,10 @@ def install():
         events.extend(config[key])
     starts = sorted(set([n / 24 for n in range(math.ceil(duration * 24))]
         + [round(t - config['song_start'], 6) for t in events if config['song_start'] <= t < config['song_end']]))
+    # The outgoing camera keeps the preceding shot's 30fps sampling phase.
+    entry_duration = config['entry_sky'][1] - config['song_start']
+    starts = sorted(set([n / 30 for n in range(math.ceil(entry_duration * 30))]
+        + [t for t in starts if t >= entry_duration - 1e-6]))
     indices = [int(math.floor(t * 60 + 1e-6)) for t in starts]
     unique_indices = sorted(set(indices))
     selector = '+'.join(f'eq(n\\,{n})' for n in unique_indices)
@@ -97,8 +115,10 @@ def install():
                 time.sleep(0.15)
     previous_folder = MAPSET / 'sb/chorus-cgc06'
     last_previous = (previous_folder / 'frames.tsv').read_text().splitlines()[-1].split('\t')[0]
-    shutil.copy2(previous_folder / last_previous, target / 'entry-hold.jpg')
-    rows = [f'entry-hold.jpg\t{config["previous_end"]*1000:.6f}\t{config["song_start"]*1000:.6f}\n']
+    rows = []
+    if config['previous_end'] < config['song_start']:
+        shutil.copy2(previous_folder / last_previous, target / 'entry-hold.jpg')
+        rows.append(f'entry-hold.jpg\t{config["previous_end"]*1000:.6f}\t{config["song_start"]*1000:.6f}\n')
     for n, t in enumerate(starts):
         start = config['song_start'] * 1000 + t * 1000
         end = config['song_start'] * 1000 + starts[n+1] * 1000 if n+1 < len(starts) else config['song_end'] * 1000
@@ -115,17 +135,17 @@ def install():
     text = index.read_text(encoding='utf-8')
     if layer not in text:
         index.write_text(text.rstrip() + '\n  - "' + layer + '"\n', encoding='utf-8')
-    preview = OUT / '第四分镜-72.500-79.300-带音乐.mp4'
+    preview = OUT / '第四分镜-72.300-79.300-带音乐.mp4'
     subprocess.run([FFMPEG, '-v', 'error', '-y', '-i', str(video), '-ss', str(config['song_start']),
         '-i', str(MAPSET / 'audio-balanced.mp3'), '-map', '0:v:0', '-map', '1:a:0',
         '-t', str(duration), '-frames:v', str(count), '-r', '60', '-c:v', 'libx264', '-crf', '16',
         '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', str(preview)], check=True)
-    # Show the preceding CG's real last 0.8s, the 0.2s hold, and the complete new shot.
+    # Show the preceding CG's real last 0.8s and the complete continuous new shot.
     previous = MAPSET / 'sb/chorus-cgc06'
     previous_rows = [row.split('\t') for row in (previous / 'frames.tsv').read_text().splitlines()]
     prefix = OUT / 'entry-context'
     prefix.mkdir(exist_ok=True)
-    for n in range(60):
+    for n in range(round((config['song_start'] - 71.5) * 60)):
         song_ms = min(72299.99, 71500 + n * 1000 / 60)
         row = next(row for row in previous_rows if float(row[1]) <= song_ms < float(row[2]))
         shutil.copy2(previous / row[0], prefix / f'frame-{n:04d}.jpg')
@@ -138,7 +158,8 @@ def install():
         '-movflags', '+faststart', str(context)], check=True)
     print(preview)
     print(context)
-    print(f'Installed {len(unique_indices)+1} images including tail hold / {len(rows)} continuous Storybrew rows.')
+    image_count = len(unique_indices) + int(config['previous_end'] < config['song_start'])
+    print(f'Installed {image_count} referenced images / {len(rows)} continuous Storybrew rows.')
 
 
 if __name__ == '__main__':

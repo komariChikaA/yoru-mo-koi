@@ -1,7 +1,13 @@
 {
-  "previous_installed": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\chorus-cgc06\\frame-188.jpg",
+  "previous_continuous_render": "../..\\工作文件夹\\output\\CGC06_scene3\\scene3.avi",
+  "previous_continuation": {
+    "source": "chorus-cgc06/scene3.avi",
+    "song_start": 72.3,
+    "fps": 60,
+    "frames": 51
+  },
   "middle_scene": "${GAME_ROOT}\\解包\\场景\\空_夕.png",
-  "hold_source": "assets/entry-previous.png",
+  "hold_source": "assets/entry-continuation/frame-000.jpg",
   "cgc15_input": "../..\\工作文件夹\\output\\CGC14-15_scene4\\inputs\\CGC15_c-user-20261018.png",
   "cgc15_input_size": [
     1672,

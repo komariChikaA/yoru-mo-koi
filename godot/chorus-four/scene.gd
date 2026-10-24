@@ -33,6 +33,7 @@ var card_materials: Array[ShaderMaterial] = []
 var eyes14: Node2D
 var smile15: Node2D
 var previous: Sprite2D
+var previous_frames: Array[Texture2D] = []
 var sky: Sprite2D
 var sky_material: ShaderMaterial
 var border: Sprite2D
@@ -115,7 +116,12 @@ func _ready() -> void:
 	back.size = Vector2(1920, 1080)
 	back.color = Color("f4edda")
 	add_child(back)
-	previous = sprite(self, "res://assets/entry-previous.png")
+	for n in range(int(timeline.previous_continuation.frames)):
+		previous_frames.append(load("res://assets/entry-continuation/frame-%03d.jpg" % n))
+	previous = Sprite2D.new()
+	previous.centered = false
+	previous.texture = previous_frames[0]
+	add_child(previous)
 	sky = sprite(self, "res://assets/entry-sunset.png")
 	sky_material = blur_material(sky)
 	for i in range(2):
@@ -203,8 +209,8 @@ func pose() -> void:
 			card_materials[i].set_shader_parameter("opacity", 1.0)
 			card_materials[i].set_shader_parameter("blur_px", 0.0)
 	else:
-		previous.visible = song < float(timeline.entry_cg[1])
-		sky.visible = previous.visible
+		previous.visible = song < float(timeline.entry_sky[1])
+		sky.visible = song < float(timeline.entry_cg[1])
 		sky_material.set_shader_parameter("opacity", phase("entry_sky", song))
 		sky_material.set_shader_parameter("blur_px", 2.5)
 		# Begin under zero CG opacity; the sky follows the same outward/rightward motion.
@@ -212,6 +218,10 @@ func pose() -> void:
 		var pullback_end_phase := (float(timeline.cut_blend[1]) - float(timeline.camera_pullback[0])) / pullback_duration
 		var pullback_phase := clampf((song - float(timeline.camera_pullback[0])) / pullback_duration, 0.0, pullback_end_phase)
 		var pullback := pullback_progress(pullback_phase, pullback_end_phase)
+		# These are consecutive frames of the original scene, including its fixed
+		# screen border and live particles. Only that scene rotates the CG.
+		var previous_index := clampi(int(floor(t * float(timeline.previous_continuation.fps) + 0.0001)), 0, previous_frames.size() - 1)
+		previous.texture = previous_frames[previous_index]
 		camera(sky, Vector2(960, 540), lerpf(1.022, 1.0, pullback))
 		sky.position.x -= 4.2 * (1.0 - pullback)
 		var dissolve := phase("cut_blend", song)

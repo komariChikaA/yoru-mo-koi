@@ -8,7 +8,7 @@ dotnet renderer/bin/Debug/net8.0-windows/full-export.dll --fps 24 --bitrate 50M 
 dotnet renderer/bin/Debug/net8.0-windows/full-export.dll --start 19000 --end 20000 --out output/sample
 ```
 
-`--project` 指定工程根目录，默认当前目录；`--dll` 指定已构建的 Storybrew 脚本，默认 `bin/Debug/net8.0-windows/storyboard.dll`。支持 `--start`、`--end`、`--fps`、`--width`、`--height`、`--bitrate`、`--crf`、`--export-only`。
+`--project` 指定工程根目录，默认当前目录；`--dll` 指定已构建的 Storybrew 脚本，默认 `bin/Debug/net8.0-windows/storyboard.dll`。支持 `--start`、`--end`、`--fps`、`--width`、`--height`、`--bitrate`、`--crf`、`--threads`、`--export-only`。
 
 工具应用 `.sbrew` 配置和原生 Storybrew 曲线，通过 OpenTK 在隐藏 GPU 窗口合成，再交由 FFmpeg 编码。`export.json` 记录图层、精灵、纹理引用和源谱面。
 

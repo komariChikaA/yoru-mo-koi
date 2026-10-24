@@ -77,12 +77,12 @@
       1400,
       420
     ],
-    "progress": "Integrated velocity: smoothstep ramp over2.55..3.10, constant speed3.10..4.60, smoothstep deceleration4.60..6.30; distance normalization2.625",
-    "deceleration_local_seconds": [
-      4.6,
+    "progress": "Integrated velocity: smoothstep ramp over2.55..3.10, then constant speed through6.30; distance normalization3.475",
+    "quick_blink_speed_degrees_per_second": -2.8776978417266186,
+    "constant_rotation_local_seconds": [
+      3.1,
       6.3
-    ],
-    "quick_blink_speed_degrees_per_second": -3.8095238095238093
+    ]
   },
   "closeup": {
     "source_from": [

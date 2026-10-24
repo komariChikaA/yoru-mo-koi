@@ -50,7 +50,7 @@ namespace StorybrewScripts
                 var f = row.Split('\t');
                 var sprite = layer.CreateSprite(Assets + f[0]);
                 var start = Read(f[1]); var end = Read(f[2]);
-                sprite.Scale(start, 480.0 / 540);
+                sprite.Scale(start, Unit);
                 sprite.Fade(start, 1);
                 sprite.Fade(end, 0);
             }

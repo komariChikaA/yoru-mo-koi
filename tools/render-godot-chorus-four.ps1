@@ -19,7 +19,7 @@ if ($BlinkSpeed -ne 1) {$taskStem+='-slow'}
 if ($Strength -eq 0) {$taskStem+='-rest'}
 elseif ($Strength -ne 1) {$taskStem+='-strength-'+$Strength.ToString('0.###',[Globalization.CultureInfo]::InvariantCulture)}
 if ($Time -ge 0) {$taskStem+='-'+$Time.ToString('0.000',[Globalization.CultureInfo]::InvariantCulture)}
-$taskFrames=if ($Time -ge 0) {4} elseif ($Puppet -eq 14) {336} elseif ($Puppet -eq 15) {552} else {408}
+$taskFrames=if ($Time -ge 0) {4} elseif ($Puppet -eq 14) {336} elseif ($Puppet -eq 15) {552} else {420}
 $taskMovie=Join-Path $taskOut ($taskStem+$(if ($Time -ge 0) {'.png'} else {'.avi'}))
 $taskArgs='--path "'+$taskProject+'" --resolution 1920x1080 --audio-driver Dummy --write-movie "'+$taskMovie+'" --fixed-fps 60 -- --render --frames='+$taskFrames+' --strength='+$Strength.ToString('R',[Globalization.CultureInfo]::InvariantCulture)
 if ($BlinkSpeed -ne 1) {$taskArgs+=' --blink-speed='+$BlinkSpeed.ToString('R',[Globalization.CultureInfo]::InvariantCulture)}

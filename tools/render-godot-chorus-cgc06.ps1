@@ -18,7 +18,7 @@ $taskImport.WaitForExit()
 if ($taskImport.ExitCode -ne 0 -or (Get-Content -LiteralPath (Join-Path $taskOutput 'import-errors.log') -Raw) -match '(?m)^(SCRIPT ERROR|SHADER ERROR|ERROR):') {throw 'Godot import failed'}
 $taskStem=if ($Time -lt 0) {'scene3'} else {'still-'+$Time.ToString('0.000',[Globalization.CultureInfo]::InvariantCulture)}
 $taskMovie=Join-Path $taskOutput ($taskStem+$(if ($Time -lt 0) {'.avi'} else {'.png'}))
-$taskFrames=if ($Time -lt 0) {378} else {4}
+$taskFrames=if ($Time -lt 0) {430} else {4}
 # scene.gd exits after its capture counter reaches --frames. Engine iterations
 # can outpace that counter during startup, so --quit-after can truncate a movie.
 $taskArguments='--path "'+$taskProject+'" --resolution 1920x1080 --audio-driver Dummy --write-movie "'+$taskMovie+'" --fixed-fps 60 -- --render --fps=60 --frames='+$taskFrames

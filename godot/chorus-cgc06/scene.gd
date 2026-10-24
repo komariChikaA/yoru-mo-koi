@@ -11,7 +11,7 @@ extends Node2D
 @export_range(0.0,3.0,0.05) var particle_fall_speed:float=1.0
 @export_range(0.0,3.0,0.05) var particle_drift:float=1.0
 
-const DURATION:=6.3
+const DURATION:=7.15
 const PAD:=Vector2(128,192)
 const CloseupMotion=preload("res://closeup_motion.gd")
 var clock:=0.0
@@ -107,7 +107,9 @@ func _ready() -> void:
 	add_child(border_sprite)
 	update_border()
 	pose()
-	print("CGC06_SCENE3_READY 66.000–72.300 seconds")
+	if rendering:
+		RenderingServer.frame_post_draw.connect(_capture_frame_done)
+	print("CGC06_SCENE3_READY continuous camera 66.000–73.150 seconds")
 
 func transform_view(world:Node2D,source:Vector2,screen:Vector2,zoom:float,angle:float) -> void:
 	world.scale=Vector2.ONE*zoom
@@ -132,19 +134,16 @@ func blink_at(t:float) -> float:
 	return smoothstep(4.30,4.45,t)*(1.0-opening_progress(t))
 
 func rotation_at(t:float) -> float:
-	# Ease into an ordinary slow turn during the dissolve, then keep that
-	# speed through the quick blink. Only decelerate during the slow reopen.
+	# Ease into a restrained turn during the dissolve, then keep that speed
+	# through the blink and slow reopen so the picture stays in motion to the cut.
 	var elapsed:=maxf(0.0,t-2.55)
 	var distance:float
 	if elapsed<0.55:
 		var u:=elapsed/0.55
 		distance=0.55*(u*u*u-0.5*u*u*u*u)
-	elif t<4.60:
-		distance=elapsed-0.275
 	else:
-		var u:=clampf((t-4.60)/1.70,0.0,1.0)
-		distance=1.775+1.70*(u-u*u*u+0.5*u*u*u*u)
-	return distance/2.625
+		distance=elapsed-0.275
+	return distance/3.475
 
 func pose() -> void:
 	var t:=fixed_time if fixed_time>=0.0 else clock
@@ -170,13 +169,15 @@ func pose() -> void:
 	horizontal.set_shader_parameter("blur_px",blur)
 	vertical.set_shader_parameter("blur_px",blur)
 
+func _capture_frame_done() -> void:
+	frame+=1
+
 func _process(delta:float) -> void:
 	if rendering:
 		if frame>=frame_limit:
 			get_tree().quit()
 			return
 		clock=float(frame)/fps
-		frame+=1
 	elif not paused:
 		clock=minf(clock+delta,DURATION)
 	pose()

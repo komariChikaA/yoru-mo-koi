@@ -763,12 +763,9 @@ def camera_coverage():
         if elapsed<.55:
             u=elapsed/.55
             distance=.55*(u**3-.5*u**4)
-        elif t<4.60:distance=elapsed-.275
-        else:
-            u=np.clip((t-4.60)/1.70,0,1)
-            distance=1.775+1.70*(u-u**3+.5*u**4)
-        return distance/2.625
-    for t in np.arange(-20,379)/60:
+        else:distance=elapsed-.275
+        return distance/3.475
+    for t in np.arange(-20,430)/60:
         c=meta['closeup'];entry=c['entry_progress_rate'];tail=c['tail_progress_rate'];hold=c['entry_hold'];decel=c['deceleration_seconds']
         elapsed=max(t-hold,0);q=np.clip(elapsed/decel,0,1)
         u=entry*t if t<=hold else entry*hold+tail*elapsed+(entry-tail)*decel*(q-q**3+.5*q**4)
@@ -789,7 +786,7 @@ def camera_coverage():
             low=np.minimum(low,p.min(0));high=np.maximum(high,p.max(0))
     pad=np.array(meta['pad']);size=np.array(meta['source_size'])
     assert np.all(low>=-pad) and np.all(high<=size+pad), 'Camera exceeds painted border'
-    return {'status':'passed','samples':399,'includes_incoming_preroll':True,'native_min':low.tolist(),'native_max':high.tolist(),
+    return {'status':'passed','samples':450,'includes_incoming_preroll':True,'includes_outgoing_continuation':True,'native_min':low.tolist(),'native_max':high.tolist(),
             'padded_min':(-pad).tolist(),'padded_max':(size+pad).tolist()}
 
 def install():
@@ -801,7 +798,7 @@ def install():
        '-c:a','aac','-b:a','192k','-movflags','+faststart',str(review)],check=True)
     out=MAPSET/'sb/chorus-cgc06';out.mkdir(parents=True,exist_ok=True)
     subprocess.run([str(FFMPEG),'-hide_banner','-loglevel','error','-y','-i',str(movie),
-       '-vf','fps=30','-frames:v','189','-q:v','2','-pix_fmt','yuvj444p',
+       '-vf',r'select=not(mod(n\,2))','-fps_mode','vfr','-frames:v','189','-q:v','2','-pix_fmt','yuvj444p',
        '-start_number','0',str(out/'frame-%03d.jpg')],check=True)
     rows=[]
     for i in range(189):
