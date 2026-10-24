@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StorybrewHome Condition="'$(StorybrewHome)' == ''">$(STORYBREW_HOME)</StorybrewHome>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StorybrewCommon"><HintPath>$(StorybrewHome)/StorybrewCommon.dll</HintPath></Reference>
+    <Reference Include="StorybrewEditor"><HintPath>$(StorybrewHome)/StorybrewEditor.dll</HintPath></Reference>
+    <Reference Include="BrewLib"><HintPath>$(StorybrewHome)/BrewLib.dll</HintPath></Reference>
+    <Reference Include="OpenTK"><HintPath>$(StorybrewHome)/OpenTK.dll</HintPath></Reference>
+    <Reference Include="System.Drawing.Common"><HintPath>$(StorybrewHome)/System.Drawing.Common.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

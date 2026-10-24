@@ -1,0 +1,401 @@
+{
+  "song_start": 66.0,
+  "song_end": 72.3,
+  "duration": 6.3,
+  "pad": [
+    128,
+    192
+  ],
+  "source_size": [
+    1376,
+    752
+  ],
+  "output_size": [
+    1920,
+    1080
+  ],
+  "source": "User-approved clothed CGC06 plates from issue128; originals unchanged",
+  "light": "Upper-right cool blue-white key, controlled highlights, face warmth retained",
+  "focus": "Bridge-like ~11px screen Gaussian: source sigma6.5 overview / 3.25 closeup; heroine edge feather sigma2.2",
+  "overscan": "gpt-image-2 API generated border; original central image preserved",
+  "timeline": {
+    "static_closed_o_closeup": [
+      0,
+      2.55
+    ],
+    "gaussian_transition": [
+      2.55,
+      3.1
+    ],
+    "smile_open": [
+      3.1,
+      4.3
+    ],
+    "quick_close": [
+      4.3,
+      4.45
+    ],
+    "closed_hold": [
+      4.45,
+      4.45
+    ],
+    "fast_blink_to_70_percent": [
+      4.3,
+      4.6
+    ],
+    "opening_0_to_70_percent": [
+      4.45,
+      4.6
+    ],
+    "opening_70_to_100_percent": [
+      4.6,
+      6.3
+    ],
+    "slow_open": [
+      4.6,
+      6.3
+    ],
+    "open_finish": [
+      6.3,
+      6.3
+    ]
+  },
+  "rotation": {
+    "local_seconds": [
+      2.55,
+      6.3
+    ],
+    "degrees": [
+      0,
+      -10
+    ],
+    "source_pivot": [
+      900,
+      270
+    ],
+    "screen_pivot": [
+      1400,
+      420
+    ],
+    "progress": "Integrated velocity: smoothstep ramp over2.55..3.10, constant speed3.10..4.60, smoothstep deceleration4.60..6.30; distance normalization2.625",
+    "deceleration_local_seconds": [
+      4.6,
+      6.3
+    ],
+    "quick_blink_speed_degrees_per_second": -3.8095238095238093
+  },
+  "closeup": {
+    "source_from": [
+      430,
+      560
+    ],
+    "source_to": [
+      765,
+      430
+    ],
+    "rotation_degrees": 0,
+    "scale": [
+      3.15,
+      3.5
+    ],
+    "translation_easing": "Gentler entry hold 0.08s, integrated smoothstep velocity deceleration 1.50s, then continuous visible slow pan",
+    "entry_progress_rate": 0.85,
+    "tail_progress_rate": 0.08,
+    "entry_hold": 0.08,
+    "deceleration_seconds": 1.5,
+    "slow_start": 1.58,
+    "zoom_easing": "smoothstep 0–1.58s",
+    "preroll": "Same motion script in the phone incoming viewport; position and velocity continuous at 66.000"
+  },
+  "transition": {
+    "blur_seconds": [
+      2.55,
+      3.1
+    ],
+    "blur_peak_radius_px": 22,
+    "dissolve_seconds": [
+      2.55,
+      3.1
+    ],
+    "method": "Original Gaussian cross-dissolve between independent views; outgoing closeup keeps slow pan until fully faded; no pullback"
+  },
+  "eye_puppet": {
+    "method": "Complete native upper/lower cutouts on continuous 64x41 grids. Shared five-pin closed lines sit near mid-eye with shallow arches, inspired by BV1rR4y1N7q4 at54–55s. Both lids retain native x; lower closure follows p*(0.7+0.3*p), rises and flattens onto the upper line. Long lash roots lie on the native stroke; tips shorten along their measured directions, then the mesh samples both guide curves at the displaced x. Broad smooth root gathering reduces hooked corners; original UV and alpha remain intact. Static iris/sclera are spatially occluded by the opening. True brows and separate crease parts remain controllable. No generated poses, lash clipping, expression switches or temporal crossfade.",
+    "shader": "eyes.gdshader",
+    "controls": "30 Marker2D pins; native brow meshes synchronized with upper closure; separate EyeEdgeDetail1/2 sprites; fixed StationaryHair sprite; Inspector Resource, no panel",
+    "time_driver": "continuous analytic time parameter; same geometry path for closing/opening; no AnimationPlayer pose keys or expression image sequence",
+    "cutout_policy": "Whole upper and whole lower native cutouts, one 64x41 grid per lid; true brows retained as native ribbons, small creases separate, marked hair excluded from moving lash cutouts",
+    "deformation_details": {
+      "ridge_spans": {
+        "upper1": [
+          8,
+          43
+        ],
+        "upper2": [
+          26,
+          57
+        ]
+      },
+      "reference_smoothing_sigma_stations": 1.5,
+      "turn_soft_limit_radians": 0.35,
+      "rotation_spatial_smoothing_passes": 3,
+      "rotation_reach_px": 4,
+      "upper_width_radius_px": 6,
+      "lower_width_radius_px": 4,
+      "alpha_subpixel_sigma": 0.4,
+      "alpha_subpixel_mix": 0.7,
+      "occlusion_aa": "eye-body gate only; no lash clipping",
+      "lower_meeting_mode": "shared five-pin line sampled at native x for both lids",
+      "lower_flatten": [
+        0.94,
+        0.94
+      ],
+      "lower_closed_x_scale": [
+        1.0,
+        1.0
+      ],
+      "lower_closed_x_offset": [
+        0.0,
+        0.0
+      ],
+      "lower_progress": "p*(0.7+0.3*p)",
+      "brow_rigid_follow_px": 6,
+      "default_upper_thickness": 0.78,
+      "default_lower_thickness": 1.0,
+      "closed_pin_x": [
+        [
+          -49,
+          -27.75,
+          -6.5,
+          14.75,
+          36
+        ],
+        [
+          -31,
+          -15.25,
+          0.5,
+          16.25,
+          32
+        ]
+      ],
+      "closed_pin_y": [
+        [
+          8.5,
+          10.5,
+          11,
+          10.5,
+          8.5
+        ],
+        [
+          8.5,
+          9.8,
+          10.2,
+          9.8,
+          8.5
+        ]
+      ],
+      "root_depth_gather": {
+        "x_ranges": [
+          [
+            -38,
+            -15
+          ],
+          [
+            5,
+            25
+          ]
+        ],
+        "amount": 0.9,
+        "method": "C1 whole cross-section compression evaluated at warped x",
+        "near_eye_sidewall_excess": {
+          "progress": "p/(p+0.10*(1-p))-p",
+          "x_range": [
+            -26,
+            -12
+          ],
+          "protected_positive_depth_px": 3.0,
+          "rolloff_px": 1.0,
+          "method": "Subtract progress*side_weight*excess^2/(excess+1) only from long positive side-wall depth after original root gathering; preserve upper stroke, native x transport and open/closed poses"
+        }
+      },
+      "lash_edge_alpha_clipping": false,
+      "long_tip_min_length": 14.0,
+      "lash_tip_compress": [
+        0.6,
+        0.6
+      ],
+      "tip_root": "native reference ridge plus2px",
+      "tip_direction_compression": true,
+      "tip_lateral_radius": [
+        50.0,
+        40.0
+      ],
+      "guide_resampling": "source and moving ridges at directionally warped x",
+      "reference": {
+        "url": "https://www.bilibili.com/video/BV1rR4y1N7q4",
+        "seconds": [
+          54,
+          55
+        ],
+        "cid": 578320471,
+        "available_reference_resolution": [
+          852,
+          480
+        ],
+        "timing_policy": "Close plus reopen to70% together0.3s (0.15+0.15); final30% in1.7s; reference only for shape hierarchy"
+      },
+      "closed_outer_tail_softening": {
+        "root_x": [
+          -35,
+          20
+        ],
+        "strength": 0.35,
+        "rolloff_px": 6,
+        "progress": "smoothstep(0.55,1.0,p)",
+        "mapping": "monotone C1 x gathering for whole lids and eye-body gate; original UV/alpha unchanged"
+      },
+      "tip_progress": "p*(0.85+0.15*p)"
+    },
+    "manual_lash_contours": {
+      "path": "brow-paths.json",
+      "target": "upper_lid",
+      "nodes": [
+        20,
+        19
+      ],
+      "feather_px": [
+        0.2,
+        0.2
+      ]
+    },
+    "hidden_underlay": {
+      "source": "assets/chorus-cgc06/eye-clean-plate.png",
+      "method": "gpt-image-2 completes both eye-free footprints with continuous native-style skin/hair; registered and gradient-matched to native a; static background only, no generated expression frames",
+      "forbidden": "manual color fills or broad skin/hair inpaint ribbons"
+    },
+    "stationary_hair_ownership": {
+      "source": "eye-traces.json/stationary_hair_transfers_world",
+      "method": "Static alpha-conserving transfer of marked native hair from upper and lower cutouts into StationaryHair; inspect both eyelid mattes for residual hair, no animated clipping",
+      "right_eye": "Marked native hair below outer corner transferred from lower-lid into StationaryHair; precise polygon with no color-difference rejection"
+    }
+  },
+  "frames_install_fps": 30,
+  "visual_acceptance": "1s close/open and five closeup fill particles pending; native mesh unchanged",
+  "atmosphere": {
+    "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\雪球大.png",
+    "source_copy": "assets\\chorus-cgc06\\particles\\unpacked-snowball-large.png",
+    "source_size": [
+      32,
+      32
+    ],
+    "body_gaussian_sigma_source_px": 1.1,
+    "halo_gaussian_sigma_source_px": 3.0,
+    "world_pool_count": 104,
+    "closeup_fill": {
+      "extra_count": 5,
+      "source_points": [
+        [
+          300,
+          680
+        ],
+        [
+          425,
+          555
+        ],
+        [
+          615,
+          475
+        ],
+        [
+          800,
+          350
+        ],
+        [
+          940,
+          505
+        ]
+      ],
+      "foreground_gain": 0.8,
+      "scope": "Closeup and incoming preroll only; sparse foreground across background, hand and clothing without character exclusion; same soft textures and motion; fade with outgoing closeup"
+    },
+    "camera_balance": {
+      "closeup_background_keep_every": 3,
+      "closeup_background_active_pool_count": 35,
+      "closeup_foreground_count": 5,
+      "overview_size_multiplier": 1.3,
+      "overview_opacity_multiplier": 1.35,
+      "overview_pool_count": 104
+    },
+    "native_diameter_source_px": [
+      4.5,
+      20
+    ],
+    "fall_source_px_per_second": [
+      10,
+      18
+    ],
+    "size_distribution": {
+      "small": {
+        "share": 0.3,
+        "source_px": [
+          4.5,
+          7
+        ]
+      },
+      "medium": {
+        "share": 0.5,
+        "source_px": [
+          8,
+          12
+        ]
+      },
+      "large": {
+        "share": 0.2,
+        "source_px": [
+          15,
+          20
+        ]
+      }
+    },
+    "closeup_foreground_diameter_source_px": [
+      7,
+      11
+    ],
+    "closeup_foreground_fall_source_px_per_second": 5,
+    "camera_scaled_diameter_screen_px": {
+      "closeup": [
+        14.175,
+        70
+      ],
+      "overview": [
+        9.6525,
+        42.9
+      ],
+      "closeup_foreground": [
+        22.05,
+        38.5
+      ]
+    },
+    "world_bounds": [
+      -128,
+      -192,
+      1504,
+      944
+    ],
+    "character_exclusion": "Existing full heroine matte plus loose male silhouette, 10px expansion / sigma8 feather;98 percent particle attenuation over characters",
+    "horizontal_drift_source_px": [
+      9,
+      3.5
+    ],
+    "opacity": 0.65,
+    "halo_opacity_multiplier": 0.22,
+    "seed": 60617,
+    "motion": "CG source-space particles shared by both camera worlds; analytic continuous time, visibly drifting background at10–18 source px/s with three size bands; no flicker",
+    "entry_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "border": "White Rectangle, Eagle LIELI0JVC8GGY, existing 42px frame",
+    "visual_acceptance": "pending"
+  }
+}

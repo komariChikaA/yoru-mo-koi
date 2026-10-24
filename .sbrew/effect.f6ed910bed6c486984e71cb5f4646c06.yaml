@@ -1,0 +1,11 @@
+FormatVersion: 7
+Name: "Chorus CGC06 66.000–72.300s"
+Script: "ChorusCgc06"
+Multithreaded: No
+Config:
+Layers:
+  3918c337cc2c4a3487a65820fec6c006:
+    Name: "Chorus CGC06"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

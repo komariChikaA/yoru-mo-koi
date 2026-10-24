@@ -1,0 +1,43 @@
+{
+  "palette": {
+    "background": "#AAD0DE",
+    "structure": "#30465D",
+    "deep_blue": "#4B7590",
+    "mist_blue": "#92C9D6",
+    "teal": "#8BBBAA",
+    "yellow": "#EFD17C",
+    "pink": "#E5A0B5",
+    "purple": "#AA9EBE",
+    "brick": "#C9847B"
+  },
+  "color_order": [
+    "deep_blue",
+    "yellow",
+    "mist_blue",
+    "pink",
+    "yellow",
+    "teal",
+    "deep_blue",
+    "purple",
+    "yellow",
+    "mist_blue",
+    "brick",
+    "yellow",
+    "teal",
+    "deep_blue",
+    "pink",
+    "yellow",
+    "purple",
+    "yellow"
+  ],
+  "period": 396,
+  "strip_width": 1584,
+  "row_height": 102,
+  "asset_scale": 0.5,
+  "books_per_period": 18,
+  "paper_source": "imagetexture_00049.jpg",
+  "paper_source_sha256": "6804b2877df7df92c34ea8d4cecb2b0427b7c6b559d4548f88f5cde71bfc60c7",
+  "paper_contrast": 0.7474999999999999,
+  "paper_opacity": 0.1,
+  "paper_scale": 1.2
+}

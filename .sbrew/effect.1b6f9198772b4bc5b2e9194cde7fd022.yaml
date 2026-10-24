@@ -1,0 +1,53 @@
+FormatVersion: 7
+Name: "Background 1"
+Script: "Background"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "End Time"
+  SpritePath:
+    Type: "System.String"
+    Value: ""
+    DisplayName: "Sprite Path"
+    BeginsGroup: "Sprite"
+  Opacity:
+    Type: "System.Double"
+    Value: "0.2"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  ef6a8a3b4c374d5c8021a6f6f247b23a:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ee1f119af272476081e9e06d2b3f8e1f:
+    Name: "Blue"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  10af222085e041f0abe770b2957ba7ff:
+    Name: "BooksLayer"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  a5761facc52a4edb9239601ba59ecef6:
+    Name: "Main"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c7e4a91b2d6f4e0a8c3b5d7f1a2e4c60:
+    Name: "Wipe"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

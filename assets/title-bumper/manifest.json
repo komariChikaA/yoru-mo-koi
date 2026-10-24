@@ -1,0 +1,60 @@
+{
+  "paper_rgb": [
+    247,
+    228,
+    161
+  ],
+  "ink_rgb": [
+    61,
+    48,
+    42
+  ],
+  "pink_rgb": [
+    233,
+    132,
+    165
+  ],
+  "cyan_rgb": [
+    112,
+    185,
+    212
+  ],
+  "cap_height": 66,
+  "bell_height": 74,
+  "scale": 0.5,
+  "word_gap": 28,
+  "tracking": {
+    "yume": 2.5,
+    "iro": 10
+  },
+  "slab_i": {
+    "width": 55.0,
+    "bar_thickness": 11.0,
+    "stem_width": 15.0
+  },
+  "tile_size": 16,
+  "tiles": 1,
+  "ink_bands": 6,
+  "ink_width": 1234,
+  "columns": 54,
+  "rows": 30,
+  "paper_source": "imagetexture_00049.jpg",
+  "paper_opacity": 0.12,
+  "sizes": {
+    "yume": [
+      540,
+      132
+    ],
+    "iro": [
+      418,
+      132
+    ],
+    "bell": [
+      164,
+      148
+    ]
+  },
+  "subtitle": "YUME TO IRO DE DEKITEIRU",
+  "subtitle_height": 8.5,
+  "font": "Windows Arial Bold / Arial"
+}

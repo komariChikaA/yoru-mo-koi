@@ -1,0 +1,144 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://pin_pose.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/a-plate.png" id="2"]
+
+[node name="ControlPins" type="Node2D"]
+
+[node name="EditorReference" type="Sprite2D" parent="."]
+show_behind_parent = true
+texture = ExtResource("2")
+centered = false
+script = ExtResource("1")
+
+[node name="UpperLid1" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="UpperLid1"]
+position = Vector2(837.121994409, 166.975477792)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="UpperLid1"]
+position = Vector2(847.018232767, 185.886505431)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="UpperLid1"]
+position = Vector2(858.172476977, 203.980574517)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="UpperLid1"]
+position = Vector2(870.165391756, 221.530004569)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="UpperLid1"]
+position = Vector2(883.416312385, 238.262476068)
+gizmo_extents = 3.0
+
+[node name="LowerLid1" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="LowerLid1"]
+position = Vector2(837.121994409, 166.975477792)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="LowerLid1"]
+position = Vector2(847.018232767, 185.886505431)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="LowerLid1"]
+position = Vector2(858.172476977, 203.980574517)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="LowerLid1"]
+position = Vector2(870.165391756, 221.530004569)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="LowerLid1"]
+position = Vector2(883.416312385, 238.262476068)
+gizmo_extents = 3.0
+
+[node name="Eyebrow1" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="Eyebrow1"]
+position = Vector2(859.329505265, 127.450421995)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="Eyebrow1"]
+position = Vector2(888.881729354, 142.909858357)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="Eyebrow1"]
+position = Vector2(919.239331397, 156.910588971)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="Eyebrow1"]
+position = Vector2(945.169178182, 175.013418541)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="Eyebrow1"]
+position = Vector2(967.878046007, 198.667132868)
+gizmo_extents = 3.0
+
+[node name="UpperLid2" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="UpperLid2"]
+position = Vector2(931.582441752, 329.809913794)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="UpperLid2"]
+position = Vector2(939.070234815, 343.727005985)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="UpperLid2"]
+position = Vector2(947.312831389, 357.153923044)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="UpperLid2"]
+position = Vector2(956.226364418, 370.145128875)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="UpperLid2"]
+position = Vector2(965.894700958, 382.646159574)
+gizmo_extents = 3.0
+
+[node name="LowerLid2" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="LowerLid2"]
+position = Vector2(931.582441752, 329.809913794)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="LowerLid2"]
+position = Vector2(939.070234815, 343.727005985)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="LowerLid2"]
+position = Vector2(947.312831389, 357.153923044)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="LowerLid2"]
+position = Vector2(956.226364418, 370.145128875)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="LowerLid2"]
+position = Vector2(965.894700958, 382.646159574)
+gizmo_extents = 3.0
+
+[node name="Eyebrow2" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="Eyebrow2"]
+position = Vector2(1017.663398642, 268.417619980)
+gizmo_extents = 3.0
+
+[node name="Pin2" type="Marker2D" parent="Eyebrow2"]
+position = Vector2(1021.650287786, 293.116220751)
+gizmo_extents = 3.0
+
+[node name="Pin3" type="Marker2D" parent="Eyebrow2"]
+position = Vector2(1026.885609113, 317.672139169)
+gizmo_extents = 3.0
+
+[node name="Pin4" type="Marker2D" parent="Eyebrow2"]
+position = Vector2(1031.655120673, 340.715413523)
+gizmo_extents = 3.0
+
+[node name="Pin5" type="Marker2D" parent="Eyebrow2"]
+position = Vector2(1026.683591021, 364.398919436)
+gizmo_extents = 3.0

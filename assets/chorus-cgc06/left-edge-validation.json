@@ -1,0 +1,111 @@
+{
+  "scope": "screen-left upper-lash root and shared outer meeting point only",
+  "closed_outer_pin_y": 27,
+  "left_root_depth_gather": {
+    "strength": 0.65,
+    "local_x": [
+      -45,
+      -20
+    ]
+  },
+  "samples": 91,
+  "minimum_triangle_area": 0.102824471890926,
+  "right_eye_geometry_unchanged": true,
+  "right_eye_rgb_max_delta": 0,
+  "right_eye_roi_native": [
+    770,
+    290,
+    285,
+    150
+  ],
+  "open_state_rgb_max_delta": 0,
+  "closed_lower_visible_pixels_above_rgb3": 1,
+  "closed_lower_max_rgb_difference": 4,
+  "changed_pixels_across_samples": 79212,
+  "native_alpha_uv": "unchanged; no dynamic edge masking",
+  "visual_acceptance": "accepted by user: 还可以，直接接入吧",
+  "pin_control_max_rgb_delta": {
+    "pin-brow-0-0": 49,
+    "pin-brow-0-1": 64,
+    "pin-brow-0-2": 85,
+    "pin-brow-0-3": 121,
+    "pin-brow-0-4": 103,
+    "pin-brow-1-0": 99,
+    "pin-brow-1-1": 116,
+    "pin-brow-1-2": 87,
+    "pin-brow-1-3": 56,
+    "pin-brow-1-4": 13,
+    "pin-lower-0-0": 11,
+    "pin-lower-0-1": 4,
+    "pin-lower-0-2": 159,
+    "pin-lower-0-3": 143,
+    "pin-lower-0-4": 1,
+    "pin-lower-1-0": 1,
+    "pin-lower-1-1": 5,
+    "pin-lower-1-2": 144,
+    "pin-lower-1-3": 3,
+    "pin-lower-1-4": 1,
+    "pin-upper-0-0": 128,
+    "pin-upper-0-1": 153,
+    "pin-upper-0-2": 158,
+    "pin-upper-0-3": 163,
+    "pin-upper-0-4": 168,
+    "pin-upper-1-0": 160,
+    "pin-upper-1-1": 173,
+    "pin-upper-1-2": 169,
+    "pin-upper-1-3": 172,
+    "pin-upper-1-4": 148
+  },
+  "resource_control_max_rgb_delta": {
+    "control-brow-right": 124,
+    "control-brow": 128,
+    "control-edge-flatten": 200,
+    "control-edge-follow": 201,
+    "control-edge-gap": 200,
+    "control-edge-left": 86,
+    "control-edge-right": 54,
+    "control-hide-body": 192,
+    "control-hide-brow": 127,
+    "control-hide-edge": 84,
+    "control-hide-iris": 170,
+    "control-hide-lower": 174,
+    "control-iris-right": 196,
+    "control-iris-scale": 186,
+    "control-iris": 200,
+    "control-lower-flatten": 201,
+    "control-lower-right": 183,
+    "control-lower-thickness": 180,
+    "control-lower": 180,
+    "control-reset": 0,
+    "control-tip-left": 201,
+    "control-tip-right": 201,
+    "control-tip-threshold": 201,
+    "control-upper-right": 191,
+    "control-upper-thickness": 184,
+    "control-upper": 188
+  },
+  "accepted_implementation": "40ac296",
+  "storybrew_integration": {
+    "installed_frames": 189,
+    "size": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "song_ms": [
+      66000,
+      72300
+    ],
+    "actual_effect_layers": 1,
+    "actual_effect_sprites": 189,
+    "review_times_ms": [
+      66000,
+      67500,
+      69000,
+      70500,
+      72000
+    ],
+    "review_directory": "accepted-left-edge-storybrew",
+    "status": "confirmed"
+  }
+}

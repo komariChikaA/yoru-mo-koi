@@ -1,0 +1,27 @@
+{
+  "font_name": "方正少儿 GBK",
+  "eagle_item_id": "LESMOMDCJU6YN",
+  "eagle_folder": "萌豚字体",
+  "eagle_folder_id": "LK0Z1TLVUUJG8",
+  "source_path": "${EAGLE_ROOT}\\字体.library\\images\\LESMOMDCJU6YN.info\\4100_方正少儿_GBK.ttf",
+  "project_font": "fz-shaoer-map.ttf",
+  "processing": "fontTools subset for map titles, place names and ASCII; outlines unchanged",
+  "characters": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~·三云京会元公兵北南合商园姬宫家山库店恋户手新港灘点町社神站紫织色花蓝街边野隈鸥",
+  "character_name_font": {
+    "font_name": "FOT-SeuratProN-B",
+    "eagle_item_id": "LK0Z1TMTO03BB",
+    "eagle_folder": "萌豚字体",
+    "source_path": "${EAGLE_ROOT}\\字体.library\\images\\LK0Z1TMTO03BB.info\\FOT-SeuratProN-B.otf",
+    "project_font": "seurat-character-names.otf",
+    "processing": "fontTools glyph subset; original outlines preserved",
+    "characters": "姫色恋雲かもめ紫織藍 !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+    "names": {
+      "Hiiro": "姫色",
+      "Ren": "恋",
+      "Kumo": "雲",
+      "Kamome": "かもめ",
+      "Shiori": "紫織",
+      "Ai": "藍"
+    }
+  }
+}

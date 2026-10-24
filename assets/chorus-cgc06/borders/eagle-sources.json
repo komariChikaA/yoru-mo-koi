@@ -1,0 +1,237 @@
+{
+  "library": "${EAGLE_ROOT}/精选图片.library",
+  "materials": [
+    {
+      "id": "LIEMLU52PZFFB",
+      "name": "imagewatercolor_00388",
+      "ext": "jpg",
+      "tags": [],
+      "folders": [
+        "LIEMLU4YKMFMQ"
+      ],
+      "width": 3072,
+      "height": 2048,
+      "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIEMLU52PZFFB.info\\imagewatercolor_00388_thumbnail.png",
+      "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIEMLU52PZFFB.info\\imagewatercolor_00388.jpg",
+      "size": 896774,
+      "isDeleted": false,
+      "url": "",
+      "annotation": "",
+      "comments": [],
+      "palettes": [
+        {
+          "color": [
+            5,
+            5,
+            5
+          ],
+          "ratio": 57
+        },
+        {
+          "color": [
+            199,
+            201,
+            200
+          ],
+          "ratio": 30
+        },
+        {
+          "color": [
+            98,
+            93,
+            90
+          ],
+          "ratio": 6
+        },
+        {
+          "color": [
+            147,
+            146,
+            144
+          ],
+          "ratio": 4.19
+        },
+        {
+          "color": [
+            132,
+            121,
+            118
+          ],
+          "ratio": 0.5
+        },
+        {
+          "color": [
+            132,
+            132,
+            124
+          ],
+          "ratio": 0.41
+        },
+        {
+          "color": [
+            60,
+            60,
+            56
+          ],
+          "ratio": 0.35
+        }
+      ],
+      "noThumbnail": false
+    },
+    {
+      "id": "LIEMLU520EBCC",
+      "name": "imagewatercolor_00383",
+      "ext": "jpg",
+      "tags": [],
+      "folders": [
+        "LIEMLU4YKMFMQ"
+      ],
+      "width": 3072,
+      "height": 2048,
+      "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIEMLU520EBCC.info\\imagewatercolor_00383_thumbnail.png",
+      "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIEMLU520EBCC.info\\imagewatercolor_00383.jpg",
+      "size": 2765265,
+      "isDeleted": false,
+      "url": "",
+      "annotation": "",
+      "comments": [],
+      "palettes": [
+        {
+          "color": [
+            231,
+            233,
+            233
+          ],
+          "ratio": 61
+        },
+        {
+          "color": [
+            57,
+            55,
+            51
+          ],
+          "ratio": 21
+        },
+        {
+          "color": [
+            137,
+            136,
+            134
+          ],
+          "ratio": 6
+        },
+        {
+          "color": [
+            181,
+            183,
+            182
+          ],
+          "ratio": 4.16
+        },
+        {
+          "color": [
+            196,
+            195,
+            194
+          ],
+          "ratio": 1.82
+        },
+        {
+          "color": [
+            109,
+            106,
+            102
+          ],
+          "ratio": 1.57
+        },
+        {
+          "color": [
+            165,
+            163,
+            160
+          ],
+          "ratio": 1.23
+        },
+        {
+          "color": [
+            116,
+            116,
+            106
+          ],
+          "ratio": 0.73
+        },
+        {
+          "color": [
+            171,
+            172,
+            163
+          ],
+          "ratio": 0.36
+        }
+      ],
+      "noThumbnail": false
+    },
+    {
+      "id": "LIELI0JVC8GGY",
+      "name": "imagepaper_00184",
+      "ext": "jpg",
+      "tags": [],
+      "folders": [
+        "LIELHZO9O4BSX"
+      ],
+      "width": 3072,
+      "height": 2048,
+      "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIELI0JVC8GGY.info\\imagepaper_00184_thumbnail.png",
+      "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LIELI0JVC8GGY.info\\imagepaper_00184.jpg",
+      "size": 2546233,
+      "isDeleted": false,
+      "url": "",
+      "annotation": "",
+      "comments": [],
+      "palettes": [
+        {
+          "color": [
+            91,
+            61,
+            39
+          ],
+          "ratio": 95
+        },
+        {
+          "color": [
+            76,
+            44,
+            25
+          ],
+          "ratio": 2.44
+        },
+        {
+          "color": [
+            116,
+            83,
+            58
+          ],
+          "ratio": 0.75
+        },
+        {
+          "color": [
+            67,
+            40,
+            20
+          ],
+          "ratio": 0.53
+        },
+        {
+          "color": [
+            108,
+            84,
+            56
+          ],
+          "ratio": 0.25
+        }
+      ],
+      "noThumbnail": false
+    }
+  ],
+  "policy": "Only composited Eagle raster sources. Existing pigment edges and dry-brush weave provide alpha; crop, resize, recolor and user-requested subtle Gaussian blur. No synthesized textures, noise, painted masks or image generation."
+}

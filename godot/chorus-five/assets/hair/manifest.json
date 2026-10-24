@@ -1,0 +1,617 @@
+{
+  "source_size": [
+    1920,
+    1080
+  ],
+  "clean_path": "res://assets/hair/source-hair-clean.png",
+  "root_fixed_fraction": 0.15,
+  "foreground_source": "res://assets/source-clean.png",
+  "occlusion_path": "res://assets/hair/occlusion.png",
+  "foreground_mask": "res://assets/hair/foreground.png",
+  "front_occlusion_path": "res://assets/hair/foreground.png",
+  "parts": [
+    {
+      "id": "ahoge",
+      "chain": [
+        [
+          786,
+          43
+        ],
+        [
+          728,
+          18
+        ],
+        [
+          659,
+          49
+        ],
+        [
+          615,
+          119
+        ],
+        [
+          602,
+          201
+        ],
+        [
+          610,
+          268
+        ],
+        [
+          632,
+          281
+        ],
+        [
+          655,
+          264
+        ]
+      ],
+      "amplitude_px": 48,
+      "response_delay": 0.04,
+      "propagation": 0.56,
+      "frequency_hz": 0.8,
+      "pin_tip": false,
+      "depth": 0.02,
+      "cut_line": [
+        [
+          782,
+          48
+        ],
+        [
+          790,
+          37
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/ahoge.png",
+      "rect": [
+        593,
+        3,
+        201,
+        287
+      ]
+    },
+    {
+      "id": "left-loop",
+      "chain": [
+        [
+          740,
+          364
+        ],
+        [
+          704,
+          421
+        ],
+        [
+          659,
+          484
+        ],
+        [
+          635,
+          545
+        ],
+        [
+          656,
+          598
+        ],
+        [
+          708,
+          633
+        ],
+        [
+          748,
+          629
+        ]
+      ],
+      "amplitude_px": 30,
+      "response_delay": 0.12,
+      "propagation": 0.52,
+      "frequency_hz": 0.65,
+      "pin_tip": true,
+      "depth": 0.022,
+      "cut_line": [
+        [
+          728,
+          357
+        ],
+        [
+          751,
+          371
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/left-loop.png",
+      "rect": [
+        618,
+        353,
+        137,
+        307
+      ]
+    },
+    {
+      "id": "left-tail-thin",
+      "chain": [
+        [
+          654,
+          738
+        ],
+        [
+          637,
+          775
+        ],
+        [
+          616,
+          821
+        ],
+        [
+          599,
+          873
+        ],
+        [
+          595,
+          897
+        ],
+        [
+          603,
+          916
+        ]
+      ],
+      "amplitude_px": 80,
+      "response_delay": 0.12,
+      "propagation": 0.4,
+      "frequency_hz": 0.9,
+      "pin_tip": false,
+      "depth": 0.024,
+      "cut_line": [
+        [
+          648,
+          732
+        ],
+        [
+          661,
+          743
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/left-tail-thin.png",
+      "rect": [
+        585,
+        723,
+        85,
+        200
+      ]
+    },
+    {
+      "id": "left-tail-wide",
+      "chain": [
+        [
+          667,
+          769
+        ],
+        [
+          660,
+          807
+        ],
+        [
+          641,
+          855
+        ],
+        [
+          630,
+          911
+        ],
+        [
+          636,
+          962
+        ],
+        [
+          647,
+          992
+        ]
+      ],
+      "amplitude_px": 96,
+      "response_delay": 0.16,
+      "propagation": 0.48,
+      "frequency_hz": 0.68,
+      "pin_tip": false,
+      "depth": 0.025,
+      "cut_line": [
+        [
+          649,
+          768
+        ],
+        [
+          692,
+          779
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/left-tail-wide.png",
+      "rect": [
+        616,
+        741,
+        91,
+        264
+      ]
+    },
+    {
+      "id": "left-tail-fork",
+      "chain": [
+        [
+          741,
+          787
+        ],
+        [
+          725,
+          823
+        ],
+        [
+          708,
+          864
+        ],
+        [
+          697,
+          902
+        ],
+        [
+          692,
+          917
+        ]
+      ],
+      "amplitude_px": 78,
+      "response_delay": 0.2,
+      "propagation": 0.38,
+      "frequency_hz": 0.85,
+      "pin_tip": false,
+      "depth": 0.026,
+      "cut_line": [
+        [
+          730,
+          774
+        ],
+        [
+          755,
+          791
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/left-tail-fork.png",
+      "rect": [
+        685,
+        770,
+        75,
+        156
+      ]
+    },
+    {
+      "id": "blouse-left-under-tail",
+      "chain": [
+        [
+          853,
+          860
+        ],
+        [
+          856,
+          900
+        ],
+        [
+          866,
+          940
+        ],
+        [
+          891,
+          977
+        ],
+        [
+          915,
+          1000
+        ],
+        [
+          930,
+          1015
+        ]
+      ],
+      "amplitude_px": 50,
+      "response_delay": 0.24,
+      "propagation": 0.4,
+      "frequency_hz": 0.78,
+      "pin_tip": false,
+      "depth": 0.023,
+      "cut_line": [
+        [
+          839,
+          850
+        ],
+        [
+          861,
+          858
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/blouse-left-under-tail.png",
+      "rect": [
+        835,
+        845,
+        101,
+        175
+      ]
+    },
+    {
+      "id": "blouse-right-under-tail",
+      "chain": [
+        [
+          938,
+          683
+        ],
+        [
+          942,
+          744
+        ],
+        [
+          947,
+          800
+        ],
+        [
+          959,
+          849
+        ],
+        [
+          976,
+          885
+        ],
+        [
+          991,
+          901
+        ]
+      ],
+      "amplitude_px": 60,
+      "response_delay": 0.22,
+      "propagation": 0.48,
+      "frequency_hz": 0.7,
+      "pin_tip": false,
+      "depth": 0.023,
+      "cut_line": [
+        [
+          930,
+          676
+        ],
+        [
+          945,
+          677
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/blouse-right-under-tail.png",
+      "rect": [
+        932,
+        670,
+        68,
+        247
+      ]
+    },
+    {
+      "id": "right-upper-ponytail-front-curl",
+      "chain": [
+        [
+          1054,
+          88
+        ],
+        [
+          1108,
+          176
+        ],
+        [
+          1195,
+          239
+        ],
+        [
+          1298,
+          295
+        ],
+        [
+          1352,
+          348
+        ],
+        [
+          1344,
+          414
+        ],
+        [
+          1318,
+          479
+        ],
+        [
+          1323,
+          533
+        ]
+      ],
+      "amplitude_px": 96,
+      "response_delay": 0,
+      "propagation": 0.8,
+      "frequency_hz": 0.48,
+      "pin_tip": false,
+      "depth": 0.045,
+      "cut_line": [
+        [
+          1044,
+          88
+        ],
+        [
+          1070,
+          73
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/right-upper-ponytail-front-curl.png",
+      "rect": [
+        1036,
+        49,
+        352,
+        493
+      ]
+    },
+    {
+      "id": "right-rear-fine-arc",
+      "chain": [
+        [
+          1335,
+          391
+        ],
+        [
+          1402,
+          376
+        ],
+        [
+          1477,
+          374
+        ],
+        [
+          1543,
+          395
+        ],
+        [
+          1578,
+          431
+        ],
+        [
+          1585,
+          469
+        ],
+        [
+          1580,
+          493
+        ]
+      ],
+      "amplitude_px": 66,
+      "response_delay": 0.04,
+      "propagation": 0.44,
+      "frequency_hz": 0.85,
+      "pin_tip": false,
+      "depth": 0.023,
+      "cut_line": [
+        [
+          1324,
+          385
+        ],
+        [
+          1324,
+          398
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/right-rear-fine-arc.png",
+      "rect": [
+        1320,
+        360,
+        279,
+        144
+      ]
+    },
+    {
+      "id": "right-main-fan-forked-ends",
+      "chain": [
+        [
+          1240,
+          423
+        ],
+        [
+          1296,
+          486
+        ],
+        [
+          1351,
+          534
+        ],
+        [
+          1400,
+          578
+        ],
+        [
+          1434,
+          634
+        ],
+        [
+          1454,
+          681
+        ],
+        [
+          1460,
+          706
+        ]
+      ],
+      "amplitude_px": 108,
+      "response_delay": 0.1,
+      "propagation": 0.6,
+      "frequency_hz": 0.6,
+      "pin_tip": false,
+      "depth": 0.03,
+      "cut_line": [
+        [
+          1224,
+          407
+        ],
+        [
+          1237,
+          426
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/right-main-fan-forked-ends.png",
+      "rect": [
+        1219,
+        402,
+        338,
+        327
+      ]
+    },
+    {
+      "id": "right-inner-lower-curl",
+      "chain": [
+        [
+          1315,
+          542
+        ],
+        [
+          1342,
+          580
+        ],
+        [
+          1353,
+          625
+        ],
+        [
+          1348,
+          667
+        ],
+        [
+          1328,
+          701
+        ]
+      ],
+      "amplitude_px": 72,
+      "response_delay": 0.16,
+      "propagation": 0.42,
+      "frequency_hz": 0.76,
+      "pin_tip": false,
+      "depth": 0.036,
+      "cut_line": [
+        [
+          1306,
+          532
+        ],
+        [
+          1308,
+          553
+        ]
+      ],
+      "root_band": 16,
+      "texture": "res://assets/hair/right-inner-lower-curl.png",
+      "rect": [
+        1301,
+        528,
+        74,
+        183
+      ]
+    }
+  ]
+}

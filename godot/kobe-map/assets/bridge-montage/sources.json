@@ -1,0 +1,149 @@
+{
+  "source_cg": "${GAME_ROOT}\\解包\\CG\\CGC13.png",
+  "style_reference": "../..\\output\\imagegen\\CGC13-memory-sunset-v1.png",
+  "image_edit_mode": "bundled imagegen CLI edit; gpt-image-2; high; existing custom provider",
+  "fall_art": "../..\\output\\imagegen\\CGC13-fall-memory-v1.png",
+  "character_cutouts_in_sunset": false,
+  "fall_cg_segmented": false,
+  "backgrounds": [
+    "${GAME_ROOT}\\解包\\场景\\山のふもと_夕.png",
+    "${GAME_ROOT}\\解包\\场景\\秘密基地の前_立ち入り禁止_夕.png",
+    "${GAME_ROOT}\\解包\\场景\\崖の手前_夕.png"
+  ],
+  "detected_drum_hits_ms": [
+    50530,
+    50739,
+    50939,
+    51153,
+    51348,
+    51547,
+    51762
+  ],
+  "scene_cuts_ms": [
+    50116,
+    50637,
+    51158,
+    51679
+  ],
+  "fall_ms": 51679,
+  "timing_source": "Bridge.cs configurable defaults; even image/intertitle cadence",
+  "reach_ms": 52200,
+  "grip_ms": 52590,
+  "hand_focus_ms": 52700,
+  "end_ms": 53260,
+  "transition": "direct hard cuts, no squeeze or pulse",
+  "subtitles": false,
+  "intertitles": {
+    "script": "${GAME_ROOT}\\解包\\剧本\\补丁scn\\03_恋ルート06.ks.scn",
+    "scene": "*シナリオ",
+    "index_convention": "1-based scenes[1].texts position in decoded PSB; not file line numbers",
+    "cards": [
+      {
+        "start": 50376,
+        "end": 50637,
+        "text": "居場所が、ない。",
+        "source_text_1based": 448,
+        "kind": "narration summary",
+        "original": "わたしの居場所は、どこにもない……！"
+      },
+      {
+        "start": 50897,
+        "end": 51158,
+        "text": "……地面が、ない。",
+        "source_text_1based": 463,
+        "kind": "exact narration",
+        "original": "……地面が、ない。"
+      },
+      {
+        "start": 51418,
+        "end": 51679,
+        "text": "落ちていく────",
+        "source_text_1based": 499,
+        "kind": "narration excerpt",
+        "original": "見上げた空に、落ちていく────"
+      },
+      {
+        "start": 51939,
+        "end": 52200,
+        "text": "つかんでくれた手。",
+        "source_text_1based": 468,
+        "kind": "narration summary",
+        "original": "もがくように手を伸ばしたら、誰かがつかんでくれたのだ。"
+      }
+    ],
+    "font": "C:\\Windows\\Fonts\\yuminl.ttf",
+    "font_px": 48,
+    "letter_spacing_px": 3,
+    "particle_sprites_per_card": 100,
+    "treatment": "near-black green, moving grain, dust and scratches",
+    "render": "native sprite tracks; text-only cards between images"
+  },
+  "letterbox": {
+    "start": 50116,
+    "end": 53260,
+    "top_px": 108,
+    "bottom_px": 108,
+    "texture": "letterbox.png",
+    "texture_size_px": [
+      2048,
+      128
+    ],
+    "scale": 1,
+    "horizontal_overhang_px": 64,
+    "outer_vertical_overhang_px": 20
+  },
+  "gaussian_blur_px": {
+    "sunsets": 3.0,
+    "fall": 1.4,
+    "hands": 1.6
+  },
+  "focus_pull": {
+    "sunsets_blur_px": [
+      14.0,
+      3.0
+    ],
+    "fall_blur_px": [
+      8.0,
+      1.4
+    ],
+    "transition_ms": 170,
+    "clear_hold_ms": 90,
+    "easing": "smoothstep",
+    "rendering": "same-pose native Gaussian texture layers; continuous opacity"
+  },
+  "handshake": {
+    "whole_frames": 4,
+    "cuts_ms": [
+      52200,
+      52330,
+      52460,
+      52590,
+      53260
+    ],
+    "sources": [
+      "../..\\output\\imagegen\\Rescue-hand-cut-1-v1.png",
+      "../..\\output\\imagegen\\Rescue-hand-cut-2-v1.png",
+      "../..\\output\\imagegen\\Rescue-hand-cut-3-v1.png",
+      "../..\\output\\imagegen\\Rescue-hand-cut-4-v1.png"
+    ],
+    "prompts": [
+      "hand-cut-1-prompt.txt",
+      "hand-cut-2-prompt.txt",
+      "hand-cut-3-prompt.txt",
+      "hand-cut-4-prompt.txt"
+    ],
+    "actions": [
+      "reach",
+      "approach",
+      "contact",
+      "secure rescue grip"
+    ],
+    "segmented": false,
+    "final_push": 1.02,
+    "color_start_ms": 52700,
+    "color_duration_ms": 150,
+    "flash_duration_ms": 160,
+    "treatment": "saved drawing retained; peach skin and mint/sky watercolor paper"
+  },
+  "audio": "audio-balanced.mp3"
+}

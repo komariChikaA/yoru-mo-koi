@@ -1,0 +1,92 @@
+[
+  {
+    "name": "kamome",
+    "character": "かもめ",
+    "texture": "res://assets/ending-title/kamome.png",
+    "source": "${GAME_ROOT}\\解包\\立绘\\かもめ\\かもめ１_2.pbd",
+    "source_crop": [
+      559,
+      600,
+      1880,
+      4265
+    ],
+    "layers": [
+      1140,
+      1147
+    ],
+    "width": 577,
+    "height": 1600
+  },
+  {
+    "name": "hiiro",
+    "character": "姫色",
+    "texture": "res://assets/ending-title/hiiro.png",
+    "source": "${GAME_ROOT}\\解包\\立绘\\姫色\\姫色１_2.pbd",
+    "source_crop": [
+      352,
+      321,
+      1998,
+      4165
+    ],
+    "layers": [
+      494,
+      499
+    ],
+    "width": 685,
+    "height": 1600
+  },
+  {
+    "name": "ren",
+    "character": "恋",
+    "texture": "res://assets/ending-title/ren.png",
+    "source": "${GAME_ROOT}\\解包\\立绘\\恋\\恋１_2.pbd",
+    "source_crop": [
+      1163,
+      559,
+      2602,
+      4172
+    ],
+    "layers": [
+      852,
+      858
+    ],
+    "width": 637,
+    "height": 1600
+  },
+  {
+    "name": "shiori",
+    "character": "紫織",
+    "texture": "res://assets/ending-title/shiori.png",
+    "source": "${GAME_ROOT}\\解包\\立绘\\紫織\\紫織１_2.pbd",
+    "source_crop": [
+      643,
+      187,
+      2115,
+      4073
+    ],
+    "layers": [
+      894,
+      899
+    ],
+    "width": 606,
+    "height": 1600
+  },
+  {
+    "name": "kumo",
+    "character": "雲",
+    "texture": "res://assets/ending-title/kumo.png",
+    "source": "${GAME_ROOT}\\解包\\立绘\\雲\\雲１_2.pbd",
+    "source_crop": [
+      1198,
+      390,
+      2212,
+      4204
+    ],
+    "layers": [
+      1283,
+      1354
+    ],
+    "width": 425,
+    "height": 1600
+  }
+]

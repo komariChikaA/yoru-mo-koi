@@ -1,0 +1,116 @@
+{
+  "amplitude_reference": {
+    "old_version_multiplier": 16,
+    "perceived_percent": 100,
+    "status": "user_approximate_reference"
+  },
+  "reference_wind": {
+    "source": "https://www.bilibili.com/video/BV14a41127ks",
+    "segments_seconds": [[6.9, 9.3], [12.55, 14.35]],
+    "baseline_degrees_at_100_percent": 45,
+    "solver": "arc-length centerline with transported cross-sections",
+    "legacy_motion_gain_applies": false
+  },
+  "reference_by_id": {
+    "CGC14_F01_FREE_END": {"amplitude_deg": 6.75, "lag": 0.22},
+    "CGC14_B10_OVER_SLEEVE_CURL": {"amplitude_deg": 31.5, "lag": 0.30},
+    "CGC14_L01_S_FREE_END": {"amplitude_deg": 13.5, "lag": 0.25},
+    "CGC14_L02_REAR_UPPER_FAN": {"amplitude_deg": 27.0, "lag": 0.35},
+    "CGC14_L03_REAR_LOWER_FAN": {"amplitude_deg": 27.0, "lag": 0.39},
+    "CGC14_R01_LOWER_CURL_FREE_END": {"amplitude_deg": 31.5, "lag": 0.36},
+    "CGC14_FACE_CHEEK_LOOSE": {"amplitude_deg": 13.5, "lag": 0.19},
+    "CGC14_FACE_CENTRAL_FRINGE": {"amplitude_deg": 4.5, "lag": 0.13},
+    "CGC14_FACE_LEFT_SIDE_BAND": {"amplitude_deg": 13.5, "lag": 0.22},
+    "CGC14_RIGHT_LONG_U_LOOSE": {"amplitude_deg": 31.5, "lag": 0.42},
+    "15-F00-loose-fringe-cluster": {"amplitude_deg": 4.5, "lag": 0.15},
+    "15-F02-chin-side-free-band": {"amplitude_deg": 6.75, "lag": 0.20},
+    "15-F14-over-clothes-tail": {"amplitude_deg": 13.5, "lag": 0.31},
+    "15-R10-upper-falling-lock": {"amplitude_deg": 31.5, "lag": 0.36},
+    "15-R11-middle-swept-lock": {"amplitude_deg": 31.5, "lag": 0.32},
+    "15-R12-short-lower-swept-lock": {"amplitude_deg": 31.5, "lag": 0.24},
+    "15-R15-lower-long-tail": {"amplitude_deg": 27.0, "lag": 0.43},
+    "15-R13-left-returned-tail": {"amplitude_deg": 27.0, "lag": 0.37}
+  },
+  "motion_gain_by_id": {
+    "CGC14_F01_FREE_END": 9.9,
+    "15-F00-loose-fringe-cluster": 10.8,
+    "15-F02-chin-side-free-band": 9.36,
+    "CGC14_R01_LOWER_CURL_FREE_END": 1.95,
+    "CGC14_L01_S_FREE_END": 2.47,
+    "CGC14_L02_REAR_UPPER_FAN": 2.97,
+    "CGC14_L03_REAR_LOWER_FAN": 2.55,
+    "15-F14-over-clothes-tail": 3.24,
+    "CGC14_FACE_CHEEK_LOOSE": 2.9,
+    "CGC14_FACE_CENTRAL_FRINGE": 6.6,
+    "CGC14_FACE_LEFT_SIDE_BAND": 3.3,
+    "15-R10-upper-falling-lock": 1.45,
+    "15-R11-middle-swept-lock": 1.8,
+    "15-R12-short-lower-swept-lock": 1.8,
+    "15-R15-lower-long-tail": 1.6,
+    "15-R13-left-returned-tail": 1.8,
+    "CGC14_B10_OVER_SLEEVE_CURL": 2.34,
+    "CGC14_RIGHT_LONG_U_LOOSE": 1.3
+  },
+  "deformation_by_id": {
+    "15-F00-loose-fringe-cluster": "supported-strip",
+    "15-R15-lower-long-tail": "supported-strip",
+    "15-F02-chin-side-free-band": "skeleton",
+    "15-F14-over-clothes-tail": "skeleton",
+    "15-R10-upper-falling-lock": "skeleton",
+    "15-R11-middle-swept-lock": "supported-strip",
+    "15-R12-short-lower-swept-lock": "skeleton",
+    "15-R13-left-returned-tail": "supported-strip",
+    "CGC14_F01_FREE_END": "supported-strip",
+    "CGC14_B10_OVER_SLEEVE_CURL": "supported-strip",
+    "CGC14_L01_S_FREE_END": "skeleton",
+    "CGC14_L02_REAR_UPPER_FAN": "skeleton",
+    "CGC14_L03_REAR_LOWER_FAN": "skeleton",
+    "CGC14_R01_LOWER_CURL_FREE_END": "skeleton",
+    "CGC14_FACE_CHEEK_LOOSE": "skeleton",
+    "CGC14_FACE_CENTRAL_FRINGE": "skeleton",
+    "CGC14_FACE_LEFT_SIDE_BAND": "skeleton",
+    "CGC14_RIGHT_LONG_U_LOOSE": "supported-strip"
+  },
+  "grouping": "One natural shared-root hair cluster per layer; fine strands and main lock of that cluster move together",
+  "example": {
+    "image": "${REFERENCE_ROOT}/codex-clipboard-4770404b-be58-4ea2-8c02-213c3d28fa2a.png",
+    "cg": 14,
+    "region_in_original": [
+      1430,
+      475,
+      1595,
+      590
+    ],
+    "same_layer": [
+      "upper fine filaments",
+      "lower main lock",
+      "forked tips"
+    ],
+    "transparent_gaps": "Keep pink clothing between branches transparent; never fill the enclosing selection with clothing"
+  },
+  "support_policy": {
+    "scalp": "Leave scalp and firmly supported upper hair in the static original; exclude them from the puppet cutout",
+    "selection": "Only loose middle/lower sections and tips that need movement",
+    "pivot": "Choose firm support point; preserve fixed transition just below it",
+    "cluster": "Fine branches and main lock stay in one cluster layer",
+    "reference": "${REFERENCE_ROOT}/codex-clipboard-baf1f3a4-3fd6-41b2-bf61-2f865a37c798.png",
+    "rig": "Full support cross-section fixed; bend controls around the loose middle; arc-length motion fades smoothly upward over half the loose length. Concealed R13 return tip is explicitly constrained under its native foreground.",
+    "repaint": "Clip the hidden-layer edit area to downstream of the support cross-section; keep firm upstream original pixels"
+  },
+  "wind_preview": "Reference MAD: stable roots, continuous midspan bending, delayed tips and separate cluster responses. Centerline arc length and following cross-sections replace transverse shear; old motion gains are historical only.",
+  "time_offset_by_cg": {
+    "14": 3.2,
+    "15": 1.4
+  },
+  "motion_profile": "reference-wind-arc-length",
+  "release_fraction_by_id": {},
+  "pinned_return_tips": [
+    "15-R13-left-returned-tail"
+  ],
+  "gradient_solver_by_id": {
+    "15-F00-loose-fringe-cluster": "transverse",
+    "15-R13-left-returned-tail": "transverse",
+    "15-R11-middle-swept-lock": "transverse",
+    "15-R15-lower-long-tail": "transverse"
+  }
+}

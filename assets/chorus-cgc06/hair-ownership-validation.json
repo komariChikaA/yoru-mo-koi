@@ -1,0 +1,362 @@
+{
+  "method": "Static native hair ownership correction at user-marked upper-lash outer junction; alpha-conserving transfer into fixed hair layer, no animated clipping",
+  "source_polygon": [
+    {
+      "eye": 0,
+      "polygon_world": [
+        [
+          831.3,
+          186.8
+        ],
+        [
+          832.8,
+          186.8
+        ],
+        [
+          831.5,
+          190.0
+        ],
+        [
+          830.3,
+          192.0
+        ],
+        [
+          829.6,
+          194.0
+        ],
+        [
+          827.7,
+          193.8
+        ],
+        [
+          829.0,
+          189.0
+        ]
+      ],
+      "difference_full": 25,
+      "difference_reject": 75,
+      "reason": "User-marked short hair branch at outer upper-lash junction; preserve main lash body and original pen contour"
+    }
+  ],
+  "changed_files": [
+    "stationary-hair.png",
+    "upper-lid.png"
+  ],
+  "changed_upper_pixels": 22,
+  "changed_upper_bounds": [
+    827,
+    186,
+    832,
+    193
+  ],
+  "GPU_pose_checks": [
+    {
+      "progress": 0.0,
+      "max_RGB_delta": 5,
+      "changed_pixels": 9,
+      "right_eye_max_RGB_delta": 0
+    },
+    {
+      "progress": 0.1,
+      "max_RGB_delta": 69,
+      "changed_pixels": 39,
+      "right_eye_max_RGB_delta": 0
+    },
+    {
+      "progress": 0.25,
+      "max_RGB_delta": 92,
+      "changed_pixels": 44,
+      "right_eye_max_RGB_delta": 0
+    },
+    {
+      "progress": 0.5,
+      "max_RGB_delta": 64,
+      "changed_pixels": 31,
+      "right_eye_max_RGB_delta": 0
+    },
+    {
+      "progress": 0.75,
+      "max_RGB_delta": 74,
+      "changed_pixels": 27,
+      "right_eye_max_RGB_delta": 0
+    },
+    {
+      "progress": 1.0,
+      "max_RGB_delta": 46,
+      "changed_pixels": 21,
+      "right_eye_max_RGB_delta": 0
+    }
+  ],
+  "right_eye_review": "Existing narrow crease extraction and adjacent fixed hair inspected; no same clear contamination identified, right cutouts preserved",
+  "geometry": "lid meshes, UV, pins and analytic motion unchanged; reuse qualified91-state geometry validation",
+  "visual_acceptance": "pending",
+  "render": {
+    "video_frames": 378,
+    "fps": 60,
+    "video_duration": 6.3,
+    "audio_duration": 6.3,
+    "full_decode": "passed",
+    "installed_frames": 189,
+    "installed_fps": 30,
+    "song_ms": [
+      66000,
+      72300
+    ],
+    "first_frame": "nonblack",
+    "camera_coverage": {
+      "status": "passed",
+      "samples": 399,
+      "includes_incoming_preroll": true,
+      "native_min": [
+        -5.053728168039704,
+        -128.01618484777572
+      ],
+      "native_max": [
+        1254.5650098099752,
+        768.2619047619047
+      ],
+      "padded_min": [
+        -128,
+        -192
+      ],
+      "padded_max": [
+        1504,
+        944
+      ]
+    },
+    "visual_acceptance": "pending"
+  },
+  "linked": {
+    "join_song_seconds": 66.0,
+    "incoming": "CGC06 camera preroll matches shot-three position and velocity; no CGC14 placeholder",
+    "audio": "one continuous song excerpt",
+    "previews": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  },
+  "recorded_gpu_frames": 379,
+  "detail_video": {
+    "file": "Hair-Cutout-Fix-Blink-Detail.mp4",
+    "frames": 135,
+    "fps": 60,
+    "duration": 2.25,
+    "full_decode": "passed",
+    "method": "Actual continuous GPU movie crop; no pose-image assembly"
+  },
+  "review_images": [
+    "hair-cutout-fix/junction-before-after.jpg",
+    "hair-cutout-fix/states.jpg",
+    "hair-cutout-fix/video-review.jpg"
+  ],
+  "checks": "Python compile, Godot import/render without script or shader errors, six GPU poses, unchanged mesh/UV/other cutout bytes, ffprobe frame count and full video decode passed",
+  "lower_lid_motion_correction": {
+    "poses": [
+      {
+        "closure": 0,
+        "changed_pixels": 85,
+        "max_rgb": 7,
+        "right_eye_max_rgb": 0
+      },
+      {
+        "closure": 10,
+        "changed_pixels": 203,
+        "max_rgb": 58,
+        "right_eye_max_rgb": 0
+      },
+      {
+        "closure": 25,
+        "changed_pixels": 229,
+        "max_rgb": 82,
+        "right_eye_max_rgb": 0
+      },
+      {
+        "closure": 50,
+        "changed_pixels": 222,
+        "max_rgb": 89,
+        "right_eye_max_rgb": 0
+      },
+      {
+        "closure": 75,
+        "changed_pixels": 196,
+        "max_rgb": 59,
+        "right_eye_max_rgb": 0
+      },
+      {
+        "closure": 100,
+        "changed_pixels": 134,
+        "max_rgb": 43,
+        "right_eye_max_rgb": 0
+      }
+    ],
+    "diagnosis": "Native hair residual existed in lower-lid.png and followed lower lid motion. Previous repair corrected upper-lid.png only.",
+    "lower_lid_reassigned_source_pixels": 150,
+    "source_bounds": [
+      815,
+      181,
+      830,
+      210
+    ],
+    "mesh_pins_uv_and_deformation_unchanged": true,
+    "renders": {
+      "gpu_recorded_frames": 379,
+      "third_shot_frames": 378,
+      "third_shot_seconds": 6.3,
+      "installed_storybrew_frames": 189,
+      "full_decode": "passed",
+      "linked": [
+        {
+          "file": "Chorus-Linked-59.200-72.300-song.mp4",
+          "frames": 786,
+          "duration": 13.1,
+          "full_decode": "passed"
+        },
+        {
+          "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+          "frames": 450,
+          "duration": 7.5,
+          "full_decode": "passed"
+        }
+      ],
+      "detail_frames": 135,
+      "detail_seconds": 2.25
+    },
+    "visual_review": [
+      "line-before-after.jpg",
+      "video-review.jpg"
+    ],
+    "visual_acceptance": "pending"
+  },
+  "upper_sidewall_motion_correction": {
+    "diagnosis": "Layer isolation identifies remaining moving fringe as near-eye upper-lash side wall; native closed CG distinguishes it from stationary hair. Prior hair transfers were incomplete as a visual remedy.",
+    "method": {
+      "progress": "p/(p+0.05*(1-p))-p",
+      "x_range": [
+        -26,
+        -12
+      ],
+      "protected_positive_depth_px": 3.0,
+      "rolloff_px": 1.0,
+      "method": "Subtract progress*side_weight*excess^2/(excess+1) only from long positive side-wall depth after original root gathering; preserve upper stroke, native x transport and open/closed poses"
+    },
+    "geometry_samples": 91,
+    "minimum_signed_double_triangle_area": 0.0131495073437691,
+    "endpoint_rgb_max_delta": {
+      "pose-000": 0,
+      "pose-100": 0
+    },
+    "right_eye_rgb_max_delta_91_states": 0,
+    "native_part_textures_unchanged": true,
+    "alpha_uv_pins_unchanged": true,
+    "review": [
+      "hair-residual-fix/sidewall-before-after.jpg",
+      "hair-residual-fix/video-early-before-after.jpg",
+      "hair-residual-fix/video-review.jpg"
+    ],
+    "controls_checked": 26,
+    "pins_checked": 30,
+    "endpoint_microstep_max_rgb": [
+      1,
+      1
+    ],
+    "state_directory": "hair-residual-fix/verified",
+    "rejected_candidates": "Broad early section gathering thinned the upper stroke; whole-tail transfer left stationary dark stubs. Neither is delivered.",
+    "renders": {
+      "gpu_recorded_frames": 379,
+      "third_shot_frames": 378,
+      "third_shot_seconds": 6.3,
+      "installed_storybrew_frames": 189,
+      "detail_frames": 135,
+      "detail_seconds": 2.25,
+      "linked": [
+        {
+          "file": "Chorus-Linked-59.200-72.300-song.mp4",
+          "frames": 786,
+          "duration": 13.1,
+          "full_decode": "passed"
+        },
+        {
+          "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+          "frames": 450,
+          "duration": 7.5,
+          "full_decode": "passed"
+        }
+      ],
+      "full_decode": "passed"
+    },
+    "visual_acceptance": "pending"
+  },
+  "bilateral_lower_hair_and_tip_timing": {
+    "diagnosis": "Residual native hair remained in both lower-lid cutouts. Clean-plate color mismatch excluded real hair and its antialiased fringe from earlier transfers.",
+    "ownership": "Precise source polygons transfer complete native opacity to stationary layer without difference gating; original pen outlines and UVs retained.",
+    "changed_lower_alpha_pixels": {
+      "left": 162,
+      "right": 602
+    },
+    "tip_direction_progress": "p*(0.85+0.15*p)",
+    "near_sidewall_progress": "p/(p+0.10*(1-p))-p",
+    "total_timing_seconds": {
+      "close": [
+        69.5,
+        70.5
+      ],
+      "open": [
+        70.65,
+        71.65
+      ]
+    },
+    "geometry_samples": 91,
+    "minimum_signed_double_triangle_area": 0.0131495073437691,
+    "guide_points_unchanged": true,
+    "pins_checked": 30,
+    "controls_checked": 26,
+    "endpoint_microstep_rgb_max": [
+      1,
+      1
+    ],
+    "endpoint_rgb_max_delta_from_ownership_change": {
+      "0": 17,
+      "1": 81
+    },
+    "review": [
+      "bilateral-line-fix/pose-comparison.jpg",
+      "bilateral-line-fix/left-corner-comparison.jpg",
+      "bilateral-line-fix/right-corner-comparison.jpg",
+      "bilateral-line-fix/video-review.jpg"
+    ],
+    "visual_acceptance": "pending",
+    "renders": {
+      "gpu_recorded_frames": 379,
+      "third_shot_frames": 378,
+      "third_shot_seconds": 6.3,
+      "installed_storybrew_frames": 189,
+      "detail_frames": 135,
+      "detail_seconds": 2.25,
+      "linked": [
+        {
+          "file": "Chorus-Linked-59.200-72.300-song.mp4",
+          "frames": 786,
+          "duration": 13.1,
+          "full_decode": "passed"
+        },
+        {
+          "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+          "frames": 450,
+          "duration": 7.5,
+          "full_decode": "passed"
+        }
+      ],
+      "full_decode": "passed"
+    }
+  }
+}

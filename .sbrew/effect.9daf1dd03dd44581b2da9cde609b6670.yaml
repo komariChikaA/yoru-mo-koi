@@ -1,0 +1,11 @@
+FormatVersion: 7
+Name: "Chorus Photo Phone 59.2–66.7s"
+Script: "ChorusPhone"
+Multithreaded: No
+Config:
+Layers:
+  7b04a4ee93ad42928c33eab047b2a684:
+    Name: "Chorus Photo Phone"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

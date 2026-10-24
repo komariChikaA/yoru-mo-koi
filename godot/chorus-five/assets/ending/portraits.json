@@ -1,0 +1,134 @@
+[
+  {
+    "name": "ren",
+    "character": "恋",
+    "color": "f28bb4",
+    "texture": "res://assets/ending/ren.png",
+    "face_uv": [
+      0.47833333333333333,
+      0.45
+    ],
+    "face_ratio": 0.475,
+    "card_face_uv": [
+      0.4783333333,
+      0.5
+    ],
+    "card_face_ratio": 0.3333333333333333,
+    "source": "${GAME_ROOT}\\解包\\CG\\CGC16.png",
+    "source_crop": [
+      600,
+      0,
+      1200,
+      600
+    ],
+    "layers": []
+  },
+  {
+    "name": "hiiro",
+    "character": "姫色",
+    "color": "f0474f",
+    "texture": "res://assets/ending/hiiro.png",
+    "face_uv": [
+      0.5,
+      0.4995366079703429
+    ],
+    "face_ratio": 0.4763670064874884,
+    "card_face_uv": [
+      0.52,
+      0.605
+    ],
+    "card_face_ratio": 0.29296875,
+    "source": "${GAME_ROOT}\\解包\\立绘\\姫色\\姫色１_2.pbd",
+    "source_crop": [
+      617,
+      204,
+      1696,
+      1283
+    ],
+    "layers": [
+      494,
+      499
+    ]
+  },
+  {
+    "name": "shiori",
+    "character": "紫織",
+    "color": "9158c2",
+    "texture": "res://assets/ending/shiori.png",
+    "face_uv": [
+      0.5004251700680272,
+      0.5
+    ],
+    "face_ratio": 0.47619047619047616,
+    "card_face_uv": [
+      0.53,
+      0.615
+    ],
+    "card_face_ratio": 0.2734375,
+    "source": "${GAME_ROOT}\\解包\\立绘\\紫織\\紫織１_2.pbd",
+    "source_crop": [
+      788,
+      -46,
+      1964,
+      1130
+    ],
+    "layers": [
+      894,
+      899
+    ]
+  },
+  {
+    "name": "kamome",
+    "character": "かもめ",
+    "color": "3e403e",
+    "texture": "res://assets/ending/kamome.png",
+    "face_uv": [
+      0.5,
+      0.49954296160877515
+    ],
+    "face_ratio": 0.47623400365630714,
+    "card_face_uv": [
+      0.518,
+      0.575
+    ],
+    "card_face_ratio": 0.29296875,
+    "source": "${GAME_ROOT}\\解包\\立绘\\かもめ\\かもめ１_2.pbd",
+    "source_crop": [
+      649,
+      470,
+      1743,
+      1564
+    ],
+    "layers": [
+      1140,
+      1147
+    ]
+  },
+  {
+    "name": "kumo",
+    "character": "雲",
+    "color": "e2e4de",
+    "texture": "res://assets/ending/kumo.png",
+    "face_uv": [
+      0.5003937007874015,
+      0.4996062992125984
+    ],
+    "face_ratio": 0.4763779527559055,
+    "card_face_uv": [
+      0.49,
+      0.64
+    ],
+    "card_face_ratio": 0.2294921875,
+    "source": "${GAME_ROOT}\\解包\\立绘\\雲\\雲１_2.pbd",
+    "source_crop": [
+      1102,
+      88,
+      2372,
+      1358
+    ],
+    "layers": [
+      1283,
+      1354
+    ]
+  }
+]

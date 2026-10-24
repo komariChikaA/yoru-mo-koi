@@ -1,0 +1,11 @@
+{
+  "source": "imagetexture_00049.jpg",
+  "contrast": 0.7474999999999999,
+  "contrast_increase": 1.15,
+  "scale": 1.2,
+  "background_opacity": 0.1,
+  "sparse_opacity": 0.12,
+  "memory_opacity": 0.13,
+  "flow_frames": 90,
+  "alpha_preserved": true
+}

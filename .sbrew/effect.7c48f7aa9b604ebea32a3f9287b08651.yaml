@@ -1,0 +1,15 @@
+FormatVersion: 7
+Name: "Bridge 40–53.26s / sunset memory rescue"
+Script: "Bridge"
+Multithreaded: No
+Config:
+  ShowLyrics:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Show Lyrics"
+Layers:
+  d12e5cbb9766415d937673f1a0d450bc:
+    Name: "Bridge"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,30 @@
+{
+  "song_interval_ms": [
+    40000,
+    53260
+  ],
+  "montage_from_ms": 50116,
+  "sources": [
+    "${GAME_ROOT}\\解包\\场景\\秘密基地の中_昼.png",
+    "${GAME_ROOT}\\解包\\场景\\山道_夜.png",
+    "${GAME_ROOT}\\解包\\场景\\空_夕.png",
+    "${GAME_ROOT}\\解包\\场景\\空_昼.png"
+  ],
+  "night_treatment": "saturation 0.78; gamma 1.12; blurred local reduction of upper-left spill and right foliage",
+  "page_turn": "250ms; 10 whole frames at 40fps; bottom-right to top-left diagonal cylindrical curl; plain cream back; shadow",
+  "camera": "day: zoom 2.04, x .25, y .35 to .44; night: zoom 1.50, x .50, y .51 to .59; native linear downward pan",
+  "focus_light": "11px Gaussian background / 1.2px focus detail; warm map daylight and cool road spotlight",
+  "vertical_lyrics": "Yu Mincho regular 44px; black on 78x610px white strip; x1536 day / x384 night",
+  "lyric_motion": "vertical: 100ms strip entry, each glyph written downward in four 25ms bands, 135ms glyph interval; sky: 180ms upward entry/glow expansion and upward exit/glow dispersal; second sky face starts visibly at 25% alpha at 48200ms; lyric closes exactly at the first drum cut, 50116ms; montage has no subtitles",
+  "sky_lyrics": "one Japanese line centered at (960,540); Yu Gothic Regular 60px; 4px extra tracking; white-to-ice-blue gloss, 75% 1px rim, 6px cyan bloom; second sky lyric starts visibly at 25% alpha at 48200ms and settles in 180ms; no Chinese",
+  "sky_time_transition": "47500ms monochrome sunset; 47620-47860ms monochrome crossfade; 47860-48180ms restore daytime color",
+  "sky_camera": "full-frame native pan: zoom 1.06, x .5; y .485 + .030 * (time - 46000) / 5260 until 50116ms; identical camera pose during monochrome crossfades",
+  "letterbox_slide": "46000-46360ms; top/bottom 108px black bars slide inward with OutCubic; remain until 50116ms",
+  "frames": "first pair 12px cream paper at 1080p; sky only 108px top/bottom black bars",
+  "lyrics": [
+    "明けない夜は無いと",
+    "夜明け前がただ暗いと",
+    "この先に待つ明日が",
+    "そんなに輝くもんかなぁ"
+  ]
+}

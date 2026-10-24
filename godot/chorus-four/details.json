@@ -1,0 +1,80 @@
+[
+  {
+    "texture": "assets/detail-0-glint.png",
+    "kind": "glint",
+    "move": [
+      1.1,
+      0.65
+    ],
+    "phase": 0.6,
+    "center": [
+      918,
+      550
+    ]
+  },
+  {
+    "texture": "assets/detail-0-tear.png",
+    "kind": "tear",
+    "move": [
+      0.55,
+      1.15
+    ],
+    "phase": 0.6,
+    "center": [
+      918,
+      550
+    ]
+  },
+  {
+    "texture": "assets/detail-0-lash.png",
+    "kind": "lash",
+    "move": [
+      0.18,
+      0.48
+    ],
+    "phase": 0.6,
+    "center": [
+      918,
+      550
+    ]
+  },
+  {
+    "texture": "assets/detail-1-glint.png",
+    "kind": "glint",
+    "move": [
+      1.1,
+      0.65
+    ],
+    "phase": 2.0,
+    "center": [
+      1118,
+      362
+    ]
+  },
+  {
+    "texture": "assets/detail-1-tear.png",
+    "kind": "tear",
+    "move": [
+      0.55,
+      1.15
+    ],
+    "phase": 2.0,
+    "center": [
+      1118,
+      362
+    ]
+  },
+  {
+    "texture": "assets/detail-1-lash.png",
+    "kind": "lash",
+    "move": [
+      0.18,
+      0.48
+    ],
+    "phase": 2.0,
+    "center": [
+      1118,
+      362
+    ]
+  }
+]

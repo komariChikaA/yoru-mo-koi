@@ -1,0 +1,612 @@
+{
+  "gate": "${GAME_ROOT}\\解包\\场景\\学校の校門前_昼.png",
+  "compositor": "${GAME_ROOT}\\立绘合成器\\server.py",
+  "cast": [
+    {
+      "character": "雲",
+      "pose": "雲１",
+      "layers": [
+        1283,
+        1354
+      ],
+      "x": 350,
+      "foot_y": 1500,
+      "visible_height": 1120,
+      "reveal_start": 57700,
+      "reveal_sweep_start": 57867,
+      "reveal_finish": 58450,
+      "reveal_mask_frames": 7,
+      "reveal_color": [
+        226,
+        228,
+        222
+      ],
+      "bell_source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤ雲.png"
+    },
+    {
+      "character": "姫色",
+      "pose": "姫色１",
+      "layers": [
+        494,
+        499
+      ],
+      "x": 650,
+      "foot_y": 1500,
+      "visible_height": 1180,
+      "reveal_start": 57700,
+      "reveal_sweep_start": 57867,
+      "reveal_finish": 58450,
+      "reveal_mask_frames": 7,
+      "reveal_color": [
+        240,
+        71,
+        79
+      ],
+      "bell_source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤ姫色.png"
+    },
+    {
+      "character": "かもめ",
+      "pose": "かもめ１",
+      "layers": [
+        1140,
+        1147
+      ],
+      "x": 1280,
+      "foot_y": 1500,
+      "visible_height": 1160,
+      "reveal_start": 57700,
+      "reveal_sweep_start": 57867,
+      "reveal_finish": 58450,
+      "reveal_mask_frames": 7,
+      "reveal_color": [
+        62,
+        64,
+        62
+      ],
+      "bell_source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤかもめ.png"
+    },
+    {
+      "character": "紫織",
+      "pose": "紫織１",
+      "layers": [
+        894,
+        899
+      ],
+      "x": 1570,
+      "foot_y": 1500,
+      "visible_height": 1150,
+      "reveal_start": 57700,
+      "reveal_sweep_start": 57867,
+      "reveal_finish": 58450,
+      "reveal_mask_frames": 7,
+      "reveal_color": [
+        145,
+        88,
+        194
+      ],
+      "bell_source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤ紫織.png"
+    },
+    {
+      "character": "恋",
+      "pose": "恋１",
+      "layers": [
+        852,
+        858
+      ],
+      "x": 960,
+      "foot_y": 1500,
+      "visible_height": 1400,
+      "reveal_start": 55550,
+      "reveal_sweep_start": 55670,
+      "reveal_finish": 56200,
+      "reveal_mask_frames": 32,
+      "reveal_color": [
+        242,
+        139,
+        180
+      ],
+      "bell_source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤ恋.png"
+    }
+  ],
+  "camera_keys": [
+    [
+      52700,
+      0,
+      1.45,
+      240,
+      240
+    ],
+    [
+      53150,
+      -30,
+      1.78,
+      240,
+      240
+    ],
+    [
+      55550,
+      -6,
+      1.1,
+      960,
+      580
+    ],
+    [
+      56400,
+      3,
+      1.0,
+      960,
+      610
+    ],
+    [
+      56950,
+      0,
+      1.0,
+      960,
+      610
+    ],
+    [
+      57700,
+      -12,
+      1.36,
+      960,
+      490
+    ],
+    [
+      59500,
+      4,
+      1.08,
+      960,
+      560
+    ]
+  ],
+  "camera_curves": [
+    [
+      "out-sine",
+      "out-cubic",
+      "out-cubic"
+    ],
+    [
+      "smooth",
+      "out-cubic",
+      "out-cubic"
+    ],
+    [
+      "out-cubic",
+      "out-cubic",
+      "out-cubic"
+    ],
+    [
+      "in-out-sine",
+      "in-out-sine",
+      "in-out-sine"
+    ],
+    [
+      "out-sine",
+      "out-cubic",
+      "out-cubic"
+    ],
+    [
+      "out-drift",
+      "out-drift",
+      "out-drift"
+    ]
+  ],
+  "lyric_paths": {
+    "love": [
+      [
+        53150,
+        470,
+        215,
+        0.89,
+        -3
+      ],
+      [
+        53400,
+        500,
+        210,
+        0.92,
+        -2
+      ],
+      [
+        54400,
+        470,
+        218,
+        0.92,
+        2
+      ],
+      [
+        55500,
+        490,
+        210,
+        0.92,
+        -2
+      ],
+      [
+        56950,
+        485,
+        210,
+        0.92,
+        -2
+      ]
+    ],
+    "begin": [
+      [
+        54050,
+        1100,
+        910,
+        0.96,
+        3
+      ],
+      [
+        54350,
+        1020,
+        885,
+        1.0,
+        0
+      ],
+      [
+        55150,
+        990,
+        880,
+        1.02,
+        -2
+      ],
+      [
+        56000,
+        1040,
+        885,
+        1.01,
+        1
+      ],
+      [
+        56950,
+        1020,
+        880,
+        1.0,
+        0
+      ]
+    ]
+  },
+  "lyric_space": "screen anchors with camera-driven 32px/14px drift and 5deg tilt",
+  "intro_25d": {
+    "source": "${GAME_ROOT}\\解包\\其他图片\\铃铛\\カラーベルＥＤ恋.png",
+    "alpha_reference": "カラーベルＥＤ姫色.png",
+    "alpha_repaired_pixels": 9113,
+    "cuts": {
+      "bell-blue": [
+        [
+          0,
+          40
+        ],
+        [
+          315,
+          40
+        ],
+        [
+          375,
+          110
+        ],
+        [
+          475,
+          135
+        ],
+        [
+          480,
+          210
+        ],
+        [
+          382,
+          270
+        ],
+        [
+          430,
+          360
+        ],
+        [
+          400,
+          490
+        ],
+        [
+          0,
+          490
+        ]
+      ],
+      "bell-ren": [
+        [
+          486,
+          256
+        ],
+        [
+          446,
+          289
+        ],
+        [
+          448,
+          326
+        ],
+        [
+          410,
+          345
+        ],
+        [
+          380,
+          378
+        ],
+        [
+          352,
+          446
+        ],
+        [
+          365,
+          532
+        ],
+        [
+          398,
+          594
+        ],
+        [
+          453,
+          653
+        ],
+        [
+          550,
+          695
+        ],
+        [
+          670,
+          686
+        ],
+        [
+          714,
+          704
+        ],
+        [
+          780,
+          675
+        ],
+        [
+          805,
+          579
+        ],
+        [
+          785,
+          485
+        ],
+        [
+          741,
+          408
+        ],
+        [
+          835,
+          373
+        ],
+        [
+          850,
+          341
+        ],
+        [
+          827,
+          307
+        ],
+        [
+          770,
+          330
+        ],
+        [
+          670,
+          285
+        ],
+        [
+          580,
+          250
+        ]
+      ]
+    },
+    "eyelet_offsets": {
+      "bell-blue": [
+        176.0,
+        -100.5
+      ],
+      "bell-ren": [
+        172.0,
+        -95.5
+      ]
+    },
+    "sky": "${GAME_ROOT}\\解包\\场景\\空_昼.png",
+    "petals": "${GAME_ROOT}\\解包\\其他图片\\粒子\\花びら_連番４列_fl32.png",
+    "collision": 53400,
+    "end": 55790,
+    "orbit_end": 56190,
+    "projection": {
+      "focal": 1150,
+      "distance": [
+        1250,
+        9500
+      ],
+      "yaw": [
+        -3,
+        2
+      ]
+    },
+    "cord_segments_per_bell": 128,
+    "route_shape": "continuous tilted circular arcs",
+    "orbit_settings": [
+      {
+        "sweep": 345,
+        "radius": 450,
+        "outer_gain": 180,
+        "height": 0.62,
+        "offset": -70
+      },
+      {
+        "sweep": 328,
+        "radius": 430,
+        "outer_gain": 160,
+        "height": 0.65,
+        "offset": 50
+      }
+    ],
+    "approach_cord_end": 53460,
+    "retained_cord_start": 53400,
+    "route_interpolation": "analytic circle with shared projected arc-length timing",
+    "intro_sample_ms": 16,
+    "collision_approach_sample_ms": 8,
+    "depth_sine_ratio": 0.55,
+    "terminal_depth": 1800,
+    "depth_layer_blend": "opacity-compensated crossing over 320 world units",
+    "retained_world_path": true,
+    "cloud_layers": 34,
+    "cloud_traces": 128,
+    "cloud_trail": {
+      "scale": [
+        0.24,
+        0.38
+      ],
+      "min_screen_scale": 0.035,
+      "opacity": 0.78,
+      "attack_ms": 160,
+      "tangent_aligned": true
+    },
+    "depth_switching": true,
+    "petal_count": 76,
+    "far_petals": 48,
+    "far_petal_field": {
+      "x": [
+        -11200,
+        11200
+      ],
+      "y": [
+        -6600,
+        6600
+      ],
+      "z": [
+        900,
+        2600
+      ],
+      "grid": [
+        8,
+        6
+      ]
+    }
+  },
+  "gate_reveal": 55550,
+  "ima_palette": {
+    "text_rgb": [
+      39,
+      181,
+      176
+    ],
+    "inner_ring_rgb": [
+      255,
+      208,
+      104
+    ],
+    "outer_ring_rgb": [
+      100,
+      213,
+      211
+    ],
+    "style": "bright mint/gold with subtle cool edge"
+  },
+  "center_burst": {
+    "charge": 55960,
+    "burst": 56120,
+    "end": 56900,
+    "center": [
+      960,
+      540
+    ],
+    "particles": 60,
+    "rings": 2,
+    "ring_durations_ms": [
+      440,
+      880
+    ],
+    "synchronized_source": true,
+    "rendering": "native sprite Scale/Move/Rotate/Fade tracks",
+    "star_source": "sb/star-w.png (Particles.cs)",
+    "glow_source": "sb/lighting-fx/soft_glow_round.png",
+    "order": "circular light, expanding rings, radial particles; beneath lyrics"
+  },
+  "character_reveal": {
+    "start": 55550,
+    "sweep_start": 55670,
+    "finish": 56200,
+    "particle_end": 56240,
+    "style": "solid silhouette with shadow and fine light edge; diagonal white + bell-colour wipe",
+    "native_mask_frames": 32,
+    "particles_per_character": 12,
+    "lyric_target": "Ren finishes between ら and を; others enter at 照らしてくれよ",
+    "supporting_cast": {
+      "start": 57700,
+      "sweep_start": 57867,
+      "finish": 58450,
+      "particle_end": 58490,
+      "native_mask_frames": 7,
+      "hold_fps": 12
+    }
+  },
+  "lighting_change": {
+    "start": 57700,
+    "end": 57950,
+    "from_grade": "bright neutral daylight",
+    "to_grade": "warm white highlight"
+  },
+  "hold_fps": 12,
+  "hold_depth_gain": 1.3,
+  "hold_depth_range": [
+    56950,
+    59500
+  ],
+  "fonts": {
+    "latin": {
+      "id": "LI3B1TWHZNRYW",
+      "name": "LEARNING_CURVE_REGULAR_OT_PS",
+      "filePath": "${EAGLE_ROOT}\\字体.library\\images\\LI3B1TWHZNRYW.info\\LEARNING_CURVE_REGULAR_OT_PS.otf"
+    },
+    "japanese": {
+      "id": "LSQWF93E4DQ47",
+      "name": "UtsukushiFONT",
+      "filePath": "${EAGLE_ROOT}\\字体.library\\images\\LSQWF93E4DQ47.info\\UtsukushiFONT.otf"
+    },
+    "handwriting": {
+      "id": "M5AM7P9VEN8ET",
+      "name": "mogihaPen",
+      "filePath": "${EAGLE_ROOT}\\字体.library\\images\\M5AM7P9VEN8ET.info\\mogihaPen.ttf"
+    }
+  },
+  "frame_reveal_start": 57950,
+  "lyrics": [
+    [
+      "今",
+      52725,
+      53150
+    ],
+    [
+      "I Love You",
+      53150,
+      56950
+    ],
+    [
+      "で始まる",
+      54050,
+      56950
+    ],
+    [
+      "僕らを",
+      55550,
+      56950
+    ],
+    [
+      "もっと",
+      56950,
+      57700
+    ],
+    [
+      "照らしてくれよ",
+      57700,
+      59500
+    ]
+  ],
+  "audio": "audio-balanced.mp3"
+}

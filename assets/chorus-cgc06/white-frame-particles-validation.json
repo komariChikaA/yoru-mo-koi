@@ -1,0 +1,266 @@
+{
+  "video_frames": 378,
+  "fps": 60,
+  "video_duration": 6.3,
+  "audio_duration": 6.3,
+  "full_decode": "passed",
+  "installed_frames": 189,
+  "installed_fps": 30,
+  "song_ms": [
+    66000,
+    72300
+  ],
+  "first_frame": "nonblack",
+  "camera_coverage": {
+    "status": "passed",
+    "samples": 399,
+    "includes_incoming_preroll": true,
+    "native_min": [
+      -5.053728168039704,
+      -128.01618484777572
+    ],
+    "native_max": [
+      1254.5650098099752,
+      768.2619047619047
+    ],
+    "padded_min": [
+      -128,
+      -192
+    ],
+    "padded_max": [
+      1504,
+      944
+    ]
+  },
+  "visual_acceptance": "pending",
+  "source": {
+    "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\雪球大.png",
+    "source_copy": "assets\\chorus-cgc06\\particles\\unpacked-snowball-large.png",
+    "source_size": [
+      32,
+      32
+    ],
+    "body_gaussian_sigma_source_px": 1.1,
+    "halo_gaussian_sigma_source_px": 3.0,
+    "world_pool_count": 104,
+    "closeup_fill": {
+      "extra_count": 5,
+      "source_points": [
+        [
+          300,
+          680
+        ],
+        [
+          425,
+          555
+        ],
+        [
+          615,
+          475
+        ],
+        [
+          800,
+          350
+        ],
+        [
+          940,
+          505
+        ]
+      ],
+      "foreground_gain": 0.8,
+      "scope": "Closeup and incoming preroll only; sparse foreground across background, hand and clothing without character exclusion; same soft textures and motion; fade with outgoing closeup"
+    },
+    "camera_balance": {
+      "closeup_background_keep_every": 3,
+      "closeup_background_active_pool_count": 35,
+      "closeup_foreground_count": 5,
+      "overview_size_multiplier": 1.3,
+      "overview_opacity_multiplier": 1.35,
+      "overview_pool_count": 104
+    },
+    "native_diameter_source_px": [
+      4.5,
+      20
+    ],
+    "fall_source_px_per_second": [
+      10,
+      18
+    ],
+    "size_distribution": {
+      "small": {
+        "share": 0.3,
+        "source_px": [
+          4.5,
+          7
+        ]
+      },
+      "medium": {
+        "share": 0.5,
+        "source_px": [
+          8,
+          12
+        ]
+      },
+      "large": {
+        "share": 0.2,
+        "source_px": [
+          15,
+          20
+        ]
+      }
+    },
+    "closeup_foreground_diameter_source_px": [
+      7,
+      11
+    ],
+    "closeup_foreground_fall_source_px_per_second": 5,
+    "camera_scaled_diameter_screen_px": {
+      "closeup": [
+        14.175,
+        70
+      ],
+      "overview": [
+        9.6525,
+        42.9
+      ],
+      "closeup_foreground": [
+        22.05,
+        38.5
+      ]
+    },
+    "world_bounds": [
+      -128,
+      -192,
+      1504,
+      944
+    ],
+    "character_exclusion": "Existing full heroine matte plus loose male silhouette, 10px expansion / sigma8 feather;98 percent particle attenuation over characters",
+    "horizontal_drift_source_px": [
+      9,
+      3.5
+    ],
+    "opacity": 0.65,
+    "halo_opacity_multiplier": 0.22,
+    "seed": 60617,
+    "motion": "CG source-space particles shared by both camera worlds; analytic continuous time, visibly drifting background at10–18 source px/s with three size bands; no flicker",
+    "entry_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "border": "White Rectangle, Eagle LIELI0JVC8GGY, existing 42px frame",
+    "visual_acceptance": "pending"
+  },
+  "linked": {
+    "join_song_seconds": 66.0,
+    "incoming": "CGC06 camera preroll matches shot-three position and velocity; no CGC14 placeholder",
+    "audio": "one continuous song excerpt",
+    "previews": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  },
+  "timeline": {
+    "static_closed_o_closeup": [
+      0,
+      2.55
+    ],
+    "gaussian_transition": [
+      2.55,
+      3.1
+    ],
+    "smile_open": [
+      3.1,
+      4.3
+    ],
+    "quick_close": [
+      4.3,
+      4.45
+    ],
+    "closed_hold": [
+      4.45,
+      4.45
+    ],
+    "fast_blink_to_70_percent": [
+      4.3,
+      4.6
+    ],
+    "opening_0_to_70_percent": [
+      4.45,
+      4.6
+    ],
+    "opening_70_to_100_percent": [
+      4.6,
+      6.3
+    ],
+    "slow_open": [
+      4.6,
+      6.3
+    ],
+    "open_finish": [
+      6.3,
+      6.3
+    ]
+  },
+  "revision": "Background pool72->104; source fall speed5..9->10..18px/s; drift amplitude5.5/2->9/3.5; size mixture30%small4.5..7,50%medium8..12,20%large15..20; retain five closeup foreground points and character attenuation.",
+  "godot_recorded_frames": {
+    "third_shot": 379,
+    "preceding_shot": 225
+  },
+  "storybrew": "189 third-shot plus225 preceding-shot frames installed960x540/30fps",
+  "puppet": "Unchanged from04b6087: close0.15s+reopen to70%0.15s, final30%1.70s; rotation unchanged, no speed pulse.",
+  "review_sheet": "particle-motion-variety/before-after.jpg, particle-motion-variety/motion-review.jpg, linked-cut-contact.jpg",
+  "motion_size_validation": {
+    "field_samples": "particle-motion-variety/field-samples.json",
+    "original72positions_and_phases_preserved": true,
+    "background_fall_speed_multiplier": 2,
+    "world_pool": [
+      72,
+      104
+    ],
+    "visible_background_center_count_sample_times": [
+      3.1,
+      4.3,
+      4.6,
+      5.5,
+      6.283333
+    ],
+    "visible_background_centers_before": [
+      6,
+      11,
+      11,
+      11,
+      11
+    ],
+    "visible_background_centers_new": [
+      13,
+      14,
+      14,
+      13,
+      14
+    ],
+    "count_definition": "Center inside42px frame and body alpha>0.12, evaluated by actual Godot layer; scene-pool counts are not screen counts.",
+    "source_size_min_max": [
+      4.53229610736553,
+      19.6235568706806
+    ],
+    "actual_small_medium_large_counts": [
+      37,
+      46,
+      21
+    ],
+    "same_seed_field_across_cameras": true,
+    "phone_atmosphere_matches_third_shot": true,
+    "character_exclusion_and_soft_textures": "Unchanged",
+    "visual_acceptance": "pending"
+  }
+}

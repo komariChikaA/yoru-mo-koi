@@ -1,0 +1,75 @@
+{
+  "sources": [
+    {
+      "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\雪球小.png",
+      "target": "godot\\chorus-four\\assets\\sunset-particles\\mote-small.png",
+      "size": [
+        8,
+        8
+      ],
+      "treatment": "Original RGBA unchanged; warm tint at runtime"
+    },
+    {
+      "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\雪球中.png",
+      "target": "godot\\chorus-four\\assets\\sunset-particles\\mote-medium.png",
+      "size": [
+        16,
+        16
+      ],
+      "treatment": "Original RGBA unchanged; warm tint at runtime"
+    },
+    {
+      "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\雪球大.png",
+      "target": "godot\\chorus-four\\assets\\sunset-particles\\mote-large.png",
+      "size": [
+        32,
+        32
+      ],
+      "treatment": "Original RGBA unchanged; warm tint at runtime"
+    }
+  ],
+  "native_halos": [
+    {
+      "source": "${GAME_ROOT}\\解包\\CG\\CGC14_a.png",
+      "crop": [
+        229,
+        141,
+        277,
+        189
+      ],
+      "target": "godot\\chorus-four\\assets\\sunset-particles\\native-halo-bright.png",
+      "treatment": "Actual CG highlight RGB/shape; local bilinear ground separation, connected highlight alpha, transparent 8px padding",
+      "size": [
+        64,
+        64
+      ],
+      "max_alpha": 179
+    },
+    {
+      "source": "${GAME_ROOT}\\解包\\CG\\CGC14_a.png",
+      "crop": [
+        448,
+        280,
+        496,
+        328
+      ],
+      "target": "godot\\chorus-four\\assets\\sunset-particles\\native-halo-defocus.png",
+      "treatment": "Actual CG highlight RGB/shape; local bilinear ground separation, connected highlight alpha, transparent 8px padding",
+      "size": [
+        64,
+        64
+      ],
+      "max_alpha": 89
+    }
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "contour_definition": "tools/prepare-chorus-four-particles.py:POLYGONS",
+  "exclusion": "White blocks background motes; native moving hair renders above. Static contour expanded 12px, outer feather sigma2; per-fragment shader clipping.",
+  "runtime": "godot/chorus-four/sunset-particles.gd",
+  "placement": "Each CG SubViewport, repaired plate < motes < original eyes and moving hair",
+  "mood": "Actual bright and defocused highlights extracted from the CG sunset background",
+  "eagle_search": "Searched local Eagle particles/light keywords; selected matching unpacked native sprites"
+}

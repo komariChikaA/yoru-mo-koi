@@ -1,0 +1,54 @@
+FormatVersion: 7
+Name: "Fifth CG + native SB ending 79.1–111.622s"
+Script: "ChorusFiveEnding"
+Multithreaded: No
+Config:
+  FengStart:
+    Type: "System.Double"
+    Value: "105400"
+  FengFade:
+    Type: "System.Double"
+    Value: "250"
+  CastHit:
+    Type: "System.Double"
+    Value: "106266.666"
+  SilhouetteHit:
+    Type: "System.Double"
+    Value: "106483.333"
+  FinalTitleHit:
+    Type: "System.Double"
+    Value: "106683.333"
+  SongEnd:
+    Type: "System.Double"
+    Value: "111621.723"
+Layers:
+  51e051e051e051e051e051e051e051e1:
+    Name: "Fifth CG"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  51e051e051e051e051e051e051e051e2:
+    Name: "Ending Paper"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  51e051e051e051e051e051e051e051e3:
+    Name: "Ending Scenes"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  51e051e051e051e051e051e051e051e4:
+    Name: "Ending Cards"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  51e051e051e051e051e051e051e051e5:
+    Name: "Ending Footer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  51e051e051e051e051e051e051e051e6:
+    Name: "Ending Title"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,13 @@
+{
+  "source": "assets/books-editorial/paper.png",
+  "source_sha256": "404bfe743fc11c9c137fa928129198caab36a2277d500658a11f9edd208a8e4c",
+  "mask": "sb/band.png",
+  "mask_sha256": "6812e4abd7696b89bf91bc4356e081728a8d0b9f7ca165590cccba5b289a60fa",
+  "size": [
+    969,
+    94
+  ],
+  "texture_scale": 1.2,
+  "overlay_opacity": 0.1,
+  "output_sha256": "f2ba194fe0e5642b0c3af44ce037d4802bf7c633034d1b3b3ab367742c6c0ac2"
+}

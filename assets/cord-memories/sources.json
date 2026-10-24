@@ -1,0 +1,74 @@
+[
+  {
+    "file": "after-school.png",
+    "source": "${GAME_ROOT}\\解包\\场景\\通学路_夕.png",
+    "treatment": "full image; unchanged RGB; resampled to 768x432"
+  },
+  {
+    "file": "home.png",
+    "source": "${GAME_ROOT}\\解包\\场景\\自宅前_昼.png",
+    "treatment": "full image; unchanged RGB; resampled to 768x432"
+  },
+  {
+    "file": "hand-in-hand.png",
+    "source": "${GAME_ROOT}\\解包\\CG\\CGC01_a.png",
+    "treatment": "full image; unchanged RGB; resampled to 768x432"
+  },
+  {
+    "file": "together.png",
+    "source": "${GAME_ROOT}\\解包\\CG\\CGC02_b.png",
+    "treatment": "full image; unchanged RGB; resampled to 768x432"
+  },
+  {
+    "file": "dialogue-memory.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\效果\\TG3-04-12.png",
+    "dialogue": "ずっと、守っていけますように……",
+    "font": "../..\\assets\\fonts\\ZenMaruGothic-Medium.ttf",
+    "treatment": "same dialogue retypeset in Zen Maru Gothic Medium; dark warm ink",
+    "entrance": "17 full-canvas alpha wipe frames; 96px soft edge; final rounded text"
+  },
+  {
+    "file": "dialogue-thanks.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\效果\\TG3-04-8.png",
+    "dialogue": "ありがとう、兄さん。",
+    "font": "../..\\assets\\fonts\\ZenMaruGothic-Medium.ttf",
+    "treatment": "same dialogue retypeset in Zen Maru Gothic Medium; dark warm ink",
+    "entrance": "17 full-canvas alpha wipe frames; 96px soft edge; final rounded text"
+  },
+  {
+    "file": "dialogue-love.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\效果\\TG3-04-9.png",
+    "dialogue": "大好きだよ、お兄ちゃん。",
+    "font": "../..\\assets\\fonts\\ZenMaruGothic-Medium.ttf",
+    "treatment": "same dialogue retypeset in Zen Maru Gothic Medium; dark warm ink",
+    "entrance": "17 full-canvas alpha wipe frames; 96px soft edge; final rounded text"
+  },
+  {
+    "file": "*-caption.png",
+    "source": "https://fukidesign.com/e/e1547/m_e1547_0.png",
+    "page": "https://fukidesign.com/e1547/",
+    "terms": "https://fukidesign.com/terms",
+    "treatment": "text-bearing cream speech labels; e1547 body with downward photo pointers; original Segoe UI Light; 3x raster",
+    "font": "C:/Windows/Fonts/segoeuil.ttf"
+  },
+  {
+    "file": "petal-0.png .. petal-3.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\粒子\\花びら_連番４列_fl32.png",
+    "treatment": "four open petal frames; 4 columns of 32x32; original RGBA"
+  },
+  {
+    "file": "music-0.png .. music-2.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\表情符号\\♪アニメ.png",
+    "treatment": "frames 14..16; vertical 238x187 cells; transparent margins cropped"
+  },
+  {
+    "file": "joy.png",
+    "source": "${GAME_ROOT}\\解包\\其他图片\\表情符号\\喜ぶ.png",
+    "treatment": "original color and alpha; resampled"
+  },
+  {
+    "file": "sd-blonde.png",
+    "source": "E:\\系统默认\\桌面\\mad\\素材\\yumeiro_op_SD\\高清4倍透明PNG\\02_金发绿眼.png",
+    "treatment": "repaired source ribbon and ponytail alpha; original proportions; resampled"
+  }
+]

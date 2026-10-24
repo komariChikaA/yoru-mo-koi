@@ -1,0 +1,486 @@
+{
+  "source": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-F02-chin-side-free-band-contour-v4\\repaired-plate.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "prior_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-F02-chin-side-free-band-contour-v4",
+  "status": "local-cliff-GPU-reviewed-production-integration-pending",
+  "front_to_back": [
+    {
+      "id": "15-R10-upper-falling-lock",
+      "label": "右上最外侧长回落自然簇",
+      "depth": 30,
+      "outline": "M1450,108 C1510,102 1559,91 1604,100 C1662,111 1707,144 1723,204 C1738,261 1723,328 1755,404 C1765,431 1782,453 1798,465 C1765,456 1734,424 1717,386 C1697,344 1691,297 1688,251 C1685,212 1685,192 1658,171 C1619,143 1551,145 1506,155 C1483,160 1465,164 1450,166 Z",
+      "outlines": [
+        "M1450,108 C1510,102 1559,91 1604,100 C1662,111 1707,144 1723,204 C1738,261 1723,328 1755,404 C1765,431 1782,453 1798,465 C1765,456 1734,424 1717,386 C1697,344 1691,297 1688,251 C1685,212 1685,192 1658,171 C1619,143 1551,145 1506,155 C1483,160 1465,164 1450,166 Z",
+        "M1505,101 C1544,84 1590,80 1633,89 C1698,103 1716,153 1721,198 C1711,153 1690,116 1634,99 C1589,86 1548,91 1505,105 Z",
+        "M1689,240 C1679,288 1675,350 1707,385 C1675,358 1670,306 1682,257 Z"
+      ],
+      "chain": [
+        [
+          1450,
+          137
+        ],
+        [
+          1530,
+          126
+        ],
+        [
+          1610,
+          132
+        ],
+        [
+          1680,
+          180
+        ],
+        [
+          1704,
+          275
+        ],
+        [
+          1732,
+          381
+        ],
+        [
+          1793,
+          460
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          1450,
+          108
+        ],
+        [
+          1450,
+          166
+        ]
+      ],
+      "fixed_transition_length": 38,
+      "region": "back-right-free-end",
+      "sway_percent": 70,
+      "notes": "一簇包含长回落主发体、同根顶部细叉与内侧细叉；截面以上上游静态，不按高光拆。",
+      "support_point": [
+        1450,
+        137
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            1450,
+            108
+          ],
+          [
+            1450,
+            166
+          ]
+        ],
+        "root_band_px": 38
+      },
+      "ready_for_extract": true,
+      "status": "native-alpha-reviewed-ready-for-hidden-plate",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-R10-upper-falling-lock-refined-mask.png",
+      "native_alpha_refinement": "complete authored gold and brown silhouette retained; source-colour boundary refinement only, original RGB unchanged"
+    },
+    {
+      "id": "15-R11-middle-swept-lock",
+      "label": "右上中间向右飘出的整簇",
+      "depth": 40,
+      "outline": "M1435,247 C1491,237 1546,231 1584,247 C1622,263 1642,301 1658,350 C1669,384 1686,414 1708,428 C1675,417 1657,393 1641,368 C1615,320 1587,284 1540,278 C1500,277 1465,287 1435,297 Z",
+      "outlines": [
+        "M1435,247 C1491,237 1546,231 1584,247 C1622,263 1642,301 1658,350 C1669,384 1686,414 1708,428 C1675,417 1657,393 1641,368 C1615,320 1587,284 1540,278 C1500,277 1465,287 1435,297 Z",
+        "M1435,246 C1483,232 1547,197 1590,195 C1634,190 1663,205 1678,225 C1657,204 1625,198 1590,203 C1549,209 1480,241 1435,253 Z",
+        "M1435,211 C1460,195 1487,184 1507,184 C1548,183 1577,204 1568,239 L1561,239 C1572,215 1540,197 1505,199 C1476,202 1455,216 1435,229 Z",
+        "M1633,343 C1648,365 1659,388 1681,394 C1656,393 1641,372 1628,352 Z"
+      ],
+      "chain": [
+        [
+          1435,
+          273
+        ],
+        [
+          1495,
+          267
+        ],
+        [
+          1550,
+          266
+        ],
+        [
+          1598,
+          289
+        ],
+        [
+          1638,
+          344
+        ],
+        [
+          1666,
+          398
+        ],
+        [
+          1703,
+          425
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          1435,
+          247
+        ],
+        [
+          1435,
+          297
+        ]
+      ],
+      "fixed_transition_length": 35,
+      "region": "back-right-free-end",
+      "sway_percent": 70,
+      "notes": "中间金棕完整体积连同相同上游发流的两条自然细叉作为一簇，不能只取浅色面；与最外长簇空间独立。 Root review: removed dangling red-brown stem pixels in the internal fork gap (1548..1565,223..239); bright crossing arc untouched.",
+      "support_point": [
+        1435,
+        273
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            1435,
+            247
+          ],
+          [
+            1435,
+            297
+          ]
+        ],
+        "root_band_px": 35
+      },
+      "ready_for_extract": true,
+      "status": "native-alpha-reviewed-ready-for-hidden-plate",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-R11-middle-swept-lock-refined-mask.png",
+      "native_alpha_refinement": "complete authored gold and brown silhouette retained; source-colour boundary refinement only, original RGB unchanged"
+    },
+    {
+      "id": "15-R12-short-lower-swept-lock",
+      "label": "右上靠袖口下方短回落簇",
+      "depth": 50,
+      "outline": "M1425,296 C1467,280 1504,279 1534,292 C1572,308 1597,344 1619,380 C1597,367 1579,350 1552,340 C1525,330 1479,322 1425,319 Z",
+      "outlines": [
+        "M1425,296 C1467,280 1504,279 1534,292 C1572,308 1597,344 1619,380 C1597,367 1579,350 1552,340 C1525,330 1479,322 1425,319 Z",
+        "M1425,324 C1463,338 1490,361 1511,394 C1491,375 1467,361 1425,347 Z"
+      ],
+      "chain": [
+        [
+          1425,
+          310
+        ],
+        [
+          1480,
+          308
+        ],
+        [
+          1526,
+          320
+        ],
+        [
+          1570,
+          346
+        ],
+        [
+          1615,
+          377
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          1425,
+          296
+        ],
+        [
+          1425,
+          347
+        ]
+      ],
+      "fixed_transition_length": 32,
+      "region": "back-right-free-end",
+      "sway_percent": 70,
+      "notes": "靠袖口的短自然分叉组，保留深棕侧面与完整尖端，不带粉衣。",
+      "support_point": [
+        1425,
+        310
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            1425,
+            296
+          ],
+          [
+            1425,
+            347
+          ]
+        ],
+        "root_band_px": 32
+      },
+      "ready_for_extract": true,
+      "status": "native-alpha-reviewed-ready-for-hidden-plate",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-R12-short-lower-swept-lock-refined-mask.png",
+      "native_alpha_refinement": "complete authored gold and brown silhouette retained; source-colour boundary refinement only, original RGB unchanged"
+    },
+    {
+      "id": "15-R13-left-returned-tail",
+      "label": "左下完整U形回弯松散尾段",
+      "depth": 80,
+      "outline": "M636,865 C641,920 657,979 692,1020 C714,1049 735,1058 760,1046 C809,1028 844,989 866,934 C880,912 902,888 947,855 C920,863 895,877 875,886 C840,923 812,969 775,968 C742,966 707,920 693,862 Z",
+      "chain": [
+        [
+          657,
+          863.5
+        ],
+        [
+          668,
+          939
+        ],
+        [
+          702,
+          1005
+        ],
+        [
+          745,
+          1027
+        ],
+        [
+          792,
+          1005
+        ],
+        [
+          835,
+          962
+        ],
+        [
+          884,
+          914
+        ],
+        [
+          947,
+          855
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          621,
+          865
+        ],
+        [
+          693,
+          862
+        ]
+      ],
+      "fixed_transition_length": 42,
+      "region": "back-left-free-end",
+      "sway_percent": 60,
+      "notes": "左下U形回弯是同一簇，整个松散弧取出，牢固上游纵段保留。右端藏于前层长发下，需继承前景遮盖。 Full natural gold/brown U body includes same-root thin outside edge; only the loose segment below the firm vertical upstream cross-section is extracted.",
+      "support_point": [
+        657,
+        863.5
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            621,
+            865
+          ],
+          [
+            693,
+            862
+          ]
+        ],
+        "root_band_px": 42
+      },
+      "ready_for_extract": true,
+      "status": "final-natural-U-supported-strip-GPU-reviewed",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-R13-left-returned-tail-refined-mask.png",
+      "native_alpha_refinement": "authored complete material silhouette + local graph-cut using source colours; original RGB unchanged",
+      "outlines": [
+        "M636,865 C641,920 657,979 692,1020 C714,1049 735,1058 760,1046 C809,1028 844,989 866,934 C880,912 902,888 947,855 C920,863 895,877 875,886 C840,923 812,969 775,968 C742,966 707,920 693,862 Z",
+        "M621,865 L627,865 C636,928 650,965 679,990 C649,973 635,935 621,865 Z"
+      ],
+      "source_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-S13-U-tip-hidden-under-long-lock",
+      "native_texture": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-R13-left-returned-tail-circled-native-v2\\15-R13-left-returned-tail-native.png",
+      "deformation_model": "supported-strip",
+      "deformation_note": "The U-shaped loose body bends by coherent transverse rows with a fixed full support cross-section; avoids skeleton folding on the returning arc. The concealed right tip remains behind the fixed root foreground."
+    },
+    {
+      "id": "15-F14-over-clothes-tail",
+      "label": "贴粉衣最前长发中下段",
+      "depth": 25,
+      "outline": "M994,840 L1040,835 C1046,860 1050,889 1063,904 C1068,920 1075,934 1084,946 C1100,973 1117,993 1141,1011 C1162,1025 1186,1028 1208,1024 C1188,1033 1165,1026 1148,1020 C1165,1031 1177,1037 1188,1039 C1175,1040 1161,1037 1148,1033 C1100,1015 1070,1000 1042,969 C1018,939 1004,888 994,840 Z",
+      "chain": [
+        [
+          1017,
+          837.5
+        ],
+        [
+          1035,
+          895
+        ],
+        [
+          1070,
+          954
+        ],
+        [
+          1120,
+          1001
+        ],
+        [
+          1168,
+          1031
+        ],
+        [
+          1187,
+          1039
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          994,
+          840
+        ],
+        [
+          1040,
+          835
+        ]
+      ],
+      "fixed_transition_length": 44,
+      "region": "front-right-clothes-contact",
+      "sway_percent": 30,
+      "notes": "贴衣前层的完整金棕带，松散中下段足长；根以上受颈肩/衣物约束固定。先取此簇补后方金发与粉衣，再取后层。 Fixed cross-section shifted 20px downstream to keep the separate firm upper parallel flyaway static, avoiding a clipped stub; loose length remains over 230px.",
+      "support_point": [
+        1017,
+        837.5
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            994,
+            840
+          ],
+          [
+            1040,
+            835
+          ]
+        ],
+        "root_band_px": 44
+      },
+      "ready_for_extract": true,
+      "status": "native-alpha-reviewed-ready-for-hidden-plate",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-F14-over-clothes-tail-refined-mask.png",
+      "native_alpha_refinement": "authored complete material silhouette + local graph-cut using source colours; original RGB unchanged"
+    },
+    {
+      "id": "15-R15-lower-long-tail",
+      "label": "下方后层宽长发松散中下段",
+      "depth": 70,
+      "outline": "M900,890 L1006,886 C1018,930 1058,980 1115,1035 C1138,1055 1162,1072 1180,1080 L998,1080 C942,1032 917,962 900,890 Z",
+      "outlines": [
+        "M900,890 L1006,886 C1018,930 1058,980 1115,1035 C1138,1055 1162,1072 1180,1080 L998,1080 C942,1032 917,962 900,890 Z",
+        "M882,891 L897,889 C900,937 911,984 928,1024 C940,1054 952,1072 963,1080 L954,1080 C935,1059 920,1030 910,1003 C897,966 888,925 882,891 Z"
+      ],
+      "chain": [
+        [
+          944,
+          888.5
+        ],
+        [
+          970,
+          940
+        ],
+        [
+          1006,
+          996
+        ],
+        [
+          1053,
+          1044
+        ],
+        [
+          1110,
+          1080
+        ],
+        [
+          1238.17,
+          1160
+        ],
+        [
+          1358.9,
+          1260
+        ],
+        [
+          1507.82,
+          1420
+        ],
+        [
+          1649.79,
+          1600
+        ]
+      ],
+      "fixed_root_seam": [
+        [
+          882,
+          891
+        ],
+        [
+          1006,
+          886
+        ]
+      ],
+      "fixed_transition_length": 32,
+      "region": "back-lower-free-end",
+      "sway_percent": 60,
+      "notes": "后层宽长发连同同根旁侧细叉归一层，完整深浅棕体积。边界和隐藏完整度须在前层F14取走补板后复核再正式提取。 Root moved to y886..891 below the frill contact; only 190px+ loose mid/lower segment needs extraction, while the firm upper flow stays static.",
+      "occluded_by": [
+        "15-F14-over-clothes-tail"
+      ],
+      "support_point": [
+        944,
+        888.5
+      ],
+      "fixed_transition": {
+        "cut_line": [
+          [
+            882,
+            891
+          ],
+          [
+            1006,
+            886
+          ]
+        ],
+        "root_band_px": 32
+      },
+      "ready_for_extract": true,
+      "status": "complete-gold-brown-volume-under-static-cloth-ready",
+      "alpha_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\circled-followup\\15-R15-lower-long-tail-refined-mask.png",
+      "source_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-S15-rear-lock-hidden-under-ruffles-v2",
+      "native_alpha_refinement": "authored full warm brown side and gold body; explicit transparent gap between two natural forks; side fine fork refined to original material only",
+      "exclude": [
+        "M976,977 C986,1010 1001,1048 1028,1080 L1079,1080 C1036,1063 1000,1018 976,977 Z"
+      ],
+      "native_texture": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-R15-lower-long-tail-circled-native-v2\\15-R15-lower-long-tail-native-extended.png",
+      "native_mask": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-R15-lower-long-tail-circled-native-v2\\15-R15-lower-long-tail-extended-mask.png",
+      "texture_size": [
+        1920,
+        1600
+      ],
+      "bend_length_px": 220,
+      "deformation_model": "supported-strip",
+      "off_canvas_extension": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-R15-lower-long-tail-circled-native-v2\\R15-extension.json"
+    }
+  ],
+  "notes": [
+    "Only loose mid/lower sections; full support cross-section static. Preserve scalp, face and clothes.",
+    "Right upper and lower groups can be independently reconstructed from shared prior; parent will merge disjoint masks."
+  ],
+  "cloth_occlusion_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-S15-rear-lock-hidden-under-ruffles-v2",
+  "final_lower_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-15-R13-left-returned-tail-circled-native-v2"
+}

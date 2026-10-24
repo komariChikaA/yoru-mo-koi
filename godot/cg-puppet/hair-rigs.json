@@ -1,0 +1,279 @@
+{
+  "CGC14": [
+    {
+      "name": "arched-free-lock",
+      "texture": "assets/CGC14/hair-0.png",
+      "bounds": [
+        800,
+        59,
+        1476,
+        279
+      ],
+      "chain": [
+        [
+          1460,
+          137
+        ],
+        [
+          1275,
+          160
+        ],
+        [
+          1060,
+          94
+        ],
+        [
+          920,
+          99
+        ],
+        [
+          850,
+          227
+        ]
+      ],
+      "sway": 3.5,
+      "pin_tip": false,
+      "phase": 0.2,
+      "stiffness": 4.0,
+      "damping": 0.83,
+      "mass": 0.75,
+      "shadow": null,
+      "root_pin": null,
+      "tip_pin": null
+    }
+  ],
+  "CGC15_c": [
+    {
+      "name": "upper-right-free-lock",
+      "texture": "assets/CGC15_c/hair-0.png",
+      "bounds": [
+        1325,
+        77,
+        1791,
+        471
+      ],
+      "chain": [
+        [
+          1288,
+          129
+        ],
+        [
+          1440,
+          136
+        ],
+        [
+          1624,
+          126
+        ],
+        [
+          1715,
+          240
+        ],
+        [
+          1762,
+          400
+        ]
+      ],
+      "sway": 4.5,
+      "pin_tip": false,
+      "phase": 0.5,
+      "stiffness": 4.0,
+      "damping": 0.83,
+      "mass": 0.75,
+      "shadow": null,
+      "root_pin": [
+        55,
+        95
+      ],
+      "tip_pin": null
+    },
+    {
+      "name": "lower-left-loop",
+      "texture": "assets/CGC15_c/hair-1.png",
+      "bounds": [
+        602,
+        788,
+        904,
+        1058
+      ],
+      "chain": [
+        [
+          637,
+          764
+        ],
+        [
+          651,
+          875
+        ],
+        [
+          687,
+          994
+        ],
+        [
+          773,
+          1000
+        ],
+        [
+          852,
+          928
+        ]
+      ],
+      "sway": 3.0,
+      "pin_tip": true,
+      "phase": 1.2,
+      "stiffness": 4.0,
+      "damping": 0.83,
+      "mass": 0.75,
+      "shadow": null,
+      "root_pin": [
+        50,
+        85
+      ],
+      "tip_pin": [
+        40,
+        75
+      ]
+    },
+    {
+      "name": "front-bang-skin-pilot",
+      "texture": "assets/CGC15_c/hair-2.png",
+      "bounds": [
+        947,
+        412,
+        1055,
+        452
+      ],
+      "chain": [
+        [
+          946,
+          417
+        ],
+        [
+          971,
+          430
+        ],
+        [
+          995,
+          438
+        ],
+        [
+          1018,
+          442
+        ],
+        [
+          1040,
+          444
+        ]
+      ],
+      "sway": 0.55,
+      "pin_tip": false,
+      "phase": 0.9,
+      "stiffness": 5,
+      "damping": 0.88,
+      "mass": 0.65,
+      "shadow": {
+        "offset": [
+          1.5,
+          4
+        ],
+        "softness": 1.7,
+        "opacity": 0.15,
+        "color": [
+          0.47,
+          0.22,
+          0.17
+        ],
+        "receiver": "M937,410 C984,429 1020,438 1060,438 L1061,468 C1010,465 971,450 936,435 Z"
+      },
+      "root_pin": [
+        12,
+        26
+      ],
+      "tip_pin": null
+    }
+  ],
+  "CGC16": [
+    {
+      "name": "right-front-ribbon-lock",
+      "texture": "assets/CGC16/hair-0.png",
+      "bounds": [
+        1296,
+        303,
+        1393,
+        539
+      ],
+      "chain": [
+        [
+          1335,
+          331
+        ],
+        [
+          1371,
+          368
+        ],
+        [
+          1352,
+          448
+        ],
+        [
+          1360,
+          497
+        ],
+        [
+          1380,
+          525
+        ]
+      ],
+      "sway": 2.0,
+      "pin_tip": false,
+      "phase": 0.7,
+      "stiffness": 4.0,
+      "damping": 0.83,
+      "mass": 0.75,
+      "shadow": null,
+      "root_pin": null,
+      "tip_pin": null
+    },
+    {
+      "name": "left-side-loop",
+      "texture": "assets/CGC16/hair-1.png",
+      "bounds": [
+        626,
+        347,
+        763,
+        660
+      ],
+      "chain": [
+        [
+          730,
+          366
+        ],
+        [
+          684,
+          445
+        ],
+        [
+          649,
+          529
+        ],
+        [
+          678,
+          599
+        ],
+        [
+          743,
+          641
+        ]
+      ],
+      "sway": 2.5,
+      "pin_tip": true,
+      "phase": 1.1,
+      "stiffness": 4.0,
+      "damping": 0.83,
+      "mass": 0.75,
+      "shadow": null,
+      "root_pin": null,
+      "tip_pin": null
+    }
+  ]
+}

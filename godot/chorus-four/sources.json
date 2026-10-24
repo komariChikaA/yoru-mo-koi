@@ -1,0 +1,21 @@
+{
+  "previous_installed": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\chorus-cgc06\\frame-188.jpg",
+  "middle_scene": "${GAME_ROOT}\\解包\\场景\\空_夕.png",
+  "hold_source": "assets/entry-previous.png",
+  "cgc15_input": "../..\\工作文件夹\\output\\CGC14-15_scene4\\inputs\\CGC15_c-user-20261018.png",
+  "cgc15_input_size": [
+    1672,
+    941
+  ],
+  "cgc15_canvas": [
+    1920,
+    1080
+  ],
+  "hair_stages": {
+    "14": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC14\\stage-cliff-wind-v2",
+    "15": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC15\\stage-reference-wind-root-clean"
+  },
+  "finish": "assets/paint-finish/paint-finish.json",
+  "timeline": "timeline.json",
+  "background_particles": "../../assets/chorus-four/particles.json"
+}

@@ -1,0 +1,15 @@
+FormatVersion: 7
+Name: "Godot Kobe 3D 26.60–40s / 24fps"
+Script: "Kobe3D"
+Multithreaded: No
+Config:
+  TimelinePath:
+    Type: "System.String"
+    Value: "sb/kobe3d-simple/timeline.tsv"
+    DisplayName: "Timeline Path"
+Layers:
+  821b2d592742488bb83863a18dbfd018:
+    Name: "Kobe3D"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

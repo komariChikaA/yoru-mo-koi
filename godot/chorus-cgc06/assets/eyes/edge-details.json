@@ -1,0 +1,22 @@
+[
+  {
+    "eye": 0,
+    "anchor": [
+      925.0507687722763,
+      207.6792575732426
+    ],
+    "angle": 1.407093781319555,
+    "texture": "edge-detail-1.png",
+    "mesh_link": false
+  },
+  {
+    "eye": 1,
+    "anchor": [
+      977.9201945815596,
+      312.2378369663646
+    ],
+    "angle": 0.35920294955694726,
+    "texture": "edge-detail-2.png",
+    "mesh_link": false
+  }
+]

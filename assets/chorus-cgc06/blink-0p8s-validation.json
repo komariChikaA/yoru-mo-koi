@@ -1,0 +1,124 @@
+{
+  "timeline": {
+    "static_closed_o_closeup": [
+      0,
+      2.9
+    ],
+    "gaussian_transition": [
+      2.9,
+      3.45
+    ],
+    "smile_open": [
+      3.45,
+      3.5
+    ],
+    "slow_close": [
+      3.5,
+      4.3
+    ],
+    "closed_hold": [
+      4.3,
+      4.45
+    ],
+    "slow_open": [
+      4.45,
+      5.25
+    ],
+    "open_finish": [
+      5.25,
+      6.3
+    ]
+  },
+  "close_seconds": 0.8,
+  "open_seconds": 0.8,
+  "close_frames_at_60fps": 48,
+  "open_frames_at_60fps": 48,
+  "native_puppet": "unchanged from accepted 40ac296; only time mapping changes",
+  "camera_validation_reused_from": "79fbc73 near-three-seconds-validation.json; camera/motion/transition unchanged",
+  "camera_coverage": {
+    "status": "passed",
+    "samples": 399,
+    "includes_incoming_preroll": true,
+    "native_min": [
+      -5.053728168039704,
+      -128.01618484777572
+    ],
+    "native_max": [
+      1254.5650098099752,
+      768.2619047619047
+    ],
+    "padded_min": [
+      -128,
+      -192
+    ],
+    "padded_max": [
+      1504,
+      944
+    ]
+  },
+  "full_shot": {
+    "video_frames": 378,
+    "fps": 60,
+    "video_duration": 6.3,
+    "audio_duration": 6.3,
+    "full_decode": "passed",
+    "installed_frames": 189,
+    "installed_fps": 30,
+    "song_ms": [
+      66000,
+      72300
+    ],
+    "first_frame": "nonblack",
+    "camera_coverage": {
+      "status": "passed",
+      "samples": 399,
+      "includes_incoming_preroll": true,
+      "native_min": [
+        -5.053728168039704,
+        -128.01618484777572
+      ],
+      "native_max": [
+        1254.5650098099752,
+        768.2619047619047
+      ],
+      "padded_min": [
+        -128,
+        -192
+      ],
+      "padded_max": [
+        1504,
+        944
+      ]
+    },
+    "visual_acceptance": "pending"
+  },
+  "actual_storybrew": {
+    "layers": 1,
+    "sprites": 189,
+    "review_ms": [
+      70300,
+      71250
+    ],
+    "directory": "blink-0p8s-storybrew"
+  },
+  "visual_acceptance": "pending",
+  "linked": {
+    "join_song_seconds": 66.0,
+    "incoming": "CGC06 camera preroll matches shot-three position and velocity; no CGC14 placeholder",
+    "audio": "one continuous song excerpt",
+    "previews": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  }
+}

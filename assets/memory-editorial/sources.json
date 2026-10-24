@@ -1,0 +1,80 @@
+[
+  {
+    "id": "LK55Q1XCMQJO5",
+    "name": "bg_0072",
+    "ext": "jpg",
+    "tags": [],
+    "folders": [
+      "LK55PWBHXDRWC"
+    ],
+    "width": 1024,
+    "height": 1344,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK55Q1XCMQJO5.info\\bg_0072_thumbnail.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK55Q1XCMQJO5.info\\bg_0072.jpg"
+  },
+  {
+    "id": "LK4Z314MM7I9G",
+    "name": "bg_0607",
+    "ext": "png",
+    "tags": [],
+    "folders": [
+      "LK4Z314AYUBAE"
+    ],
+    "width": 1024,
+    "height": 1080,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK4Z314MM7I9G.info\\bg_0607.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK4Z314MM7I9G.info\\bg_0607.png"
+  },
+  {
+    "id": "LW3AD5Y71W6KZ",
+    "name": "Background 09",
+    "ext": "png",
+    "tags": [],
+    "folders": [
+      "LW3AD0P8S5T6E"
+    ],
+    "width": 240,
+    "height": 135,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LW3AD5Y71W6KZ.info\\Background 09.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LW3AD5Y71W6KZ.info\\Background 09.png"
+  },
+  {
+    "id": "LK4Z314MWFXCM",
+    "name": "bg_0517",
+    "ext": "png",
+    "tags": [],
+    "folders": [
+      "LK4Z314AYUBAE"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK4Z314MWFXCM.info\\bg_0517.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LK4Z314MWFXCM.info\\bg_0517.png"
+  },
+  {
+    "id": "LW3AD5Y7SJ5G0",
+    "name": "Background 08",
+    "ext": "png",
+    "tags": [],
+    "folders": [
+      "LW3AD0P8S5T6E"
+    ],
+    "width": 240,
+    "height": 135,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LW3AD5Y7SJ5G0.info\\Background 08.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LW3AD5Y7SJ5G0.info\\Background 08.png"
+  },
+  {
+    "id": "LWXSG5P3FR1FB",
+    "name": "tile_0012",
+    "ext": "png",
+    "tags": [],
+    "folders": [
+      "LWXSG5OZE0TB6"
+    ],
+    "width": 16,
+    "height": 16,
+    "thumbnailPath": "${EAGLE_ROOT}\\精选图片.library\\images\\LWXSG5P3FR1FB.info\\tile_0012.png",
+    "filePath": "${EAGLE_ROOT}\\精选图片.library\\images\\LWXSG5P3FR1FB.info\\tile_0012.png"
+  }
+]

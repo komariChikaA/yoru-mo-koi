@@ -1,0 +1,260 @@
+{
+  "reference": {
+    "url": "https://www.bilibili.com/video/BV1rR4y1N7q4",
+    "title": "from Blue",
+    "seconds": [
+      54,
+      55
+    ],
+    "cid": 578320471,
+    "available_resolution": [
+      852,
+      480
+    ],
+    "notes": "Public view/playurl after yt-dlp412; observed visible motion only, original reference rig unknown"
+  },
+  "geometry": {
+    "samples": 91,
+    "minimum_signed_double_triangle_area": 0.0131495073437691,
+    "maximum_sample_guide_displacement_source_px": 0.7908992767334002,
+    "closed_guide_max_mismatch_source_px": [
+      0.0,
+      0.0
+    ],
+    "native_open_before_after_max_RGB_delta": 0,
+    "epsilon_max_RGB_delta": {
+      "open_epsilon": 1,
+      "closed_epsilon": 1
+    },
+    "independent_pin_images": 30,
+    "minimum_pin_image_difference_sum": 25,
+    "resource_control_images": 26,
+    "unchanged_texture_and_uv_policy": true
+  },
+  "method": {
+    "method": "Complete native upper/lower cutouts on continuous 64x41 grids. Shared five-pin closed lines sit near mid-eye with shallow arches, inspired by BV1rR4y1N7q4 at54–55s. Both lids retain native x; lower closure follows p*(0.7+0.3*p), rises and flattens onto the upper line. Long lash roots lie on the native stroke; tips shorten along their measured directions, then the mesh samples both guide curves at the displaced x. Broad smooth root gathering reduces hooked corners; original UV and alpha remain intact. Static iris/sclera are spatially occluded by the opening. True brows and separate crease parts remain controllable. No generated poses, lash clipping, expression switches or temporal crossfade.",
+    "shader": "eyes.gdshader",
+    "controls": "30 Marker2D pins; native brow meshes synchronized with upper closure; separate EyeEdgeDetail1/2 sprites; fixed StationaryHair sprite; Inspector Resource, no panel",
+    "time_driver": "continuous analytic time parameter; same geometry path for closing/opening; no AnimationPlayer pose keys or expression image sequence",
+    "cutout_policy": "Whole upper and whole lower native cutouts, one 64x41 grid per lid; true brows retained as native ribbons, small creases separate, marked hair excluded from moving lash cutouts",
+    "deformation_details": {
+      "ridge_spans": {
+        "upper1": [
+          8,
+          43
+        ],
+        "upper2": [
+          26,
+          57
+        ]
+      },
+      "reference_smoothing_sigma_stations": 1.5,
+      "turn_soft_limit_radians": 0.35,
+      "rotation_spatial_smoothing_passes": 3,
+      "rotation_reach_px": 4,
+      "upper_width_radius_px": 6,
+      "lower_width_radius_px": 4,
+      "alpha_subpixel_sigma": 0.4,
+      "alpha_subpixel_mix": 0.7,
+      "occlusion_aa": "eye-body gate only; no lash clipping",
+      "lower_meeting_mode": "shared five-pin line sampled at native x for both lids",
+      "lower_flatten": [
+        0.94,
+        0.94
+      ],
+      "lower_closed_x_scale": [
+        1.0,
+        1.0
+      ],
+      "lower_closed_x_offset": [
+        0.0,
+        0.0
+      ],
+      "lower_progress": "p*(0.7+0.3*p)",
+      "brow_rigid_follow_px": 6,
+      "default_upper_thickness": 0.78,
+      "default_lower_thickness": 1.0,
+      "closed_pin_x": [
+        [
+          -49,
+          -27.75,
+          -6.5,
+          14.75,
+          36
+        ],
+        [
+          -31,
+          -15.25,
+          0.5,
+          16.25,
+          32
+        ]
+      ],
+      "closed_pin_y": [
+        [
+          8.5,
+          10.5,
+          11,
+          10.5,
+          8.5
+        ],
+        [
+          8.5,
+          9.8,
+          10.2,
+          9.8,
+          8.5
+        ]
+      ],
+      "root_depth_gather": {
+        "x_ranges": [
+          [
+            -38,
+            -15
+          ],
+          [
+            5,
+            25
+          ]
+        ],
+        "amount": 0.9,
+        "method": "C1 whole cross-section compression evaluated at warped x"
+      },
+      "lash_edge_alpha_clipping": false,
+      "long_tip_min_length": 14.0,
+      "lash_tip_compress": [
+        0.6,
+        0.6
+      ],
+      "tip_root": "native reference ridge plus2px",
+      "tip_direction_compression": true,
+      "tip_lateral_radius": [
+        50.0,
+        40.0
+      ],
+      "guide_resampling": "source and moving ridges at directionally warped x",
+      "reference": {
+        "url": "https://www.bilibili.com/video/BV1rR4y1N7q4",
+        "seconds": [
+          54,
+          55
+        ],
+        "cid": 578320471,
+        "available_reference_resolution": [
+          852,
+          480
+        ],
+        "timing_policy": "Preserve requested1s close/1s open; use reference shape and motion hierarchy"
+      },
+      "closed_outer_tail_softening": {
+        "root_x": [
+          -35,
+          20
+        ],
+        "strength": 0.35,
+        "rolloff_px": 6,
+        "progress": "smoothstep(0.55,1.0,p)",
+        "mapping": "monotone C1 x gathering for whole lids and eye-body gate; original UV/alpha unchanged"
+      }
+    },
+    "manual_lash_contours": {
+      "path": "brow-paths.json",
+      "target": "upper_lid",
+      "nodes": [
+        20,
+        19
+      ],
+      "feather_px": [
+        0.2,
+        0.2
+      ]
+    },
+    "hidden_underlay": {
+      "source": "assets/chorus-cgc06/eye-clean-plate.png",
+      "method": "gpt-image-2 completes both eye-free footprints with continuous native-style skin/hair; registered and gradient-matched to native a; static background only, no generated expression frames",
+      "forbidden": "manual color fills or broad skin/hair inpaint ribbons"
+    }
+  },
+  "visual_review": "Reviewed actual GPU open/partial/closed at native face angle; shallower meeting line, reduced hooked long roots; user acceptance pending",
+  "timing": {
+    "close_s": 1,
+    "closed_hold_s": 0.15,
+    "open_s": 1
+  },
+  "checks": "Godot full review no script/shader errors; Python compile passed",
+  "review_sheet": "reference-blink-states.jpg",
+  "render": {
+    "video_frames": 378,
+    "fps": 60,
+    "video_duration": 6.3,
+    "audio_duration": 6.3,
+    "full_decode": "passed",
+    "installed_frames": 189,
+    "installed_fps": 30,
+    "song_ms": [
+      66000,
+      72300
+    ],
+    "first_frame": "nonblack",
+    "camera_coverage": {
+      "status": "passed",
+      "samples": 399,
+      "includes_incoming_preroll": true,
+      "native_min": [
+        -5.053728168039704,
+        -128.01618484777572
+      ],
+      "native_max": [
+        1254.5650098099752,
+        768.2619047619047
+      ],
+      "padded_min": [
+        -128,
+        -192
+      ],
+      "padded_max": [
+        1504,
+        944
+      ]
+    },
+    "visual_acceptance": "pending"
+  },
+  "linked": {
+    "join_song_seconds": 66.0,
+    "incoming": "CGC06 camera preroll matches shot-three position and velocity; no CGC14 placeholder",
+    "audio": "one continuous song excerpt",
+    "previews": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  },
+  "detail_video": {
+    "file": "Soft-Edge-Blink-Detail.mp4",
+    "frames": 135,
+    "duration": 2.25,
+    "full_decode": "passed",
+    "method": "Continuous actual GPU video crop at original playback speed; no sampled-image assembly"
+  },
+  "recorded_gpu_frames": 379,
+  "preceding_shot": "Reused previous225-frame GPU capture; incoming closeup unchanged by this eye-rig edit",
+  "outer_tail_revision": {
+    "request": "Slightly soften pointed closed-eye edges",
+    "method": "Late-close monotone C1 retraction of the long outer tails, shared by whole upper/lower meshes and spatial eye-body gate. UV/alpha unchanged. No overlay, clipping, blur or redraw.",
+    "review": "blink-reference/edge-softening/full",
+    "comparison": "blink-reference/edge-softening/closed-comparison.jpg",
+    "closed_guide_end_retraction_source_px": [
+      3.4299999999999997,
+      2.7999999999999994
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "夜もすがら君恋ふ",
+  "font_source": "C:\\Users\\hiral\\AppData\\Local\\Microsoft\\Windows\\Fonts\\suusiki.ttf",
+  "font_index": 0,
+  "font_family": "suusiki",
+  "font_style": "Regular",
+  "glyphs": [
+    {
+      "character": "夜",
+      "texture": "res://assets/ending-title/title-glyph-0.png",
+      "width": 522,
+      "height": 1018,
+      "horizontal_guide": [
+        0.06704980842911877,
+        0.16994106090373282,
+        1.0,
+        0.16994106090373282
+      ],
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "も",
+      "texture": "res://assets/ending-title/title-glyph-1.png",
+      "width": 503,
+      "height": 834,
+      "horizontal_guide": null,
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "す",
+      "texture": "res://assets/ending-title/title-glyph-2.png",
+      "width": 529,
+      "height": 946,
+      "horizontal_guide": null,
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "が",
+      "texture": "res://assets/ending-title/title-glyph-3.png",
+      "width": 659,
+      "height": 932,
+      "horizontal_guide": null,
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "ら",
+      "texture": "res://assets/ending-title/title-glyph-4.png",
+      "width": 530,
+      "height": 901,
+      "horizontal_guide": null,
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "君",
+      "texture": "res://assets/ending-title/title-glyph-5.png",
+      "width": 536,
+      "height": 959,
+      "horizontal_guide": [
+        0.026119402985074626,
+        0.15954118873826903,
+        1.0,
+        0.15954118873826903
+      ],
+      "construction": "native_font_glyph"
+    },
+    {
+      "character": "恋",
+      "texture": "res://assets/ending-title/title-glyph-6.png",
+      "width": 517,
+      "height": 910,
+      "horizontal_guide": [
+        0.009671179883945842,
+        0.15934065934065933,
+        1.0,
+        0.15934065934065933
+      ],
+      "construction": "suusiki 変[0,12,13,14,15] upper + four distinct geometric 心 strokes; 20_font_unit_monoline; original_bounds; component_gap=64_font_units"
+    },
+    {
+      "character": "ふ",
+      "texture": "res://assets/ending-title/title-glyph-7.png",
+      "width": 622,
+      "height": 867,
+      "horizontal_guide": null,
+      "construction": "native_font_glyph"
+    }
+  ]
+}

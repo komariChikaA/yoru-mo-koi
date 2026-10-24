@@ -1,0 +1,132 @@
+{
+  "status": "qualified_pending_visual_review",
+  "sources": "../..\\assets\\chorus-cgc06\\borders\\eagle-sources.json",
+  "baseline": "11f5812; close/open 0.8s; unchanged native puppet and camera",
+  "materials": "Eagle originals only; crop, scale, recolor, subtle Gaussian blur and alpha composite",
+  "cocoa_rectangle": {
+    "blur_sigma_px": 0.65,
+    "linked_reveal_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "reveal_curve": "smoothstep; same incoming CG timing",
+    "entry_review_frames": [
+      65.6,
+      65.7,
+      65.8,
+      65.89999999999999,
+      65.98333333333333,
+      66.0
+    ],
+    "godot_gpu_first_frame": "cocoa-soft-godot00000003.png",
+    "godot_import_script_shader_errors": 0,
+    "review_sheet": "cocoa-entry-before-after.jpg"
+  },
+  "outputs": [
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-CGC06-Border-Cocoa-Rectangle-66.000-72.300-song.mp4",
+      "frames": 378,
+      "seconds": 6.3,
+      "full_decode": "passed"
+    },
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-Linked-End-Border-Cocoa-Rectangle-64.800-72.300-song.mp4",
+      "frames": 450,
+      "seconds": 7.5,
+      "full_decode": "passed"
+    },
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-CGC06-Border-White-Rectangle-66.000-72.300-song.mp4",
+      "frames": 378,
+      "seconds": 6.3,
+      "full_decode": "passed"
+    },
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-Linked-End-Border-White-Rectangle-64.800-72.300-song.mp4",
+      "frames": 450,
+      "seconds": 7.5,
+      "full_decode": "passed"
+    },
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-CGC06-Border-Wash-66.000-72.300-song.mp4",
+      "frames": 378,
+      "seconds": 6.3,
+      "full_decode": "passed"
+    },
+    {
+      "file": "../..\\工作文件夹\\output\\CGC06_scene3\\Chorus-Linked-End-Border-Wash-64.800-72.300-song.mp4",
+      "frames": 450,
+      "seconds": 7.5,
+      "full_decode": "passed"
+    }
+  ],
+  "wash": {
+    "linked_reveal_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "reveal_curve": "smoothstep; same incoming CG timing",
+    "native_pigment_instances": 8,
+    "maximum_inward_px": {
+      "horizontal": 165,
+      "vertical": 140
+    },
+    "pigment_body_opacity": 0.35,
+    "dry_brush_weight": 0.65,
+    "entry_review_frames": [
+      65.7,
+      65.8,
+      65.983333,
+      66.0
+    ],
+    "godot_gpu_closed_frame": "white-paint-godot00000003.png",
+    "godot_import_script_shader_errors": 0,
+    "review_sheet": "wash-entry-before-after.jpg",
+    "outer24px_coverage": {
+      "top": {
+        "fraction_visible_at_alpha48": 1.0,
+        "minimum_max_alpha": 71
+      },
+      "bottom": {
+        "fraction_visible_at_alpha48": 1.0,
+        "minimum_max_alpha": 109
+      },
+      "left": {
+        "fraction_visible_at_alpha48": 1.0,
+        "minimum_max_alpha": 99
+      },
+      "right": {
+        "fraction_visible_at_alpha48": 1.0,
+        "minimum_max_alpha": 76
+      }
+    },
+    "color_rgb": [
+      247,
+      247,
+      247
+    ],
+    "entry_review": "white-paint-entry-review.jpg",
+    "rgb_only_recolor": true,
+    "alpha_identical_to_warm_expanded": true
+  },
+  "white_rectangle": {
+    "source_id": "LIELI0JVC8GGY",
+    "source": "imagepaper_00184.jpg",
+    "neutral_white_target": 247,
+    "border_width_px": 42,
+    "blur_sigma_px": 0.65,
+    "linked_reveal_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "entry_review_frames": [
+      65.7,
+      65.8,
+      65.983333,
+      66.0
+    ],
+    "godot_gpu_closed_frame": "white-frame-godot00000003.png",
+    "godot_import_script_shader_errors": 0,
+    "entry_review": "white-frame-entry-review.jpg"
+  }
+}

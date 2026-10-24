@@ -1,0 +1,62 @@
+[
+  {
+    "index": 0,
+    "scene": "校门前",
+    "description": "日光中的校园入口",
+    "texture": "res://assets/ending/memory-0.png",
+    "source": "${GAME_ROOT}\\解包\\场景\\学校の校門前_昼.png",
+    "source_kind": "native_game_background",
+    "source_size": [
+      1920,
+      1080
+    ],
+    "output_size": [
+      1920,
+      1080
+    ],
+    "source_song_time": null,
+    "source_song_range": null,
+    "filter_baked": false,
+    "timing_note": "直接取游戏纯场景原图，非视频截帧；无对应歌曲取帧时间。暖色、柔光和高光在Godot着色器中实时处理。"
+  },
+  {
+    "index": 1,
+    "scene": "教室",
+    "description": "窗边阳光与空教室",
+    "texture": "res://assets/ending/memory-1.png",
+    "source": "${GAME_ROOT}\\解包\\场景\\学校の教室_昼.png",
+    "source_kind": "native_game_background",
+    "source_size": [
+      1920,
+      1080
+    ],
+    "output_size": [
+      1920,
+      1080
+    ],
+    "source_song_time": null,
+    "source_song_range": null,
+    "filter_baked": false,
+    "timing_note": "直接取游戏纯场景原图，非视频截帧；无对应歌曲取帧时间。暖色、柔光和高光在Godot着色器中实时处理。"
+  },
+  {
+    "index": 2,
+    "scene": "中庭",
+    "description": "绿树与红砖校舍",
+    "texture": "res://assets/ending/memory-2.png",
+    "source": "${GAME_ROOT}\\解包\\场景\\学校の中庭_昼.png",
+    "source_kind": "native_game_background",
+    "source_size": [
+      1920,
+      1080
+    ],
+    "output_size": [
+      1920,
+      1080
+    ],
+    "source_song_time": null,
+    "source_song_range": null,
+    "filter_baked": false,
+    "timing_note": "直接取游戏纯场景原图，非视频截帧；无对应歌曲取帧时间。暖色、柔光和高光在Godot着色器中实时处理。"
+  }
+]

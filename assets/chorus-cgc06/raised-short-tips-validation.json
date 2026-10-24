@@ -1,0 +1,128 @@
+{
+  "closed_line_additional_rise_source_px": 3,
+  "coordinate_system": "native face vertical; both complete upper/lower closed targets translate together",
+  "frames_slow_close": 91,
+  "minimum_actual_mesh_triangle_area": 0.102824471890926,
+  "guide_rise_max_residual_px": 6.608556434528623e-05,
+  "unchanged_open_state_max_rgb": 0,
+  "closed_lower_visible_pixels_above_rgb3": 0,
+  "long_tip_compress": [
+    0.88,
+    0.88
+  ],
+  "native_tip_compression": [
+    {
+      "eye": 0,
+      "tips": [
+        {
+          "compressed_length": 14.3979892730713,
+          "displacement": 28.5800228118896,
+          "original_length": 37.4822127366543
+        },
+        {
+          "compressed_length": 12.0415945053101,
+          "displacement": 0.0,
+          "original_length": 12.0415945787923
+        }
+      ]
+    },
+    {
+      "eye": 1,
+      "tips": [
+        {
+          "compressed_length": 7.91965675354004,
+          "displacement": 21.4166240692139,
+          "original_length": 27.6070797196638
+        },
+        {
+          "compressed_length": 8.06225776672363,
+          "displacement": 0.0,
+          "original_length": 8.06225774829855
+        }
+      ]
+    }
+  ],
+  "pin_control_max_rgb_delta": {
+    "pin-brow-0-0": 49,
+    "pin-brow-0-1": 64,
+    "pin-brow-0-2": 85,
+    "pin-brow-0-3": 121,
+    "pin-brow-0-4": 103,
+    "pin-brow-1-0": 99,
+    "pin-brow-1-1": 116,
+    "pin-brow-1-2": 87,
+    "pin-brow-1-3": 56,
+    "pin-brow-1-4": 13,
+    "pin-lower-0-0": 3,
+    "pin-lower-0-1": 3,
+    "pin-lower-0-2": 159,
+    "pin-lower-0-3": 143,
+    "pin-lower-0-4": 1,
+    "pin-lower-1-0": 1,
+    "pin-lower-1-1": 5,
+    "pin-lower-1-2": 144,
+    "pin-lower-1-3": 3,
+    "pin-lower-1-4": 1,
+    "pin-upper-0-0": 121,
+    "pin-upper-0-1": 156,
+    "pin-upper-0-2": 158,
+    "pin-upper-0-3": 163,
+    "pin-upper-0-4": 168,
+    "pin-upper-1-0": 160,
+    "pin-upper-1-1": 173,
+    "pin-upper-1-2": 169,
+    "pin-upper-1-3": 172,
+    "pin-upper-1-4": 148
+  },
+  "resource_control_count": 26,
+  "resource_control_max_rgb_delta": {
+    "brow-right": 124,
+    "brow": 128,
+    "edge-flatten": 72,
+    "edge-follow": 72,
+    "edge-gap": 80,
+    "edge-left": 86,
+    "edge-right": 54,
+    "hide-body": 192,
+    "hide-brow": 127,
+    "hide-edge": 84,
+    "hide-iris": 170,
+    "hide-lower": 174,
+    "iris-right": 196,
+    "iris-scale": 186,
+    "iris": 200,
+    "lower-flatten": 170,
+    "lower-right": 183,
+    "lower-thickness": 180,
+    "lower": 180,
+    "reset": 0,
+    "tip-left": 135,
+    "tip-right": 114,
+    "tip-threshold": 135,
+    "upper-right": 191,
+    "upper-thickness": 184,
+    "upper": 188
+  },
+  "iris_fixed_samples": [
+    {
+      "world": [
+        870,
+        203
+      ],
+      "samples": 30,
+      "maximum_rgb_delta": 0
+    },
+    {
+      "world": [
+        955,
+        351
+      ],
+      "samples": 30,
+      "maximum_rgb_delta": 0
+    }
+  ],
+  "adjacent_frame_mean_rgb_max": 0.47441058787319174,
+  "native_lash_alpha_clipping": false,
+  "animation_source": "continuous Godot geometry; detail movie cropped from full GPU render, not assembled from sampled poses",
+  "visual_acceptance": "pending"
+}

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>storyboard</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+    <StorybrewHome Condition="'$(StorybrewHome)' == ''">$(STORYBREW_HOME)</StorybrewHome>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="scriptslibrary/*.cs" />
+    <Reference Include="System.Drawing.Common"><HintPath>$(StorybrewHome)/System.Drawing.Common.dll</HintPath></Reference>
+    <Reference Include="OpenTK"><HintPath>$(StorybrewHome)/OpenTK.dll</HintPath></Reference>
+    <Reference Include="StorybrewCommon"><HintPath>$(StorybrewHome)/StorybrewCommon.dll</HintPath></Reference>
+  </ItemGroup>
+  <Target Name="CheckStorybrewHome" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(StorybrewHome)/StorybrewCommon.dll')" Text="Set STORYBREW_HOME or pass -p:StorybrewHome=PATH to a Storybrew 1.96 installation." />
+  </Target>
+</Project>

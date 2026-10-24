@@ -1,0 +1,30 @@
+{
+  "model": "gpt-image-2",
+  "mode": "Image API edit via imagegen bundled CLI",
+  "source_crop": [
+    770,
+    60,
+    1055,
+    440
+  ],
+  "mask": "eye-clean-plate-mask.png",
+  "matches": 166,
+  "inliers": 103,
+  "generated_to_input_affine": [
+    [
+      1.0006290839478655,
+      -9.519746771638508e-05,
+      -0.22324234895392173
+    ],
+    [
+      9.519746771638508e-05,
+      1.0006290839478655,
+      -0.8201805651315961
+    ]
+  ],
+  "median_inlier_error_source_pixels": 0.47977630293225804,
+  "outside_edit_mask_max_rgb": 0,
+  "purpose": "Static eye-free clean plate only; native puppet parts, pins and animation unchanged",
+  "source_generation": "eye-clean-plate-generated.png",
+  "composition": "Complete generated eye-free footprints, registered to native a; gradient matching to native lighting, exact original outside edit mask. No manual skin fills."
+}

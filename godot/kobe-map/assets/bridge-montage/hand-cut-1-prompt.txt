@@ -1,0 +1,9 @@
+Use case: illustration-story
+Asset type: a complete standalone frame for a Japanese lyric-PV rescue-hand quick-cut sequence.
+Input image 1: style and exact rescue-grip reference, not a layout to copy. Keep the same two people's skin tones and warm memory-book treatment. Remove the girl's face, body, cliff, and all scenery; draw only two anatomically clear human hands and a short forearm from each side.
+Scene/backdrop: plain luminous ivory/apricot paper, subtle watercolor and fine paper grain, large clean negative space.
+Style: delicate reddish-brown pencil and dip-pen linework, light ochre watercolor, thin irregular lines, gentle diagonal hatching, low saturation, high-key sunset light. Match the reference's fine Japanese visual-novel memory illustration style.
+Composition: 16:9 close-up. A rescuer's hand enters from the upper-left edge; Ren's smaller right hand and forearm enter from the lower-right edge. The two hands are centered around (50%, 52%), comfortably within the middle 70% of frame height. The arms naturally leave the frame at opposite edges. Keep the hand scale, direction, wrist positions and paper color consistent across the sequence. Correct normal joints, clear thumb placement, exactly five digits per hand, natural perspective, no disconnected fingertips, no extra limbs. This is a rescue grasp around a wrist/hand, not a formal business handshake.
+Text: none.
+Avoid: text, border, panel lines, multiple panels, faces, abstract anatomy, fragmented hands, floating finger pieces, photorealism, thick outlines, blue light, modern cel shading.
+Current action: The two open hands reach toward each other, fingers relaxed and slightly spread. A clear narrow gap remains between the fingertips. Neither hand touches the other yet.

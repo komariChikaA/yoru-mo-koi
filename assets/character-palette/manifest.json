@@ -1,0 +1,637 @@
+{
+  "palette": {
+    "blue": "#C5DFE5",
+    "cream": "#F3E7CC",
+    "ivory": "#FAF3E4",
+    "mustard": "#ECCB72",
+    "mist": "#A5CED5",
+    "ink": "#496F84",
+    "pink": "#E5A0B5",
+    "wood": "#C2A686",
+    "dark": "#76503E"
+  },
+  "paper": {
+    "file": "sb/books-editorial/paper.png",
+    "opacity": 0.09,
+    "scale": 1.2,
+    "placement": "behind character and name"
+  },
+  "assets": [
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\intro-bg.png",
+      "file": "intro-bg.png",
+      "size": [
+        4,
+        480
+      ],
+      "alpha_sha256": "a97445652c91c7b12838cdbe8545cdd1891a8eda7af5f1e8247c7592ae158401",
+      "output_alpha_sha256": "a97445652c91c7b12838cdbe8545cdd1891a8eda7af5f1e8247c7592ae158401",
+      "source_sha256": "ec3ddea2c7a6876f9f048ddf5e217e36c030328cf3803b23891baf806a841ffa",
+      "output_sha256": "3c5179725ba840396a78bfca58d9176fe991c7a8c4868622df9587e91f5a565f"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\bluebg.jpg",
+      "file": "bluebg.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_sha256": "c216e1ed5c0b833b02a2e42bc95e2ccd6afe291b9e71b9ad69bb9bd8a3228d1f",
+      "output_alpha_sha256": "c216e1ed5c0b833b02a2e42bc95e2ccd6afe291b9e71b9ad69bb9bd8a3228d1f",
+      "source_sha256": "c22b60596d5d6a1f5c2460078b6f5fb27ad2ff2d1041ec750a25a57f9dba1dc9",
+      "output_sha256": "8d51103846b654638ea79932c0e727b416b66c7bcbd96de11bc69efaf3e19be0"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\arc-shelf.png",
+      "file": "arc-shelf.png",
+      "size": [
+        4901,
+        2737
+      ],
+      "alpha_sha256": "d26c8e85b2535665cefef14b95c2c304a3bf01786170c2103801b49d60f555c3",
+      "output_alpha_sha256": "db51f678bfe7e3df20e217bda4c9f380db82c4c350bf714316bd58e6c4878c8f",
+      "source_sha256": "2f348cde7286cf8eb2787c35f519b1fcc47a03210b8f981ced124589a769b48a",
+      "output_sha256": "ff9e73d7916c712a9a179a611916f4d2a3642801deb9fec85f902aa7b4deb755"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\books-up.png",
+      "file": "books-up.png",
+      "size": [
+        1584,
+        102
+      ],
+      "alpha_sha256": "aa1b81a1cbbef80dcf37f6573f72c103c7bf1268f708905497daf1935da5ac0d",
+      "output_alpha_sha256": "aa1b81a1cbbef80dcf37f6573f72c103c7bf1268f708905497daf1935da5ac0d",
+      "source_sha256": "728a2685c5f20f69dab858cd6c607f20c86cb4ea7c684de64d1834fa2a79340b",
+      "output_sha256": "8164c50376adeafb6f2674b35e5471e07b0decb12901e69df32f4b2db348b5f7"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\books-down.png",
+      "file": "books-down.png",
+      "size": [
+        1584,
+        102
+      ],
+      "alpha_sha256": "a9bd90092119d12b953401ccc2e2d255d7cde7f26c7f7dcb66a9d61ec4ee34f3",
+      "output_alpha_sha256": "a9bd90092119d12b953401ccc2e2d255d7cde7f26c7f7dcb66a9d61ec4ee34f3",
+      "source_sha256": "011bb6aca806a10ccd7620d4f1e208e98990f0c93551fd9e34534b37717df8a5",
+      "output_sha256": "6238502fb3e160e2b4e61da098e44e1baa762d226cfc1df011cb8f1650899e91"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b00.png",
+      "file": "flip/b00.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "7ee440727c9943b3f77d917ec5702ab694900be989a32395f705dfbd316a2469",
+      "output_sha256": "62a90b3709abccf29073b7e9d1192800c5c0ae2f96e9b6e016641d96e2cf867d"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b01.png",
+      "file": "flip/b01.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "49a5a54403ca220dd7d4b3d87fd8c2918862a5734618f4f690fffe81c88a3960",
+      "output_sha256": "df1e3eb7259578a523aeadf3e1e12386f5013a526f9c5e698472a34266a32fa2"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b02.png",
+      "file": "flip/b02.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "b3b2fb30cf8b98c013402f59a74eec6ceb2cfaf615ced5e62cec3742f6a9faea",
+      "output_sha256": "989fc52c2a347bf36396e74014c744c5925309c91a7e825f2808be674447ece0"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b03.png",
+      "file": "flip/b03.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "ddea124c6fd04889fe9bbd564159f22fceda42a7425cdacd740334fd15f1cb2f",
+      "output_sha256": "9625efc85025ef09839cc3c58ef07393147bc05fc342bd19852e75eca7385f05"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b04.png",
+      "file": "flip/b04.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "96828f68fe31e86b94c1ea9fd724a3905a17d0d8831377d9c5ff6781a62bc5fe",
+      "output_sha256": "0d644a7e3d250bf5d3ade474bdb35910921fe144b37167214bf114be199c3405"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b05.png",
+      "file": "flip/b05.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "ddea124c6fd04889fe9bbd564159f22fceda42a7425cdacd740334fd15f1cb2f",
+      "output_sha256": "9625efc85025ef09839cc3c58ef07393147bc05fc342bd19852e75eca7385f05"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b06.png",
+      "file": "flip/b06.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "cf8fab61eb7d9a6ed341ba3012b5c121dddaa857ba738e8ed1d3bd752e72803b",
+      "output_sha256": "8c5b41ec62a25a80e7197aee95ac13959e84ebdd5714521a248a1b37e3857c3d"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b07.png",
+      "file": "flip/b07.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "6749768c1a156c9bb86ab0ff13fee412fb137850fe1724f97d03996284cbb6a1",
+      "output_sha256": "3d5e824837d77f849899e1beb9ad3aeb08242cb339f33be8c35b985bc7bdfc6d"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b08.png",
+      "file": "flip/b08.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "02fe221968093b63e0331751284db582928e569740e831aeee40e8ff9f8f2666",
+      "output_sha256": "6c2fd638a1bf0b4facb924db650df491b999beb7f2afe31c09ebee9b88ba419d"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\b09.png",
+      "file": "flip/b09.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "7ee440727c9943b3f77d917ec5702ab694900be989a32395f705dfbd316a2469",
+      "output_sha256": "62a90b3709abccf29073b7e9d1192800c5c0ae2f96e9b6e016641d96e2cf867d"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\flip\\paper.png",
+      "file": "flip/paper.png",
+      "size": [
+        372,
+        372
+      ],
+      "alpha_sha256": "37bbd22ce30a6924626484c03559550c263080b63d5605240a7b1f125ebaec05",
+      "output_alpha_sha256": "0464868747ca39d4e56e4cfdddb5ab2aa17c5c2456e4a3e52a6d0223b9073836",
+      "source_sha256": "4583074f78c3fac34041782d487967a57fb5a7a1a1f62aad803d726be22f30a2",
+      "output_sha256": "93e4a41765b5fd56c3dff8e2890051c0e51ab72ab28be12d823af710dfcc6371"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\m-000.png",
+      "file": "ren-name/m-000.png",
+      "size": [
+        81,
+        86
+      ],
+      "alpha_sha256": "be8d385f9a137df585e8a4b48c51a32ad7fbfdd4f4a8d7bee16f3047f8e26957",
+      "output_alpha_sha256": "be8d385f9a137df585e8a4b48c51a32ad7fbfdd4f4a8d7bee16f3047f8e26957",
+      "source_sha256": "7e3f6e4528bce0006efba71dd9ee2ac4c09f6ec59213eced230efbe232b42ccd",
+      "output_sha256": "744f4cae90cb6a6a92ac2d7a645b0756ca0f47bb95b2194b3b33545291b9a909"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\m-001.png",
+      "file": "ren-name/m-001.png",
+      "size": [
+        97,
+        100
+      ],
+      "alpha_sha256": "60453bfa3190a4f4783044679bc2aa8380163fcb63ed2128a99949bb168f2fc9",
+      "output_alpha_sha256": "60453bfa3190a4f4783044679bc2aa8380163fcb63ed2128a99949bb168f2fc9",
+      "source_sha256": "d81dab43bb1e2081b4d877b91bd65ca93b870fdb8cc0e500211d053118b09cdf",
+      "output_sha256": "fc62348feb6b375838bfa52916f23d2826b5afaeac5cd783e890ae2939034c41"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\m-002.png",
+      "file": "ren-name/m-002.png",
+      "size": [
+        82,
+        106
+      ],
+      "alpha_sha256": "e6b01c6ea55ce9b428328b3610599abd3abd1ff931e83e251f2c7bf47c640ef2",
+      "output_alpha_sha256": "e6b01c6ea55ce9b428328b3610599abd3abd1ff931e83e251f2c7bf47c640ef2",
+      "source_sha256": "e8a12dc6dead69fb9d96f29f93596d00be14470c39e91daa3af475e81ebbc1fe",
+      "output_sha256": "502faffe3b72b264394138be4ba758c0f9e723fbfb2a538ac216adbabb25666b"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-000.png",
+      "file": "ren-name/s-000.png",
+      "size": [
+        43,
+        44
+      ],
+      "alpha_sha256": "87a4ec85099c11485febf137bdd6e78cdfc571f586746832212482005dbb2b2d",
+      "output_alpha_sha256": "87a4ec85099c11485febf137bdd6e78cdfc571f586746832212482005dbb2b2d",
+      "source_sha256": "a8595f5b1b131e59d095ea9c81c617ee552899d1f3b26612d568bc865fa5f50a",
+      "output_sha256": "54b4b4098b1ed53a2ba00ff3d3a14ac78252e640f2659bc5c435eca5dd89a98b"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-001.png",
+      "file": "ren-name/s-001.png",
+      "size": [
+        23,
+        38
+      ],
+      "alpha_sha256": "9902d0198144f4cac89c790de049a24a542bed8e39b7c81aff534c21b9ab5c52",
+      "output_alpha_sha256": "9902d0198144f4cac89c790de049a24a542bed8e39b7c81aff534c21b9ab5c52",
+      "source_sha256": "a143e125808f19d6cf1eca583f29ee4801c9db2347820bd29a98487242ecf686",
+      "output_sha256": "a4331e83d33ab453f5d7277ff4e57e3df3ca197427c14bb17c36eeb8a502dbea"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-002.png",
+      "file": "ren-name/s-002.png",
+      "size": [
+        28,
+        33
+      ],
+      "alpha_sha256": "5f74306120ace2e5c3c4092ad86e4f765f381d76ead2a71dc90460a20a540457",
+      "output_alpha_sha256": "5f74306120ace2e5c3c4092ad86e4f765f381d76ead2a71dc90460a20a540457",
+      "source_sha256": "27106e38b0fdd1e77b5d0d8319b22da3d3fca9a790e4c7ae914efc2c9f144190",
+      "output_sha256": "d097c0666c6ebfae90ae62d98193241807bd1259dc733a1a3d7ac4744a1e96f7"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-003.png",
+      "file": "ren-name/s-003.png",
+      "size": [
+        29,
+        40
+      ],
+      "alpha_sha256": "9c771d7f7861b4e3851ddee66586f4aa93858121b7095b078324f3263cad479b",
+      "output_alpha_sha256": "9c771d7f7861b4e3851ddee66586f4aa93858121b7095b078324f3263cad479b",
+      "source_sha256": "8c4e6216c433a36db79789ce048358da9d5d41595f45d41c292559e9e225b5bc",
+      "output_sha256": "77d5b0a510e9ccde989410693ba85246e5818e9456f37f6a3e37e163697ec016"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-004.png",
+      "file": "ren-name/s-004.png",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_sha256": "aa90a1d22acf8e2d203991a79cf64494ae4d73a2dc82b211175bf4cd14be1c1e",
+      "output_alpha_sha256": "aa90a1d22acf8e2d203991a79cf64494ae4d73a2dc82b211175bf4cd14be1c1e",
+      "source_sha256": "858a18ffa12c6ab6ac29192291e26284e07978b9695a65cfc8cff9f102a61b01",
+      "output_sha256": "42855dfe5adea739420a02f38d40a556570ad28cac9938e877c8c8026caba4e5"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-005.png",
+      "file": "ren-name/s-005.png",
+      "size": [
+        26,
+        30
+      ],
+      "alpha_sha256": "604253bd226dab3c906c02469e8aebd307d080d7a957dfa19d1d20b8c314cd8c",
+      "output_alpha_sha256": "604253bd226dab3c906c02469e8aebd307d080d7a957dfa19d1d20b8c314cd8c",
+      "source_sha256": "9537c0db0ec45bb13b56309eadc58f4f0e0d22ebe302fc7417b00350818888eb",
+      "output_sha256": "77e4aa3225edb39fa20f8aa5b2ab960b074e61129b6b256960d27e052fe82645"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-006.png",
+      "file": "ren-name/s-006.png",
+      "size": [
+        32,
+        32
+      ],
+      "alpha_sha256": "aa90a1d22acf8e2d203991a79cf64494ae4d73a2dc82b211175bf4cd14be1c1e",
+      "output_alpha_sha256": "aa90a1d22acf8e2d203991a79cf64494ae4d73a2dc82b211175bf4cd14be1c1e",
+      "source_sha256": "858a18ffa12c6ab6ac29192291e26284e07978b9695a65cfc8cff9f102a61b01",
+      "output_sha256": "42855dfe5adea739420a02f38d40a556570ad28cac9938e877c8c8026caba4e5"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-007.png",
+      "file": "ren-name/s-007.png",
+      "size": [
+        35,
+        43
+      ],
+      "alpha_sha256": "2eaaccc96a8be27f02dee1e6e4e04137464844337760cdf5971bed64ea4f21ba",
+      "output_alpha_sha256": "2eaaccc96a8be27f02dee1e6e4e04137464844337760cdf5971bed64ea4f21ba",
+      "source_sha256": "487d3c5a97695cf31ad398efefd2f5334cd614ee37671f5243c9e352dd896b3c",
+      "output_sha256": "272541169e00a8a99000df2d51210797756eb2e62734ae8e459141b0dbf238cd"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-008.png",
+      "file": "ren-name/s-008.png",
+      "size": [
+        26,
+        31
+      ],
+      "alpha_sha256": "2079368461cb37dcb021c05ef6ce02810464cae0315f69dc4b05412a7184b61b",
+      "output_alpha_sha256": "2079368461cb37dcb021c05ef6ce02810464cae0315f69dc4b05412a7184b61b",
+      "source_sha256": "a1aa7a1ea6793311d04745d901766958a473a925db80c3bc80cece13b7939676",
+      "output_sha256": "1e28d4bd001ddc06e0ade2de875ae73a45c55a9b9c3eae15efa40c90da741e6c"
+    },
+    {
+      "source": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\ren-name\\s-009.png",
+      "file": "ren-name/s-009.png",
+      "size": [
+        31,
+        28
+      ],
+      "alpha_sha256": "4d36090e71901d329aee8666f5c80e7ea9c0f8f537c29b31f2b8e8656572bd09",
+      "output_alpha_sha256": "4d36090e71901d329aee8666f5c80e7ea9c0f8f537c29b31f2b8e8656572bd09",
+      "source_sha256": "abd26eae8332566fac0ae4154df6a6ac01d0e840b5b07fe4634b406d9955dfe5",
+      "output_sha256": "48f5ede253ca2a35fd2cf9884516a7d7051490bcccf423b869ee48ef6fb77440"
+    }
+  ],
+  "antialias": {
+    "card_face_pixels": 120,
+    "card_padding_pixels": 2,
+    "textures": [
+      {
+        "file": "arc-stroke-1800.png",
+        "size": [
+          128,
+          48
+        ],
+        "scale": 0.5,
+        "sha256": "474a0c7c657a1617fb56fb16719b4c3245830ce290b6b43799feca6b3ceef048"
+      },
+      {
+        "file": "arc-stroke-2800.png",
+        "size": [
+          128,
+          48
+        ],
+        "scale": 0.5,
+        "sha256": "96f86965146bfd57c62d66310302ad16d167588d1fbe839dbbf734a8e193e780"
+      },
+      {
+        "file": "arc-stroke-4800.png",
+        "size": [
+          128,
+          48
+        ],
+        "scale": 0.5,
+        "sha256": "15a2c0e971cd5784dc6984a1868508a98b37e4e9ccd71577f5074ca757d8bad5"
+      },
+      {
+        "file": "arcs/580_-12800_-11200_1800_0.png",
+        "size": [
+          210,
+          122
+        ],
+        "scale": 0.5,
+        "sha256": "8c146c1325dfb0407f8c0a4ea573da1d6525ee80f573b9e037cbd8a6fd92aa92"
+      },
+      {
+        "file": "arcs/600_-19500_-17800_1800_0.png",
+        "size": [
+          230,
+          116
+        ],
+        "scale": 0.5,
+        "sha256": "de32d465552b506856521eb5c30608fd7cd071551ce28eebe8f2773cb953028e"
+      },
+      {
+        "file": "arcs/620_-11200_-9600_1800_1.png",
+        "size": [
+          208,
+          150
+        ],
+        "scale": 0.5,
+        "sha256": "a67fcf17e5f5a0ed5bb7e4236433e18453b8d70ae1d19ee21980cb80e890d8a7"
+      },
+      {
+        "file": "arcs/650_-11800_-8000_2800_0.png",
+        "size": [
+          448,
+          318
+        ],
+        "scale": 0.5,
+        "sha256": "490157d92067335c9f83907cedf63c6d7cbadaf9630fbf58ed65ee1c047d9b46"
+      },
+      {
+        "file": "arcs/660_-22000_-20200_1800_1.png",
+        "size": [
+          240,
+          170
+        ],
+        "scale": 0.5,
+        "sha256": "e40338d0c73be081463983c85109f8f632390fe95a25676b9767dd3874c56a1b"
+      },
+      {
+        "file": "arcs/690_-23500_-19000_2800_0.png",
+        "size": [
+          564,
+          374
+        ],
+        "scale": 0.5,
+        "sha256": "d8d87468b8fdc28ba229a2f083cbe2a68517612a8dd5310b4c0a5806c54d8afb"
+      },
+      {
+        "file": "arcs/720_-20500_-16800_2800_0.png",
+        "size": [
+          544,
+          210
+        ],
+        "scale": 0.5,
+        "sha256": "bd166a7bbc93e7bf412f6096c0317b3a6dd5afe38f6bef9c690185445cea01ee"
+      },
+      {
+        "file": "arcs/760_-12200_-8600_2800_0.png",
+        "size": [
+          508,
+          324
+        ],
+        "scale": 0.5,
+        "sha256": "a150e3560d542d998f73b247e52ad75565c4c1850c83b1c29a440a692247405a"
+      },
+      {
+        "file": "arcs/800_-12200_-10200_1800_0.png",
+        "size": [
+          324,
+          192
+        ],
+        "scale": 0.5,
+        "sha256": "4556b93afa9a8ee66394e5b36cdcbec96fa1d848c55113fdc51f98edcb653b30"
+      },
+      {
+        "file": "arcs/830_-12000_-19400_4800_0.png",
+        "size": [
+          1236,
+          172
+        ],
+        "scale": 0.5,
+        "sha256": "8878dd56d91278dfe1908bc3e9b66d05c5462dd610849908fcd8b609e3c0c359"
+      },
+      {
+        "file": "arcs/840_-21800_-19800_1800_0.png",
+        "size": [
+          332,
+          214
+        ],
+        "scale": 0.5,
+        "sha256": "9d86e20cd28608202ac8116a657e22d6d08234724e97f7679f5dcf13ae501a7c"
+      },
+      {
+        "file": "arcs/860_-21500_-17800_2800_0.png",
+        "size": [
+          622,
+          296
+        ],
+        "scale": 0.5,
+        "sha256": "c16169fa512cb2c91273d6dcc79bd6165a86376ea4b93ec83252232336d62883"
+      },
+      {
+        "file": "arcs/870_-11500_-9800_1800_1.png",
+        "size": [
+          296,
+          192
+        ],
+        "scale": 0.5,
+        "sha256": "00833508dccf5506d5207ba0211c66c1f77448e46f4edc1dfa02f9bf304b000e"
+      },
+      {
+        "file": "arcs/880_-20500_-18800_1800_1.png",
+        "size": [
+          312,
+          168
+        ],
+        "scale": 0.5,
+        "sha256": "646d61c221e20404e90474601788fd3e0b198127e38cbc4fb0247d4c1f55b26d"
+      },
+      {
+        "file": "arcs/900_-6200_-25200_4800_0.png",
+        "size": [
+          2212,
+          480
+        ],
+        "scale": 0.5,
+        "sha256": "c7e666c3b2f4e1145edf4c7cd53dd3036170b9023f3e9a31248b8fb5c6e1974d"
+      },
+      {
+        "file": "flip/b00.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "62a90b3709abccf29073b7e9d1192800c5c0ae2f96e9b6e016641d96e2cf867d"
+      },
+      {
+        "file": "flip/b01.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "df1e3eb7259578a523aeadf3e1e12386f5013a526f9c5e698472a34266a32fa2"
+      },
+      {
+        "file": "flip/b02.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "989fc52c2a347bf36396e74014c744c5925309c91a7e825f2808be674447ece0"
+      },
+      {
+        "file": "flip/b03.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "9625efc85025ef09839cc3c58ef07393147bc05fc342bd19852e75eca7385f05"
+      },
+      {
+        "file": "flip/b04.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "0d644a7e3d250bf5d3ade474bdb35910921fe144b37167214bf114be199c3405"
+      },
+      {
+        "file": "flip/b05.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "9625efc85025ef09839cc3c58ef07393147bc05fc342bd19852e75eca7385f05"
+      },
+      {
+        "file": "flip/b06.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "8c5b41ec62a25a80e7197aee95ac13959e84ebdd5714521a248a1b37e3857c3d"
+      },
+      {
+        "file": "flip/b07.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "3d5e824837d77f849899e1beb9ad3aeb08242cb339f33be8c35b985bc7bdfc6d"
+      },
+      {
+        "file": "flip/b08.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "6c2fd638a1bf0b4facb924db650df491b999beb7f2afe31c09ebee9b88ba419d"
+      },
+      {
+        "file": "flip/b09.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "62a90b3709abccf29073b7e9d1192800c5c0ae2f96e9b6e016641d96e2cf867d"
+      },
+      {
+        "file": "flip/paper.png",
+        "size": [
+          372,
+          372
+        ],
+        "scale": 0.3333333333333333,
+        "sha256": "93e4a41765b5fd56c3dff8e2890051c0e51ab72ab28be12d823af710dfcc6371"
+      }
+    ],
+    "rgba_bytes": 15992624
+  }
+}

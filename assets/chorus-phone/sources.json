@@ -1,0 +1,429 @@
+{
+  "room_reference": "${GAME_ROOT}\\解包\\场景\\妹の部屋_昼.png",
+  "room_models": {
+    "author": "Dawn to Dusk Games",
+    "page": "https://dawn-to-dusk-games.itch.io/simple-3d-bedroom-asset-pack-set-1",
+    "license": "CC0-1.0",
+    "selected": [
+      "Bed_01",
+      "Table_01",
+      "Chair_03",
+      "Cupboard_01"
+    ]
+  },
+  "phone": {
+    "source": "https://poly.pizza/m/4DRZmTs3jq",
+    "download": "https://static.poly.pizza/68a8586b-e540-431c-b42e-e3c6bc691e11.glb",
+    "author": "smallbigsquare",
+    "license": "CC0-1.0",
+    "type": "public non-folding touchscreen smartphone model",
+    "width_m": 0.068,
+    "height_m": 0.15,
+    "depth_m": 0.0098,
+    "adaptation": "Original geometry scaled uniformly; existing palette recolored cream front and lavender side/back, call screen overlaid",
+    "pose": {
+      "type": "floating handheld, without visible hand or support",
+      "pivot_height_m": 0.512,
+      "whole_phone_tilt_degrees": 30,
+      "vertical_bob_amplitude_m": 0,
+      "minimum_table_clearance_m": 0.009
+    }
+  },
+  "centre_table": {
+    "width_m": 1.4,
+    "depth_m": 0.9,
+    "top_height_m": 0.46,
+    "rug_size_m": [
+      1.93,
+      1.48
+    ]
+  },
+  "room_layout": {
+    "footprint_m": [
+      4.8,
+      4.8
+    ],
+    "furniture_widths_m": {
+      "Bed_01": 1.5,
+      "Table_01": 2.02,
+      "Chair_03": 0.53,
+      "Cupboard_01": 1.32
+    },
+    "placement": "Mesh bounds centred and grounded; bed/desk/cupboard against walls",
+    "photo_camera_target": "Near phone, left 45 degrees, camera at desk height (0.837m)",
+    "details": [
+      "quilt seams",
+      "pillow",
+      "bedside drawers",
+      "desk hutch and books",
+      "magazines",
+      "pencil holder",
+      "clock",
+      "desk lamp",
+      "drawer chest",
+      "plant",
+      "wall pinboard",
+      "calendar",
+      "curtain ties",
+      "AC vents",
+      "rug",
+      "ceramic cup"
+    ]
+  },
+  "background_photos": [
+    {
+      "actor": "hiiro-01",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA01_a.png"
+    },
+    {
+      "actor": "hiiro-02",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA02_a.png"
+    },
+    {
+      "actor": "hiiro-03",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA03_a.png"
+    },
+    {
+      "actor": "hiiro-04",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA04.png"
+    },
+    {
+      "actor": "hiiro-05",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA05.png"
+    },
+    {
+      "actor": "hiiro-06",
+      "character": "姫色",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGA06_a.png"
+    },
+    {
+      "actor": "shiori-01",
+      "character": "紫織",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGB02_a.png"
+    },
+    {
+      "actor": "shiori-02",
+      "character": "紫織",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGB03.png"
+    },
+    {
+      "actor": "shiori-03",
+      "character": "紫織",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGB04.png"
+    },
+    {
+      "actor": "kumo-01",
+      "character": "雲",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGD01_a.png"
+    },
+    {
+      "actor": "kumo-02",
+      "character": "雲",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGD02_a.png"
+    },
+    {
+      "actor": "kumo-03",
+      "character": "雲",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGD04_a.png"
+    },
+    {
+      "actor": "kumo-04",
+      "character": "雲",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGD05_a.png"
+    },
+    {
+      "actor": "kamome-01",
+      "character": "かもめ",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGE01_a.png"
+    },
+    {
+      "actor": "kamome-02",
+      "character": "かもめ",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGE02_a.png"
+    },
+    {
+      "actor": "kamome-03",
+      "character": "かもめ",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGE03_a.png"
+    },
+    {
+      "actor": "kamome-04",
+      "character": "かもめ",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGE04_a.png"
+    }
+  ],
+  "photo_motion_reference": {
+    "source": "${GAME_ROOT}\\解包\\视频\\video\\yumeiro_op.wmv",
+    "range_seconds": [
+      0,
+      10
+    ],
+    "implementation": "One 3D paper changes both front/reverse to room at the final edge-on pass; outside the paper is plain warm colour with falling CG cards; no distant room or gate image backdrop",
+    "flash_local_seconds": [
+      [
+        0,
+        0.13
+      ],
+      [
+        0.14,
+        0.31
+      ]
+    ],
+    "cut_under_second_flash_seconds": 0.23,
+    "centre_roll_degrees": 20,
+    "centre_fall_local_seconds": [
+      0.23,
+      0.85
+    ],
+    "centre_drop_m": 0.7,
+    "centre_fall_path": "Cubic Bezier bowed fall, with lateral and depth movement",
+    "centre_fall_easing": "OutCubic: faster then slower, with a small absolute movement",
+    "spin_local_seconds": [
+      0.7,
+      1.9
+    ],
+    "spin_degrees": 360,
+    "spin_easing": "Asymmetric InSine/OutSine: 28% acceleration, 72% deceleration; continuous velocity",
+    "room_print_switch": "Last edge-on pass at 270 degrees, approx 1.42721s, so the front is room before the turn settles",
+    "photo_focus_local_seconds": [
+      0.25,
+      0.7
+    ],
+    "photo_focus_blur_px": [
+      24,
+      0
+    ],
+    "photo_focus_easing": "OutCubic",
+    "axis_ring_radius_m": 0.373,
+    "axis_ring_decor": "Single fine pale line, 32% opacity, subtle small bead and gradual reveal/fade; no ticks, stars, dashed outer ring or scale bounce",
+    "spin_emission": "36 particles and 18 short line rays launch from the 3D paper edges, travel outward with OutQuad, fade and shrink; local birth range 0.76-1.442s",
+    "background_instances": 64,
+    "photo_window_seconds": 2.55,
+    "photo_camera_entry_local_seconds": [
+      1.65,
+      2.55
+    ],
+    "photo_entry_path": "Cubic Bezier spatial path; InOutSine time easing; starts 0.25s before rotation finishes",
+    "omitted": "Ren CGC15_c.png and CGD03.png"
+  },
+  "screen": {
+    "source": "${GAME_ROOT}\\解包\\其他图片\\效果\\恋発信中.png",
+    "portrait_crop": [
+      784,
+      353,
+      1137,
+      706
+    ],
+    "adaptation": "Recomposed cream/lavender call UI: upper portrait, centred name/status, three round function keys, separate full coral hang-up button",
+    "resolution": [
+      618,
+      1195
+    ]
+  },
+  "phone_camera": {
+    "orbit_radius_m": [
+      0.5,
+      0.22
+    ],
+    "height_above_phone_m": [
+      0.325,
+      0.105
+    ],
+    "easing": "OutSine: diagonal descending right arc, moving inward toward the call phone while SMS descends",
+    "fov_degrees": [
+      55,
+      48
+    ],
+    "orbit_degrees": 79.38,
+    "orbit_angle_radians": [
+      -0.7853981633974483,
+      0.6
+    ],
+    "local_seconds": [
+      2.25,
+      4.95
+    ],
+    "target": "Brief room glance in the middle, then centre on the call screen near desk height; camera descends 0.22m"
+  },
+  "sms": {
+    "source": "${GAME_ROOT}\\解包\\其他图片\\效果\\恋メール.png",
+    "envelope_crop": [
+      785,
+      353,
+      1135,
+      703
+    ],
+    "screen": "Recomposed blue sending UI, matched to call-screen resolution 618x1195",
+    "model": "Same public CC0 Smartphone, foreground true-3D render with transparency",
+    "fall_local_seconds": [
+      3.85,
+      4.9
+    ],
+    "easing": "0.20-second rapid Hermite entry, speed-matched to a 0.85-second OutQuad deceleration from the lower-quarter screen boundary",
+    "screen_roll_degrees": -30,
+    "brake_local_seconds": 4.05,
+    "brake_lower_edge_screen_y": 0.75,
+    "depth_yaw_degrees": 8,
+    "depth_pitch_degrees": -4,
+    "settle_local_seconds": [
+      4.9,
+      4.95
+    ],
+    "coverage": "Left half, screen faces camera and handset top points upper-right",
+    "silhouette_at_local_seconds": 4.95,
+    "silhouette": "Instant white phone on protagonist blue #3e69a0",
+    "outgoing_visible_until_song_seconds": 65.91
+  },
+  "silhouette_call": {
+    "character": {
+      "source": "../..\\output\\imagegen\\Ren-paper-cup-hand-v8.png",
+      "edit_target": "output/imagegen/Ren-paper-cup-before-v8.png",
+      "generation": "bundled imagegen CLI masked edit; gpt-image-2; high; natural continuous wrist and plain sleeve",
+      "prompt": "assets/chorus-phone/ren-paper-cup-prompt-v8.txt",
+      "pose": "forward grip; grouped rounded fingers, short thumb, smooth wrist joining plain sleeve",
+      "styles": {
+        "simple": "white upper-body and hand, sparse pale-blue cup/thumb/wrist marks; no outlined cuff band",
+        "detail": "local comparison option only; selected final is simple"
+      },
+      "source_size_px": [
+        1114,
+        1412
+      ],
+      "cup_anchor_source_px": [
+        249,
+        450
+      ],
+      "framing": "head to waist only; legs never included",
+      "postprocess": "v8 coherent alpha, all body linework removed; isolated cup/hand marks 70 percent, median 3px; dark-blue shadow 60 percent, blur 5px, offset [20,16]px"
+    },
+    "start_local_seconds": 4.95,
+    "phone_outline": "screen frame, speaker and home contour appear fully at local 4.95; only envelope has drawing animation",
+    "icon_draw_local_seconds": [
+      4.95,
+      5.17
+    ],
+    "flight_local_seconds": [
+      5.17,
+      6.3
+    ],
+    "flight_easing": "74 percent InCubic, 26 percent OutCubic; actual arrival song65.100 after front compression",
+    "envelope_to_wave_local_seconds": [
+      5.48,
+      5.73
+    ],
+    "wave_shape": "two short glints, alpha 0.22, width 3px; smooth 25px/s drift and 32px/s radius growth after reception, exponential fade 0.72 per second through shot end; no freeze",
+    "motion_blur": "22 temporal samples over 22ms plus soft stroke bands; speed dependent",
+    "ripples": "8 travel emissions plus 3 reception births at local 6.22/6.34/6.46; reception lifetime 1.40s, two layers, OutSine spread to 860px and continuous fade; no time clamp",
+    "impact_local_seconds": [
+      6.3,
+      6.58
+    ],
+    "impact_amplitude_px": 4,
+    "impact_easing": "sin squared; zero-speed endpoints, slow single return",
+    "camera_local_seconds": [
+      5.28,
+      6.58
+    ],
+    "camera_easing": "InOutCubic follow with early catch-up; 4px sin-squared return; replaced by right whip at actual song65.400",
+    "line_width_px": 10,
+    "world_camera_pan_px": 18000,
+    "heroine_shift_screen_px": 180,
+    "message_height_above_line_px": 160,
+    "completed_song_seconds": 65.98,
+    "ambient_reception_animated_until_song_seconds": 65.91
+  },
+  "timing_retime": {
+    "local_seconds_basis": "Existing photo_print, phone_camera, sms and silhouette_call fields retain nominal phase seconds; laser_transition song seconds are actual",
+    "nominal_to_actual_local_knots": [
+      [
+        0,
+        0
+      ],
+      [
+        0.7,
+        0.7
+      ],
+      [
+        2.55,
+        2.43
+      ],
+      [
+        3.85,
+        3.55
+      ],
+      [
+        4.95,
+        4.55
+      ]
+    ],
+    "after_last_knot": "actual = nominal - 0.40",
+    "reclaimed_seconds": {
+      "photo": 0.12,
+      "room": 0.18,
+      "sms_drop": 0.1
+    },
+    "actual_arrival_song_seconds": 65.1,
+    "actual_silhouette_song_seconds": 63.75,
+    "actual_laser_segment_song_seconds": [
+      65.2,
+      65.98
+    ]
+  },
+  "laser_transition": {
+    "fire_song_seconds": 65.2,
+    "crossing_seconds": 0.085,
+    "core_height_px": 316,
+    "impact_shock": {
+      "song_seconds": [
+        65.2,
+        65.585
+      ],
+      "impulses_seconds": [
+        0,
+        0.085
+      ],
+      "second_impulse_gain": 0.25,
+      "translation_px": [
+        -4,
+        3,
+        2.5
+      ],
+      "roll_degrees": 0.05,
+      "decay_seconds": 0.1,
+      "zoom_punch": 1.0045,
+      "beam_width_punch": 1.02,
+      "scope": "Outgoing scene only; incoming puppet CG is stable"
+    },
+    "plane": "Behind character, enlarged cast shadow offset100/36px clipped to beam",
+    "whip_song_seconds": [
+      65.4,
+      65.98
+    ],
+    "camera_start_delay_seconds": 0.05,
+    "crossfade_song_seconds": [
+      65.67,
+      65.91
+    ],
+    "whip_easing": "InCubic outgoing acceleration, OutCubic incoming settle",
+    "blur": "33-tap Gaussian-weighted horizontal shutter, peak160px",
+    "incoming_cg": "CGC14_a; existing body/hand rig, independent RGBA hair mesh and fixed-iris eyelids; blink after arrival"
+  },
+  "incoming_override": {
+    "source": "assets/incoming-cgc06-overscan.png",
+    "content": "CGC06 closed/o right-hand camera; replaces CGC14 placeholder",
+    "motion": "Shared cgc06-motion.gd; linear preroll meets matched fast entry, early smooth braking and continuous visible slow pan at 66.000",
+    "landing_song_seconds": 65.98,
+    "handoff_song_seconds": 66.0,
+    "atmosphere": "Shared atmosphere.gd: source-space background field with character exclusion plus five sparse closeup foreground particles across hands/clothing/background; screen-fixed Eagle white frame; same song time and 65.670–65.910 reveal",
+    "next_shot_song_seconds": [
+      66.0,
+      72.3
+    ]
+  },
+  "gate_snapshot": "Current ChorusGate sprite tracks at 59200ms"
+}

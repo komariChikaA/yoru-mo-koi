@@ -1,0 +1,5 @@
+{
+  "source": "${GAME_ROOT}\\解包\\场景\\logo_feng.png",
+  "texture": "res://assets/ending-title/feng-logo.png",
+  "operation": "native_full_frame_copy"
+}

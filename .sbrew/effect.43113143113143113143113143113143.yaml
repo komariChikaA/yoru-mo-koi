@@ -1,0 +1,11 @@
+FormatVersion: 7
+Name: "Chorus Fourth 72.3–79.3s"
+Script: "ChorusFour"
+Multithreaded: No
+Config:
+Layers:
+  43113143113143113143113143113143:
+    Name: "Chorus Fourth"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

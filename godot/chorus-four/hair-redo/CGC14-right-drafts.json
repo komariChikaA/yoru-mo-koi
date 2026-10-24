@@ -1,0 +1,85 @@
+{
+  "source": "../../工作文件夹/output/CGC14-15_scene4/头发逐层重拆/CGC14/stage-CGC14_F01_FREE_END-complete-branches-v3/repaired-plate.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "status": "native-hidden-plate-and-joint-gpu-checked-wip-awaiting-user-visual-review",
+  "front_to_back": [
+    {
+      "id": "CGC14_R01_LOWER_CURL_FREE_END",
+      "label": "右下后层回弯尾簇：仅950横切线以下松散段",
+      "depth": 30,
+      "region": "right-rear",
+      "sway_percent": 70,
+      "outline": "M 1582 950 L 1611 950 C 1609 984 1605 1007 1592 1034 C 1585 1047 1573 1058 1558 1063.5 C 1540 1071.5 1514 1068.5 1486 1064.5 C 1458 1060.5 1421 1053.5 1404 1055.5 C 1398 1056.5 1391 1060.5 1388 1064 C 1393 1052 1422 1047 1445 1050 C 1459 1050 1471 1053 1483 1056 C 1440 1050.5 1408 1038.5 1378 1036.5 C 1357 1035.5 1344 1039.5 1338 1051.5 C 1342 1036 1365 1029 1383 1030 C 1420 1029 1450 1042 1474 1050 C 1454 1041 1426 1025 1404 1021 C 1381 1015 1365 1016 1355 1029 C 1363 1012 1381 1008 1403 1008 C 1440 1008 1467 1027 1495 1038 C 1527 1036 1553 1003 1566 976 C 1575 960 1579 953 1582 950 Z",
+      "exclude": [],
+      "occluded_by": [],
+      "support_point": [
+        1596,
+        950
+      ],
+      "fixed_transition": {
+        "type": "fixed-root-cross-section",
+        "cut_line": [
+          [
+            1582,
+            950
+          ],
+          [
+            1611,
+            950
+          ]
+        ],
+        "static_above": true,
+        "root_band_px": 24,
+        "influence": "0 at the complete transverse cut; smooth increase across the following 24px, then release downstream"
+      },
+      "chain": [
+        [
+          1596,
+          950
+        ],
+        [
+          1588,
+          985
+        ],
+        [
+          1566,
+          1032
+        ],
+        [
+          1525,
+          1051
+        ],
+        [
+          1470,
+          1048
+        ],
+        [
+          1410,
+          1034
+        ],
+        [
+          1365,
+          1034
+        ],
+        [
+          1338,
+          1050
+        ]
+      ],
+      "label_at": [
+        1340,
+        985
+      ],
+      "status": "joint-gpu-checked-wip-awaiting-user-visual-review",
+      "ready_for_extract": true,
+      "notes": "仅取最底部右侧长发在前方横跨发束下方重新显露后的松散回弯尾段。950以上根部及所有头皮/牢固上段留静态，不追完整长发。顶端横切线处仍应保留固定过渡。下缘三支同簇原生尖叉与主尾同一RGBA，尖叉之间背景沿轮廓凹口透明，不把内部高光当独立发丝。当前mask不包含袖子或前方横跨发束，因此occluded_by为空；被该前层遮住的上游段完全排除，没有猜补。轮廓按原生深色外线手工描绘，已检查灰底、prior叠图及6/8倍收尖。 在8倍坐标参照中校正三尖实际收端到(1355,1028)、(1338,1050)、(1388,1063)，不按背景色误延伸尖端。 本轮提取以stage-CGC14_F01_FREE_END-complete-branches-v3/repaired-plate.png为唯一prior，未回原图独立取层。 隐藏夕色背景已完成，斜向纹理接续并通过静态原件、回贴及重组检查。本轮已完成与F01的联合GPU全景检查：336帧、5.6秒、60fps，并实际查看8个相位；联合182个固定顶点及支点位移为0，可见顶点最大位移106.50465px，最小三角形面积比0.47884，折叠三角形0。以上为本轮联合预览的技术检查范围；CGC14整体仍为WIP，视觉效果等待用户确认。",
+      "prior_repaired_required": true,
+      "extraction_source": "../../工作文件夹/output/CGC14-15_scene4/头发逐层重拆/CGC14/stage-CGC14_F01_FREE_END-complete-branches-v3/repaired-plate.png",
+      "hidden_plate_stage": "../..\\工作文件夹\\output\\CGC14-15_scene4\\头发逐层重拆\\CGC14\\stage-CGC14_R01_LOWER_CURL_FREE_END-prior-f01-v1"
+    }
+  ],
+  "layering_rule": "一自然发簇一层；只提支点以下松散段。下一层必须从此前层移除并补绘的底图提取。"
+}

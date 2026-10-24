@@ -1,0 +1,1703 @@
+{
+  "source_size": [
+    1920,
+    1080
+  ],
+  "clean_path": "res://assets/source-clean.png",
+  "petals": [
+    {
+      "id": "upper-left-edge",
+      "texture": "res://assets/native-petals/upper-left-edge.png",
+      "rect": [
+        0,
+        63,
+        127,
+        103
+      ],
+      "center": [
+        63.5,
+        114.5
+      ],
+      "depth": 2.5,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "left",
+      "completed": false
+    },
+    {
+      "id": "upper-left-small",
+      "texture": "res://assets/native-petals/upper-left-small.png",
+      "rect": [
+        182,
+        42,
+        86,
+        74
+      ],
+      "center": [
+        225.0,
+        79.0
+      ],
+      "depth": 2.1,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "left-upper-large",
+      "texture": "res://assets/native-petals/left-upper-large.png",
+      "rect": [
+        233,
+        87,
+        188,
+        135
+      ],
+      "center": [
+        327.0,
+        154.5
+      ],
+      "depth": 2.4,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "middle-left-distant",
+      "texture": "res://assets/native-petals/middle-left-distant.png",
+      "rect": [
+        466,
+        233,
+        83,
+        70
+      ],
+      "center": [
+        507.5,
+        268.0
+      ],
+      "depth": 1.7,
+      "alpha_range": [
+        0,
+        0.9803921568627451
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "upper-right-large",
+      "texture": "res://assets/native-petals/upper-right-large.png",
+      "rect": [
+        1159,
+        40,
+        135,
+        156
+      ],
+      "center": [
+        1226.5,
+        118.0
+      ],
+      "depth": 2.6,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "right-edge-large",
+      "texture": "res://assets/native-petals/right-edge-large.png",
+      "rect": [
+        1785,
+        98,
+        135,
+        162
+      ],
+      "center": [
+        1852.5,
+        179.0
+      ],
+      "depth": 2.8,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "right",
+      "completed": false
+    },
+    {
+      "id": "left-middle-small",
+      "texture": "res://assets/native-petals/left-middle-small.png",
+      "rect": [
+        538,
+        459,
+        90,
+        57
+      ],
+      "center": [
+        583.0,
+        487.5
+      ],
+      "depth": 1.8,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "left-hand-under",
+      "texture": "res://assets/native-petals/left-hand-under.png",
+      "rect": [
+        237,
+        603,
+        137,
+        135
+      ],
+      "center": [
+        305.5,
+        670.5
+      ],
+      "depth": 2.5,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "right-middle-large",
+      "texture": "res://assets/native-petals/right-middle-large.png",
+      "rect": [
+        1761,
+        390,
+        117,
+        108
+      ],
+      "center": [
+        1819.5,
+        444.0
+      ],
+      "depth": 2.7,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "left-bottom-edge",
+      "texture": "res://assets/native-petals/left-bottom-edge.png",
+      "rect": [
+        0,
+        776,
+        58,
+        114
+      ],
+      "center": [
+        29.0,
+        833.0
+      ],
+      "depth": 2.8,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "left",
+      "completed": false
+    },
+    {
+      "id": "under-hand-small",
+      "texture": "res://assets/native-petals/under-hand-small.png",
+      "rect": [
+        587,
+        807,
+        75,
+        54
+      ],
+      "center": [
+        624.5,
+        834.0
+      ],
+      "depth": 1.8,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "left-lower-large",
+      "texture": "res://assets/native-petals/left-lower-large.png",
+      "rect": [
+        70,
+        938,
+        139,
+        93
+      ],
+      "center": [
+        139.5,
+        984.5
+      ],
+      "depth": 2.8,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "lower-middle-large",
+      "texture": "res://assets/native-petals/lower-middle-large.png",
+      "rect": [
+        658,
+        909,
+        94,
+        81
+      ],
+      "center": [
+        705.0,
+        949.5
+      ],
+      "depth": 2.4,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "right-skirt-large",
+      "texture": "res://assets/native-petals/right-skirt-large.png",
+      "rect": [
+        1356,
+        735,
+        91,
+        123
+      ],
+      "center": [
+        1401.5,
+        796.5
+      ],
+      "depth": 2.6,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "bottom-middle-edge",
+      "texture": "res://assets/native-petals/bottom-middle-edge.png",
+      "rect": [
+        628,
+        1048,
+        113,
+        32
+      ],
+      "center": [
+        684.5,
+        1064.0
+      ],
+      "depth": 2.9,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "bottom",
+      "completed": false
+    },
+    {
+      "id": "bottom-right-edge",
+      "texture": "res://assets/native-petals/bottom-right-edge.png",
+      "rect": [
+        1654,
+        1027,
+        137,
+        53
+      ],
+      "center": [
+        1722.5,
+        1053.5
+      ],
+      "depth": 2.9,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "bottom",
+      "completed": false
+    },
+    {
+      "id": "bottom-right-thin-edge",
+      "texture": "res://assets/native-petals/bottom-right-thin-edge.png",
+      "rect": [
+        1590,
+        1019,
+        66,
+        61
+      ],
+      "center": [
+        1623.0,
+        1049.5
+      ],
+      "depth": 2.7,
+      "alpha_range": [
+        0,
+        0.9529411764705882
+      ],
+      "edge_clipped": true,
+      "clip_edge": "bottom",
+      "completed": false
+    },
+    {
+      "id": "original-left-edge-high",
+      "texture": "res://assets/native-petals/original-left-edge-high.png",
+      "rect": [
+        0,
+        188,
+        24,
+        45
+      ],
+      "center": [
+        12.0,
+        210.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "left",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-tiny",
+      "texture": "res://assets/native-petals/original-trunk-tiny.png",
+      "rect": [
+        119,
+        295,
+        31,
+        25
+      ],
+      "center": [
+        134.5,
+        307.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-curled",
+      "texture": "res://assets/native-petals/original-canopy-curled.png",
+      "rect": [
+        387,
+        443,
+        37,
+        53
+      ],
+      "center": [
+        405.5,
+        469.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-scalp-top",
+      "texture": "res://assets/native-petals/original-scalp-top.png",
+      "rect": [
+        802,
+        20,
+        36,
+        33
+      ],
+      "center": [
+        820.0,
+        36.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-scalp-left",
+      "texture": "res://assets/native-petals/original-scalp-left.png",
+      "rect": [
+        682,
+        190,
+        31,
+        50
+      ],
+      "center": [
+        697.5,
+        215.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-loop-front",
+      "texture": "res://assets/native-petals/original-loop-front.png",
+      "rect": [
+        621,
+        477,
+        79,
+        27
+      ],
+      "center": [
+        660.5,
+        490.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-hair-top",
+      "texture": "res://assets/native-petals/original-hair-top.png",
+      "rect": [
+        959,
+        80,
+        41,
+        28
+      ],
+      "center": [
+        979.5,
+        94.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-sky-thin",
+      "texture": "res://assets/native-petals/original-sky-thin.png",
+      "rect": [
+        1836,
+        62,
+        49,
+        23
+      ],
+      "center": [
+        1860.5,
+        73.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-sky-edge",
+      "texture": "res://assets/native-petals/original-sky-edge.png",
+      "rect": [
+        1898,
+        98,
+        22,
+        21
+      ],
+      "center": [
+        1909.0,
+        108.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "right",
+      "completed": false
+    },
+    {
+      "id": "original-coat-top-edge",
+      "texture": "res://assets/native-petals/original-coat-top-edge.png",
+      "rect": [
+        1617,
+        0,
+        28,
+        33
+      ],
+      "center": [
+        1631.0,
+        16.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "top",
+      "completed": false
+    },
+    {
+      "id": "original-coat-shoulder",
+      "texture": "res://assets/native-petals/original-coat-shoulder.png",
+      "rect": [
+        1665,
+        22,
+        73,
+        61
+      ],
+      "center": [
+        1701.5,
+        52.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-upper-small",
+      "texture": "res://assets/native-petals/original-coat-upper-small.png",
+      "rect": [
+        1657,
+        269,
+        35,
+        30
+      ],
+      "center": [
+        1674.5,
+        284.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-upper-curve",
+      "texture": "res://assets/native-petals/original-coat-upper-curve.png",
+      "rect": [
+        1691,
+        276,
+        64,
+        38
+      ],
+      "center": [
+        1723.0,
+        295.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-ponytail-front",
+      "texture": "res://assets/native-petals/original-ponytail-front.png",
+      "rect": [
+        1271,
+        282,
+        81,
+        52
+      ],
+      "center": [
+        1311.5,
+        308.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-ponytail-junction",
+      "texture": "res://assets/native-petals/original-ponytail-junction.png",
+      "rect": [
+        1352,
+        283,
+        51,
+        44
+      ],
+      "center": [
+        1377.5,
+        305.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-rear-arc-front",
+      "texture": "res://assets/native-petals/original-rear-arc-front.png",
+      "rect": [
+        1417,
+        322,
+        38,
+        54
+      ],
+      "center": [
+        1436.0,
+        349.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-right-edge-thin",
+      "texture": "res://assets/native-petals/original-right-edge-thin.png",
+      "rect": [
+        1910,
+        349,
+        10,
+        54
+      ],
+      "center": [
+        1915.0,
+        376.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "right",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-high",
+      "texture": "res://assets/native-petals/original-trunk-high.png",
+      "rect": [
+        7,
+        577,
+        50,
+        45
+      ],
+      "center": [
+        32.0,
+        599.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-left-edge",
+      "texture": "res://assets/native-petals/original-trunk-left-edge.png",
+      "rect": [
+        0,
+        633,
+        37,
+        28
+      ],
+      "center": [
+        18.5,
+        647.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "left",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-thin",
+      "texture": "res://assets/native-petals/original-trunk-thin.png",
+      "rect": [
+        65,
+        630,
+        28,
+        43
+      ],
+      "center": [
+        79.0,
+        651.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-loop-canopy-thin",
+      "texture": "res://assets/native-petals/original-loop-canopy-thin.png",
+      "rect": [
+        396,
+        573,
+        37,
+        39
+      ],
+      "center": [
+        414.5,
+        592.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-finger-air",
+      "texture": "res://assets/native-petals/original-finger-air.png",
+      "rect": [
+        545,
+        599,
+        23,
+        40
+      ],
+      "center": [
+        556.5,
+        619.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-palm-a",
+      "texture": "res://assets/native-petals/original-palm-a.png",
+      "rect": [
+        588,
+        644,
+        25,
+        22
+      ],
+      "center": [
+        600.5,
+        655.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-palm-b",
+      "texture": "res://assets/native-petals/original-palm-b.png",
+      "rect": [
+        609,
+        646,
+        39,
+        24
+      ],
+      "center": [
+        628.5,
+        658.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-middle",
+      "texture": "res://assets/native-petals/original-canopy-middle.png",
+      "rect": [
+        263,
+        699,
+        40,
+        28
+      ],
+      "center": [
+        283.0,
+        713.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-center",
+      "texture": "res://assets/native-petals/original-trunk-center.png",
+      "rect": [
+        153,
+        740,
+        31,
+        39
+      ],
+      "center": [
+        168.5,
+        759.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-center-small",
+      "texture": "res://assets/native-petals/original-trunk-center-small.png",
+      "rect": [
+        223,
+        754,
+        24,
+        26
+      ],
+      "center": [
+        235.0,
+        767.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-curved",
+      "texture": "res://assets/native-petals/original-trunk-curved.png",
+      "rect": [
+        256,
+        752,
+        31,
+        60
+      ],
+      "center": [
+        271.5,
+        782.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-left-bottom-partial",
+      "texture": "res://assets/native-petals/original-left-bottom-partial.png",
+      "rect": [
+        0,
+        808,
+        30,
+        45
+      ],
+      "center": [
+        15.0,
+        830.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "left",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-low-wide",
+      "texture": "res://assets/native-petals/original-trunk-low-wide.png",
+      "rect": [
+        43,
+        824,
+        57,
+        36
+      ],
+      "center": [
+        71.5,
+        842.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-low-curve",
+      "texture": "res://assets/native-petals/original-trunk-low-curve.png",
+      "rect": [
+        137,
+        862,
+        37,
+        52
+      ],
+      "center": [
+        155.5,
+        888.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-low-tiny",
+      "texture": "res://assets/native-petals/original-canopy-low-tiny.png",
+      "rect": [
+        306,
+        830,
+        26,
+        19
+      ],
+      "center": [
+        319.0,
+        839.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-low-tip",
+      "texture": "res://assets/native-petals/original-canopy-low-tip.png",
+      "rect": [
+        334,
+        845,
+        33,
+        23
+      ],
+      "center": [
+        350.5,
+        856.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-lower-left-tiny",
+      "texture": "res://assets/native-petals/original-lower-left-tiny.png",
+      "rect": [
+        201,
+        997,
+        18,
+        23
+      ],
+      "center": [
+        210.0,
+        1008.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-lower-left-small",
+      "texture": "res://assets/native-petals/original-lower-left-small.png",
+      "rect": [
+        234,
+        996,
+        28,
+        42
+      ],
+      "center": [
+        248.0,
+        1017.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-lower-left-wide",
+      "texture": "res://assets/native-petals/original-lower-left-wide.png",
+      "rect": [
+        278,
+        1030,
+        40,
+        28
+      ],
+      "center": [
+        298.0,
+        1044.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-hair-low-petal",
+      "texture": "res://assets/native-petals/original-hair-low-petal.png",
+      "rect": [
+        600,
+        870,
+        28,
+        32
+      ],
+      "center": [
+        614.0,
+        886.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-building-large",
+      "texture": "res://assets/native-petals/original-building-large.png",
+      "rect": [
+        479,
+        986,
+        49,
+        50
+      ],
+      "center": [
+        503.5,
+        1011.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bottom-cut",
+      "texture": "res://assets/native-petals/original-bottom-cut.png",
+      "rect": [
+        566,
+        1008,
+        62,
+        72
+      ],
+      "center": [
+        597.0,
+        1044.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "bottom",
+      "completed": false
+    },
+    {
+      "id": "original-building-mid",
+      "texture": "res://assets/native-petals/original-building-mid.png",
+      "rect": [
+        719,
+        881,
+        42,
+        48
+      ],
+      "center": [
+        740.0,
+        905.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-building-high",
+      "texture": "res://assets/native-petals/original-building-high.png",
+      "rect": [
+        764,
+        851,
+        27,
+        27
+      ],
+      "center": [
+        777.5,
+        864.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bottom-right-partial",
+      "texture": "res://assets/native-petals/original-bottom-right-partial.png",
+      "rect": [
+        780,
+        1027,
+        52,
+        53
+      ],
+      "center": [
+        806.0,
+        1053.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": true,
+      "clip_edge": "bottom",
+      "completed": false
+    },
+    {
+      "id": "original-coat-mid-right",
+      "texture": "res://assets/native-petals/original-coat-mid-right.png",
+      "rect": [
+        1737,
+        577,
+        40,
+        36
+      ],
+      "center": [
+        1757.0,
+        595.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-mid-curve",
+      "texture": "res://assets/native-petals/original-coat-mid-curve.png",
+      "rect": [
+        1514,
+        624,
+        42,
+        77
+      ],
+      "center": [
+        1535.0,
+        662.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-trim-small",
+      "texture": "res://assets/native-petals/original-coat-trim-small.png",
+      "rect": [
+        1731,
+        734,
+        25,
+        29
+      ],
+      "center": [
+        1743.5,
+        748.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-trim-wide",
+      "texture": "res://assets/native-petals/original-coat-trim-wide.png",
+      "rect": [
+        1735,
+        756,
+        67,
+        40
+      ],
+      "center": [
+        1768.5,
+        776.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-coat-edge-curve",
+      "texture": "res://assets/native-petals/original-coat-edge-curve.png",
+      "rect": [
+        1853,
+        768,
+        49,
+        24
+      ],
+      "center": [
+        1877.5,
+        780.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-blouse-under-small",
+      "texture": "res://assets/native-petals/original-blouse-under-small.png",
+      "rect": [
+        1036,
+        754,
+        27,
+        49
+      ],
+      "center": [
+        1049.5,
+        778.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bodice-small",
+      "texture": "res://assets/native-petals/original-bodice-small.png",
+      "rect": [
+        1101,
+        795,
+        22,
+        28
+      ],
+      "center": [
+        1112.0,
+        809.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bodice-curve",
+      "texture": "res://assets/native-petals/original-bodice-curve.png",
+      "rect": [
+        1127,
+        793,
+        34,
+        38
+      ],
+      "center": [
+        1144.0,
+        812.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bodice-low-curve",
+      "texture": "res://assets/native-petals/original-bodice-low-curve.png",
+      "rect": [
+        1085,
+        896,
+        44,
+        28
+      ],
+      "center": [
+        1107.0,
+        910.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-bodice-low-wide",
+      "texture": "res://assets/native-petals/original-bodice-low-wide.png",
+      "rect": [
+        981,
+        914,
+        69,
+        37
+      ],
+      "center": [
+        1015.5,
+        932.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-skirt-wide",
+      "texture": "res://assets/native-petals/original-skirt-wide.png",
+      "rect": [
+        1412,
+        925,
+        37,
+        24
+      ],
+      "center": [
+        1430.5,
+        937.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-skirt-thin",
+      "texture": "res://assets/native-petals/original-skirt-thin.png",
+      "rect": [
+        1468,
+        918,
+        23,
+        38
+      ],
+      "center": [
+        1479.5,
+        937.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-top",
+      "texture": "res://assets/native-petals/original-canopy-top.png",
+      "rect": [
+        1072,
+        0,
+        55,
+        36
+      ],
+      "center": [
+        1099.5,
+        18.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-trunk-upper-cluster",
+      "texture": "res://assets/native-petals/original-trunk-upper-cluster.png",
+      "rect": [
+        35,
+        186,
+        69,
+        96
+      ],
+      "center": [
+        69.5,
+        234.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-remaining-584-816",
+      "texture": "res://assets/native-petals/original-remaining-584-816.png",
+      "rect": [
+        573,
+        805,
+        24,
+        21
+      ],
+      "center": [
+        585.0,
+        815.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-isolated-a",
+      "texture": "res://assets/native-petals/original-canopy-isolated-a.png",
+      "rect": [
+        323,
+        410,
+        30,
+        52
+      ],
+      "center": [
+        338.0,
+        436.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-canopy-isolated-b",
+      "texture": "res://assets/native-petals/original-canopy-isolated-b.png",
+      "rect": [
+        434,
+        547,
+        29,
+        37
+      ],
+      "center": [
+        448.5,
+        565.5
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    },
+    {
+      "id": "original-under-elbow",
+      "texture": "res://assets/native-petals/original-under-elbow.png",
+      "rect": [
+        880,
+        867,
+        37,
+        34
+      ],
+      "center": [
+        898.5,
+        884.0
+      ],
+      "depth": 0.42,
+      "alpha_range": [
+        0,
+        0.984313725490196
+      ],
+      "edge_clipped": false,
+      "clip_edge": "",
+      "completed": false
+    }
+  ]
+}

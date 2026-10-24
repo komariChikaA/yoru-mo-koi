@@ -1,0 +1,17 @@
+{
+  "latin": {
+    "id": "LI3B1TWHZNRYW",
+    "name": "LEARNING_CURVE_REGULAR_OT_PS",
+    "filePath": "${EAGLE_ROOT}\\字体.library\\images\\LI3B1TWHZNRYW.info\\LEARNING_CURVE_REGULAR_OT_PS.otf"
+  },
+  "japanese": {
+    "id": "LSQWF93E4DQ47",
+    "name": "UtsukushiFONT",
+    "filePath": "${EAGLE_ROOT}\\字体.library\\images\\LSQWF93E4DQ47.info\\UtsukushiFONT.otf"
+  },
+  "handwriting": {
+    "id": "M5AM7P9VEN8ET",
+    "name": "mogihaPen",
+    "filePath": "${EAGLE_ROOT}\\字体.library\\images\\M5AM7P9VEN8ET.info\\mogihaPen.ttf"
+  }
+}

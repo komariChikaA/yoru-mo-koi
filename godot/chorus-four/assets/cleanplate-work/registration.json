@@ -1,0 +1,37 @@
+{
+  "model": "gpt-image-2",
+  "hair": {
+    "affine": [
+      [
+        1.0003967022362836,
+        0.00013067962096842626,
+        -0.2854994439636819
+      ],
+      [
+        -0.00013067962096842626,
+        1.0003967022362836,
+        -0.10159832747242531
+      ]
+    ],
+    "matches": 741,
+    "inliers": 589
+  },
+  "eyes": {
+    "affine": [
+      [
+        0.9996374155724308,
+        0.0005473487466060541,
+        -0.15279590167037188
+      ],
+      [
+        -0.0005473487466060541,
+        0.9996374155724308,
+        0.2618789979819578
+      ]
+    ],
+    "matches": 83,
+    "inliers": 78
+  },
+  "outside_edit_max_rgb": 0,
+  "process": "Registered generated hidden plates + native exterior restoration; native moving parts are unchanged."
+}

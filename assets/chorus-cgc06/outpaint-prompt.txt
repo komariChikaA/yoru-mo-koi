@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset type: overscan border for a 2D animated film shot.
+Input image 1 is the edit target. Its central 1376x752 illustration at x128,y192 is locked. Only paint the transparent/unlocked mask area around that central image on the 1632x1136 canvas.
+Extend the existing cool blue bedding, pillow fabric and soft nighttime atmosphere naturally above, below and at the sides. Continue adjacent fabric folds and edge colors with clean, delicate anime illustration lines and blue-purple shadows. Match the existing soft blue-white light from the upper right. Keep the extension subdued so a small counterclockwise camera rotation has natural image content at every edge.
+Preserve the entire central image: same characters, exact faces, eyes, mouth, hair, clothing, hands, proportions, original camera angle and composition. The heroine is fully clothed in opaque white pajamas. Do not change her neckline or clothing. Do not create additional people, limbs, faces, decorations, objects, text or watermarks. Do not mirror, stretch or duplicate the existing characters. Avoid conspicuous bokeh, bright flares and excessive blur. The border should look like a seamless continuation of the original picture.
+Return the same 1632x1136 canvas.

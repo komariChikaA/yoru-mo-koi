@@ -1,0 +1,109 @@
+{
+  "commit_parent": "5120d6b",
+  "supersedes": "5120d6b misread0.3s as reopening only and added an unwanted rotational speed pulse. User corrected both.",
+  "scope": "Only timing and rotation. Native parts, geometry, pins, UV and hair ownership unchanged.",
+  "song_range": [
+    66,
+    72.3
+  ],
+  "closeup_seconds": 2.55,
+  "transition_song_seconds": [
+    68.55,
+    69.1
+  ],
+  "smile_open_song_seconds": [
+    69.1,
+    70.3
+  ],
+  "fast_blink_song_seconds": [
+    70.3,
+    70.6
+  ],
+  "fast_blink_duration": 0.3,
+  "quick_close_song_seconds": [
+    70.3,
+    70.45
+  ],
+  "quick_reopen_to_70_song_seconds": [
+    70.45,
+    70.6
+  ],
+  "closed_hold_seconds": 0,
+  "slow_reopen_70_to_100_song_seconds": [
+    70.6,
+    72.3
+  ],
+  "quick_close_frames": 9,
+  "quick_reopen_frames": 9,
+  "slow_reopen_frames": 102,
+  "opening_curve": "Hermite0..0.7 over0.15s, then quadratic ease-out0.7..1 over1.7s; matched join velocity0.60/1.70",
+  "join_eye_velocity": [
+    0.353827411059271,
+    0.352940138392821
+  ],
+  "join_rotation_velocity": [
+    -3.809523809295,
+    -3.809523809295
+  ],
+  "godot_time_samples": 379,
+  "rotation": "Integrated smoothstep velocity: ease in during68.55..69.10; steady through70.60; smoothly decelerate during slow reopening70.60..72.30. No eye-progress additive pulse.",
+  "constant_rotation_through_quick_blink": true,
+  "rotation_speed_nonincreasing_during_slow_reopen": true,
+  "angular_speed_during_quick_blink": -3.8095238095238093,
+  "rotation_degrees_at_fast_start_70_and_end": [
+    -5.61904761904762,
+    -6.76190476190476,
+    -10.0
+  ],
+  "camera_coverage": {
+    "status": "passed",
+    "samples": 399,
+    "includes_incoming_preroll": true,
+    "native_min": [
+      -5.053728168039704,
+      -128.01618484777572
+    ],
+    "native_max": [
+      1254.5650098099752,
+      768.2619047619047
+    ],
+    "padded_min": [
+      -128,
+      -192
+    ],
+    "padded_max": [
+      1504,
+      944
+    ]
+  },
+  "spatial_puppet_checks": "Reuse c07ab29 GPU91 states,30 pins,26 controls; spatial deformation unchanged.",
+  "renders": {
+    "gpu_recorded_frames": 379,
+    "third_shot_frames": 378,
+    "third_shot_seconds": 6.3,
+    "installed_storybrew_frames": 189,
+    "detail_frames": 126,
+    "detail_seconds": 2.1,
+    "full_decode": "passed",
+    "linked": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  },
+  "review": [
+    "quick-blink-slow-reopen/video-review.jpg",
+    "quick-blink-slow-reopen/rotation-review.jpg",
+    "quick-blink-slow-reopen/timing-samples.json"
+  ],
+  "visual_acceptance": "pending"
+}

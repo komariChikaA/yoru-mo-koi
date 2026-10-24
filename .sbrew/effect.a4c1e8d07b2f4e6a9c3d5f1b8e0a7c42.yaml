@@ -1,0 +1,11 @@
+FormatVersion: 7
+Name: "Secret Base"
+Script: "SecretBase"
+Multithreaded: No
+Config:
+Layers:
+  b7d2f14a6c8e4b0d9f3a5c7e1b4d6f80:
+    Name: "Memory"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

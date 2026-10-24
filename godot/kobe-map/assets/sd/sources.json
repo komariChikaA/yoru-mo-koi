@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "actor": "hiiro",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGZ14.png",
+      "file": "01_姬色_CGZ14.png",
+      "source_bounds": [
+        1174,
+        236,
+        1909,
+        1049
+      ],
+      "native_size": [
+        767,
+        845
+      ],
+      "background_gap_seeds": [],
+      "godot_file": "hiiro.png",
+      "godot_uses": "native source-resolution cutout",
+      "upscaled_size": [
+        3068,
+        3380
+      ]
+    },
+    {
+      "actor": "ren",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGZ16.png",
+      "file": "02_恋_CGZ16.png",
+      "source_bounds": [
+        1160,
+        281,
+        1908,
+        1049
+      ],
+      "native_size": [
+        780,
+        800
+      ],
+      "background_gap_seeds": [
+        [
+          1240,
+          401
+        ],
+        [
+          1246,
+          736
+        ]
+      ],
+      "godot_file": "ren.png",
+      "godot_uses": "native source-resolution cutout",
+      "upscaled_size": [
+        3120,
+        3200
+      ]
+    },
+    {
+      "actor": "kumo",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGZ17.png",
+      "file": "03_云_CGZ17.png",
+      "source_bounds": [
+        1277,
+        260,
+        1895,
+        1049
+      ],
+      "native_size": [
+        650,
+        821
+      ],
+      "background_gap_seeds": [],
+      "godot_file": "kumo.png",
+      "godot_uses": "native source-resolution cutout",
+      "upscaled_size": [
+        2600,
+        3284
+      ]
+    },
+    {
+      "actor": "kamome",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGZ15.png",
+      "file": "04_鸥_CGZ15.png",
+      "source_bounds": [
+        1202,
+        276,
+        1907,
+        1049
+      ],
+      "native_size": [
+        737,
+        805
+      ],
+      "background_gap_seeds": [],
+      "godot_file": "kamome.png",
+      "godot_uses": "native source-resolution cutout",
+      "upscaled_size": [
+        2948,
+        3220
+      ]
+    },
+    {
+      "actor": "shiori",
+      "source": "${GAME_ROOT}\\解包\\CG\\CGZ18.png",
+      "file": "05_紫织_CGZ18.png",
+      "source_bounds": [
+        1150,
+        259,
+        1907,
+        1049
+      ],
+      "native_size": [
+        789,
+        822
+      ],
+      "background_gap_seeds": [
+        [
+          1812,
+          555
+        ],
+        [
+          1709,
+          711
+        ],
+        [
+          1315,
+          789
+        ],
+        [
+          1750,
+          808
+        ]
+      ],
+      "godot_file": "shiori.png",
+      "godot_uses": "native source-resolution cutout",
+      "upscaled_size": [
+        3156,
+        3288
+      ]
+    }
+  ],
+  "method": "Connected white-matte extraction, inspected hair-gap masks and edge unmatting",
+  "native": "Source RGB preserved except anti-aliased matte boundary; 16px transparent padding",
+  "upscale": "Optional existing Real-ESRGAN realesr-animevideov3; 4x; alpha resampled separately",
+  "source_modified": false,
+  "godot_usage": "Native PNG; unchanged card pixel-height normalization, character positions, camera and timing"
+}

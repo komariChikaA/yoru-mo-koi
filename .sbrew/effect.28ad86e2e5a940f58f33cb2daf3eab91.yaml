@@ -1,0 +1,11 @@
+FormatVersion: 7
+Name: "Chorus Gate 52.7–59.5s"
+Script: "ChorusGate"
+Multithreaded: No
+Config:
+Layers:
+  925c76375fa848bb89ab909448a02c41:
+    Name: "Chorus Gate"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

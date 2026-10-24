@@ -1,0 +1,31 @@
+{
+  "previous_tsv": "E:\\osu\\Songs\\beatmap-639117755766042807-西沢さんP,GUMI - 夜もすがら君想ふ\\sb\\chorus-four\\frames.tsv",
+  "previous_end": 79.3,
+  "song_start": 79.1,
+  "frames": [
+    {
+      "song_start": 79.083333333,
+      "texture": "res://assets/entry-previous/frame-0170.jpg"
+    },
+    {
+      "song_start": 79.125,
+      "texture": "res://assets/entry-previous/frame-0171.jpg"
+    },
+    {
+      "song_start": 79.166666667,
+      "texture": "res://assets/entry-previous/frame-0172.jpg"
+    },
+    {
+      "song_start": 79.208333333,
+      "texture": "res://assets/entry-previous/frame-0173.jpg"
+    },
+    {
+      "song_start": 79.25,
+      "texture": "res://assets/entry-previous/frame-0174.jpg"
+    },
+    {
+      "song_start": 79.291666667,
+      "texture": "res://assets/entry-previous/frame-0175.jpg"
+    }
+  ]
+}

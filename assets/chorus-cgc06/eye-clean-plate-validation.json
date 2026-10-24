@@ -1,0 +1,359 @@
+{
+  "manual_lash_nodes": [
+    20,
+    19
+  ],
+  "manual_lash_nodes_unchanged": true,
+  "crease_closed_minimum_clearance_px": [
+    6.790394655814225,
+    17.765865932182912
+  ],
+  "crease_closed_rotation_degrees": [
+    -20.077457178468382,
+    36.419186786627876
+  ],
+  "edge_closed_displacement_px": [
+    [
+      -49.3226928710938,
+      32.0305328369141
+    ],
+    [
+      -42.3649291992188,
+      27.5120849609375
+    ]
+  ],
+  "edge_max_adjacent_displacement_px": 0.9800564518368281,
+  "iris_fixed_samples": [
+    {
+      "world_center": [
+        870,
+        203
+      ],
+      "frames_before_occlusion": 37,
+      "maximum_rgb_delta": 0
+    },
+    {
+      "world_center": [
+        955,
+        351
+      ],
+      "frames_before_occlusion": 37,
+      "maximum_rgb_delta": 0
+    }
+  ],
+  "minimum_actual_mesh_triangle_area": 0.102824471890926,
+  "pin_controls_changed_pixels": {
+    "pin-brow-0-0": 287,
+    "pin-brow-0-1": 503,
+    "pin-brow-0-2": 598,
+    "pin-brow-0-3": 497,
+    "pin-brow-0-4": 290,
+    "pin-brow-1-0": 236,
+    "pin-brow-1-1": 384,
+    "pin-brow-1-2": 431,
+    "pin-brow-1-3": 342,
+    "pin-brow-1-4": 176,
+    "pin-lower-0-0": 3,
+    "pin-lower-0-1": 13,
+    "pin-lower-0-2": 75,
+    "pin-lower-0-3": 70,
+    "pin-lower-0-4": 11,
+    "pin-lower-1-0": 2,
+    "pin-lower-1-1": 19,
+    "pin-lower-1-2": 55,
+    "pin-lower-1-3": 19,
+    "pin-lower-1-4": 1,
+    "pin-upper-0-0": 708,
+    "pin-upper-0-1": 983,
+    "pin-upper-0-2": 1086,
+    "pin-upper-0-3": 779,
+    "pin-upper-0-4": 671,
+    "pin-upper-1-0": 497,
+    "pin-upper-1-1": 717,
+    "pin-upper-1-2": 895,
+    "pin-upper-1-3": 750,
+    "pin-upper-1-4": 786
+  },
+  "method": "Complete native upper/lower cutouts on continuous 64x41 grids. Restrained upper-lash pins follow the native lower contour on the first eye and a shallow 0.5px arch on the second; complete native lash edges are transported by geometry without animated alpha clipping, corner-cover gates or edge removal; tips longer than 14 source pixels shorten continuously in native local tip coordinates with a smooth root, while short tips remain unchanged; lower lids rise and flatten continuously onto the upper closed lash line through five independent pins per eye; the full native cutout is seated laterally inside the upper lash, with 94 percent local vertical flattening at closure and unchanged UV/alpha. True brows use corrected traces and retain their native shape while following upper-lash closure by a 6px translation. Small creases remain separate sprites; the second is restricted to the two annotated stroke profiles, with isolated crossing-hair samples removed. User-marked first-eye strand and central second-eye hair ridge remain static; the side strand uses an ink-only matte to avoid freezing original sclera beside the closed eye. Wider smoothed guides, bounded 0.35-radian upper tangent turns, static subpixel matte cleanup and eye-body spatial occlusion AA; full native lash alpha remains unchanged during motion. Static iris UV; 30 editable pins; no generated pose frames, keyframed poses or temporal crossfade.",
+  "frames_slow_close": 91,
+  "outside_edit_region_max_rgb": 0,
+  "open_endpoint_max_rgb": [
+    0,
+    1,
+    2,
+    16,
+    107
+  ],
+  "closed_endpoint_max_rgb": [
+    111,
+    16,
+    3,
+    1,
+    0
+  ],
+  "native_reference_reassembly": {
+    "max_rgb": 155,
+    "mean_rgb": 0.5866420437057556,
+    "note": "Soft matte reassembly is not claimed pixel-identical to the original; no original/puppet switch at zero"
+  },
+  "adjacent_frame_mean_rgb_max": 0.49000923361034165,
+  "controls": {
+    "control-brow-right": {
+      "changed_pixels": 610,
+      "mean_rgb_delta": 0.14706063404124345
+    },
+    "control-brow": {
+      "changed_pixels": 836,
+      "mean_rgb_delta": 0.25096029547553095
+    },
+    "control-edge-flatten": {
+      "changed_pixels": 14968,
+      "mean_rgb_delta": 10.46276084949215,
+      "closed_baseline_changed_pixels": 319
+    },
+    "control-edge-follow": {
+      "changed_pixels": 15050,
+      "mean_rgb_delta": 10.488134810710989,
+      "closed_baseline_changed_pixels": 435
+    },
+    "control-edge-gap": {
+      "changed_pixels": 14977,
+      "mean_rgb_delta": 10.461018775007695,
+      "closed_baseline_changed_pixels": 423
+    },
+    "control-edge-left": {
+      "changed_pixels": 184,
+      "mean_rgb_delta": 0.043539550630963375
+    },
+    "control-edge-right": {
+      "changed_pixels": 131,
+      "mean_rgb_delta": 0.009883040935672514
+    },
+    "control-hide-body": {
+      "changed_pixels": 5812,
+      "mean_rgb_delta": 3.3159526008002462
+    },
+    "control-hide-brow": {
+      "changed_pixels": 876,
+      "mean_rgb_delta": 0.220492459218221
+    },
+    "control-hide-edge": {
+      "changed_pixels": 189,
+      "mean_rgb_delta": 0.029969221298861187
+    },
+    "control-hide-iris": {
+      "changed_pixels": 5073,
+      "mean_rgb_delta": 3.8242874730686367
+    },
+    "control-hide-lower": {
+      "changed_pixels": 2373,
+      "mean_rgb_delta": 0.6639519852262235
+    },
+    "control-iris-right": {
+      "changed_pixels": 2643,
+      "mean_rgb_delta": 0.38229916897506927
+    },
+    "control-iris-scale": {
+      "changed_pixels": 3304,
+      "mean_rgb_delta": 0.33204986149584487
+    },
+    "control-iris": {
+      "changed_pixels": 3234,
+      "mean_rgb_delta": 0.43092028316405045
+    },
+    "control-lower-flatten": {
+      "changed_pixels": 14993,
+      "mean_rgb_delta": 10.488297937827024,
+      "closed_baseline_changed_pixels": 1810
+    },
+    "control-lower-right": {
+      "changed_pixels": 1243,
+      "mean_rgb_delta": 0.3025453985841797
+    },
+    "control-lower-thickness": {
+      "changed_pixels": 1298,
+      "mean_rgb_delta": 0.4994736842105263
+    },
+    "control-lower": {
+      "changed_pixels": 1269,
+      "mean_rgb_delta": 0.48377962449984613
+    },
+    "control-reset": {
+      "changed_pixels": 0,
+      "mean_rgb_delta": 0.0
+    },
+    "control-tip-left": {
+      "changed_pixels": 15274,
+      "mean_rgb_delta": 10.674786088027085,
+      "closed_baseline_changed_pixels": 584
+    },
+    "control-tip-right": {
+      "changed_pixels": 15088,
+      "mean_rgb_delta": 10.510781779008926,
+      "closed_baseline_changed_pixels": 241
+    },
+    "control-tip-threshold": {
+      "changed_pixels": 15386,
+      "mean_rgb_delta": 10.720344721452754,
+      "closed_baseline_changed_pixels": 825
+    },
+    "control-upper-right": {
+      "changed_pixels": 4630,
+      "mean_rgb_delta": 3.3305078485687902
+    },
+    "control-upper-thickness": {
+      "changed_pixels": 5422,
+      "mean_rgb_delta": 3.9975284702985534
+    },
+    "control-upper": {
+      "changed_pixels": 5523,
+      "mean_rgb_delta": 4.042920898738073
+    }
+  },
+  "parts": {
+    "eyebrow": {
+      "visible_pixels": 992,
+      "partial_alpha_pixels": 992
+    },
+    "upper-lid": {
+      "visible_pixels": 3210,
+      "partial_alpha_pixels": 2295
+    },
+    "lower-lid": {
+      "visible_pixels": 2778,
+      "partial_alpha_pixels": 2610
+    },
+    "eye-iris": {
+      "visible_pixels": 6307,
+      "partial_alpha_pixels": 1224
+    },
+    "eye-body": {
+      "visible_pixels": 16334,
+      "partial_alpha_pixels": 1821
+    },
+    "edge-detail-1": {
+      "visible_pixels": 110,
+      "partial_alpha_pixels": 110
+    },
+    "edge-detail-2": {
+      "visible_pixels": 116,
+      "partial_alpha_pixels": 116
+    }
+  },
+  "visual_acceptance": "pending",
+  "lash_edge_alpha_clipping": false,
+  "marked_first_hair_temporal_max_rgb": 0,
+  "marked_first_hair_reference_max_rgb": 0,
+  "marked_hair_temporal_max_rgb": 0,
+  "marked_hair_reference_max_rgb": 2,
+  "native_tip_compression": [
+    {
+      "eye": 0,
+      "long_tip": {
+        "compressed_length": 20.2770538330078,
+        "displacement": 19.4863796234131,
+        "original_length": 37.4822127366543
+      },
+      "short_tip": {
+        "compressed_length": 12.0415945053101,
+        "displacement": 0.0,
+        "original_length": 12.0415945787923
+      },
+      "max_adjacent_length_change_px": 0.29128646850580253
+    },
+    {
+      "eye": 1,
+      "long_tip": {
+        "compressed_length": 14.748083114624,
+        "displacement": 13.3853902816772,
+        "original_length": 27.6070797196638
+      },
+      "short_tip": {
+        "compressed_length": 8.06225776672363,
+        "displacement": 0.0,
+        "original_length": 8.06225774829855
+      },
+      "max_adjacent_length_change_px": 0.21519470214840197
+    }
+  ],
+  "resource_control_count": 26,
+  "lower_lid_contact": [
+    {
+      "eye": 0,
+      "closed_guide_max_distance_px": 1.2515670498896974,
+      "local_vertical_scale_at_closed": 0.06
+    },
+    {
+      "eye": 1,
+      "closed_guide_max_distance_px": 0.08463051119616694,
+      "local_vertical_scale_at_closed": 0.06
+    }
+  ],
+  "lower_lid_method": "five editable pins, continuous flattening and lateral seating; native UV and alpha unchanged",
+  "closed_lower_visible_pixels": 0,
+  "completed_underlay": {
+    "model": "gpt-image-2",
+    "mode": "Image API edit via imagegen bundled CLI",
+    "source_crop": [
+      770,
+      60,
+      1055,
+      440
+    ],
+    "mask": "eye-clean-plate-mask.png",
+    "matches": 166,
+    "inliers": 103,
+    "generated_to_input_affine": [
+      [
+        1.0006290839478655,
+        -9.519746771638508e-05,
+        -0.22324234895392173
+      ],
+      [
+        9.519746771638508e-05,
+        1.0006290839478655,
+        -0.8201805651315961
+      ]
+    ],
+    "median_inlier_error_source_pixels": 0.47977630293225804,
+    "outside_edit_mask_max_rgb": 0,
+    "purpose": "Static eye-free clean plate only; native puppet parts, pins and animation unchanged",
+    "source_generation": "eye-clean-plate-generated.png",
+    "composition": "Complete generated eye-free footprints, registered to native a; gradient matching to native lighting, exact original outside edit mask. No manual skin fills."
+  },
+  "hidden_eye_samples": [
+    {
+      "world": [
+        870,
+        203
+      ],
+      "RGB": [
+        223,
+        214,
+        216
+      ],
+      "native_eye_RGB": [
+        77,
+        109,
+        126
+      ]
+    },
+    {
+      "world": [
+        955,
+        351
+      ],
+      "RGB": [
+        234,
+        215,
+        209
+      ],
+      "native_eye_RGB": [
+        89,
+        122,
+        132
+      ]
+    }
+  ],
+  "mesh_guides_unchanged": true
+}

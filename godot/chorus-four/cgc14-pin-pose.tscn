@@ -1,0 +1,98 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/CGC14_a.png" id="1"]
+
+[node name="CGC14ClosedPose" type="Node2D"]
+
+[node name="Reference" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+centered = false
+modulate = Color(1, 1, 1, 0.6)
+
+[node name="UpperLid1" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="UpperLid1"]
+position = Vector2(1523.1320, 223.6287)
+gizmo_extents = 4.0
+
+[node name="Pin2" type="Marker2D" parent="UpperLid1"]
+position = Vector2(1527.6389, 239.1428)
+gizmo_extents = 4.0
+
+[node name="Pin3" type="Marker2D" parent="UpperLid1"]
+position = Vector2(1537.3171, 253.1547)
+gizmo_extents = 4.0
+
+[node name="Pin4" type="Marker2D" parent="UpperLid1"]
+position = Vector2(1550.1474, 264.7039)
+gizmo_extents = 4.0
+
+[node name="Pin5" type="Marker2D" parent="UpperLid1"]
+position = Vector2(1563.4947, 272.0420)
+gizmo_extents = 4.0
+
+[node name="LowerLid1" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="LowerLid1"]
+position = Vector2(1523.1320, 223.6287)
+gizmo_extents = 4.0
+
+[node name="Pin2" type="Marker2D" parent="LowerLid1"]
+position = Vector2(1527.6389, 239.1428)
+gizmo_extents = 4.0
+
+[node name="Pin3" type="Marker2D" parent="LowerLid1"]
+position = Vector2(1537.3171, 253.1547)
+gizmo_extents = 4.0
+
+[node name="Pin4" type="Marker2D" parent="LowerLid1"]
+position = Vector2(1550.1474, 264.7039)
+gizmo_extents = 4.0
+
+[node name="Pin5" type="Marker2D" parent="LowerLid1"]
+position = Vector2(1563.4947, 272.0420)
+gizmo_extents = 4.0
+
+[node name="UpperLid2" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="UpperLid2"]
+position = Vector2(1624.0330, 338.1595)
+gizmo_extents = 4.0
+
+[node name="Pin2" type="Marker2D" parent="UpperLid2"]
+position = Vector2(1629.7591, 356.2486)
+gizmo_extents = 4.0
+
+[node name="Pin3" type="Marker2D" parent="UpperLid2"]
+position = Vector2(1637.4697, 375.3678)
+gizmo_extents = 4.0
+
+[node name="Pin4" type="Marker2D" parent="UpperLid2"]
+position = Vector2(1647.6073, 392.7237)
+gizmo_extents = 4.0
+
+[node name="Pin5" type="Marker2D" parent="UpperLid2"]
+position = Vector2(1659.6602, 402.5078)
+gizmo_extents = 4.0
+
+[node name="LowerLid2" type="Node2D" parent="."]
+
+[node name="Pin1" type="Marker2D" parent="LowerLid2"]
+position = Vector2(1624.0330, 338.1595)
+gizmo_extents = 4.0
+
+[node name="Pin2" type="Marker2D" parent="LowerLid2"]
+position = Vector2(1629.7591, 356.2486)
+gizmo_extents = 4.0
+
+[node name="Pin3" type="Marker2D" parent="LowerLid2"]
+position = Vector2(1637.4697, 375.3678)
+gizmo_extents = 4.0
+
+[node name="Pin4" type="Marker2D" parent="LowerLid2"]
+position = Vector2(1647.6073, 392.7237)
+gizmo_extents = 4.0
+
+[node name="Pin5" type="Marker2D" parent="LowerLid2"]
+position = Vector2(1659.6602, 402.5078)
+gizmo_extents = 4.0

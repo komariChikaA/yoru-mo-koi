@@ -1,0 +1,16 @@
+{
+  "source": "assets/books-editorial/paper.png",
+  "source_sha256": "404bfe743fc11c9c137fa928129198caab36a2277d500658a11f9edd208a8e4c",
+  "size": [
+    670,
+    424
+  ],
+  "texture_scale": 1.2,
+  "title_paper_opacity": 0.12,
+  "memory_paper_opacity": 0.13,
+  "photo_margin_opacity": 0.13,
+  "global_warm_opacity": 0,
+  "print_mass_saturation": 0.92,
+  "print_mass_brightness": 1.03,
+  "output_sha256": "9c9ec704d16aa2843651120aeb90b87e6f7d095c5ffc91015e32f535f97380b4"
+}

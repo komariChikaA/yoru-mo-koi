@@ -1,0 +1,18 @@
+{
+  "library": "精选图片.library",
+  "sources": [
+    {
+      "eagle_id": "LIELI0JW3Y3GO",
+      "name": "imagetexture_00161",
+      "source": "${EAGLE_ROOT}/精选图片.library/images/LIELI0JW3Y3GO.info/imagetexture_00161.jpg"
+    },
+    {
+      "eagle_id": "LIELI0JWE8P0Z",
+      "name": "imagetexture_00007",
+      "source": "${EAGLE_ROOT}/精选图片.library/images/LIELI0JWE8P0Z.info/imagetexture_00007.jpg"
+    }
+  ],
+  "derived_asset": "paper-fiber.png",
+  "processing": "grayscale; remove broad exposure with Gaussian blur; blend 65:35; normalize around mid-gray; mirror to a seamless 2048 square tile",
+  "usage": "paper sky backdrop and matte printed building texture"
+}

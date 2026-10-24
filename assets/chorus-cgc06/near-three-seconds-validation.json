@@ -1,0 +1,104 @@
+{
+  "independent_closeup_seconds": 2.9,
+  "previous_independent_closeup_seconds": 2.2,
+  "increase_seconds": 0.7,
+  "transition_local_seconds": [
+    2.9,
+    3.45
+  ],
+  "blink_close_local_seconds": [
+    3.5,
+    4.75
+  ],
+  "closed_hold_local_seconds": [
+    4.75,
+    4.9
+  ],
+  "blink_open_local_seconds": [
+    4.9,
+    6.15
+  ],
+  "song_ms": [
+    66000,
+    72300
+  ],
+  "native_puppet": "geometry, texture, alpha, pins unchanged from accepted 40ac296",
+  "closeup_motion": "same analytic direction, entry, deceleration and slow tail; no frozen hold",
+  "camera_coverage": {
+    "status": "passed",
+    "samples": 399,
+    "includes_incoming_preroll": true,
+    "native_min": [
+      -5.053728168039704,
+      -128.01618484777572
+    ],
+    "native_max": [
+      1254.5650098099752,
+      768.2619047619047
+    ],
+    "padded_min": [
+      -128,
+      -192
+    ],
+    "padded_max": [
+      1504,
+      944
+    ]
+  },
+  "visual_acceptance": "pending",
+  "full_shot": {
+    "video_frames": 378,
+    "fps": 60,
+    "video_duration": 6.3,
+    "audio_duration": 6.3,
+    "full_decode": "passed",
+    "installed_frames": 189,
+    "installed_fps": 30,
+    "song_ms": [
+      66000,
+      72300
+    ],
+    "first_frame": "nonblack",
+    "camera_coverage": {
+      "status": "passed",
+      "samples": 399,
+      "includes_incoming_preroll": true,
+      "native_min": [
+        -5.053728168039704,
+        -128.01618484777572
+      ],
+      "native_max": [
+        1254.5650098099752,
+        768.2619047619047
+      ],
+      "padded_min": [
+        -128,
+        -192
+      ],
+      "padded_max": [
+        1504,
+        944
+      ]
+    },
+    "visual_acceptance": "pending"
+  },
+  "linked": {
+    "join_song_seconds": 66.0,
+    "incoming": "CGC06 camera preroll matches shot-three position and velocity; no CGC14 placeholder",
+    "audio": "one continuous song excerpt",
+    "previews": [
+      {
+        "file": "Chorus-Linked-59.200-72.300-song.mp4",
+        "frames": 786,
+        "duration": 13.1,
+        "full_decode": "passed"
+      },
+      {
+        "file": "Chorus-Linked-End-64.800-72.300-song.mp4",
+        "frames": 450,
+        "duration": 7.5,
+        "full_decode": "passed"
+      }
+    ]
+  }
+}
