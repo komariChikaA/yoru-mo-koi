@@ -4,7 +4,7 @@
 
 ## 作者说明
 
-以下内容全部为工程性描述，笔记见：[「夜もすがら君恋ふ」制作过程及感想](链接待填)。
+以下内容全部为工程性描述，笔记见：[「夜もすがら君恋ふ」制作过程及感想](https://komarichikaa.github.io/my-notes/posts/yomosugara-storybrew)。
 
 ## 工程
 
